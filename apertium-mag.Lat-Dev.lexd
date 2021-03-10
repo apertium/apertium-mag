@@ -1,0 +1,19 @@
+PATTERNS
+Letters+
+Punctuation+
+
+LEXICON Letters
+su:सु
+n:न
+li:लि
+
+# if it's written as one glyph (NOT codepoint!) on either side,
+# list it here
+# if the interpretation of a latin letter is context-sensitive,
+# list all the contexts
+
+LEXICON Punctuation
+.:.
+?:?
+
+# list any other characters from your lexicon here
