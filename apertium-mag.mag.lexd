@@ -5,6 +5,31 @@
 # <v>      # Verb
 # <adj>    # Adjective
 
+# Noun Cases
+# <loc>    # Locative
+# <ins>    # Instrumental
+# <obl>    # Oblique
+
+# Verb Forms
+# <hab>    # Habitual
+# <impf>   # Imperfective
+# <perf>   # Perfective
+
+# Verb Endings
+# <prs>    # Present Subjunctive
+# <past>   # Simple Past
+# <pis>    # Imperfect Subjunctive
+# <fut>    # Future
+# <pres>   # Present
+# <fts>    # Future Subjunctive
+# <s_p1>   # Singular First Person
+# <s_p2>   # Singular Second Person
+# <s_p3>   # Singular Third Person
+# <o_p2>   # Second Person Singular Object
+# <o_p3>   # Third Person Singular Object
+# <hi>     # High Courtesy
+# <low>    # Low Courtesy
+
 # <sent>   # Sentence-ending punctuation
 # <guio>   # Hyphen
 # <cm>     # Comma
