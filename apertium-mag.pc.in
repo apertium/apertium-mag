@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-mag
+
+Name: apertium-mag
+Description: Finite-state morphological transducer and constraint grammar for Magahi
+Version: @VERSION@
+
