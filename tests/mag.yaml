@@ -1,0 +1,157 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../mag.autogen.hfst
+    Morph: ../mag.automorf.hfst
+Tests:
+  Auxiliary:
+    ह<v><fts><s_p1><o_p3>:
+    - होबि
+    ह<v><past><s_p1><o_p3>:
+    - हालि
+    ह<v><pis><s_p1><o_p3>:
+    - होति
+    ह<v><pres><s_p1><o_p3>:
+    - हि
+    ह<v><prs><s_p1><o_p3>:
+    - होलि
+  Case:
+    bail<n><pl>:
+    - baile ke
+    cor<n><pl>:
+    - cor ke
+    ghora<n><pl>:
+    - ghora ke
+    ghorā<n><pl>:
+    - ghōrē
+    mālī<n><pl>:
+    - māliē̃
+    phal<n><pl>:
+    - phalē̃
+    rājā<n><pl>:
+    - rājē̃
+    घोरा<n><loc>:
+    - घोरे
+    घोरा​<n><obl>:
+    - घोरा
+    चोर<n><loc>:
+    - चोरे
+    चोर<n><obl>:
+    - चोर
+    फल​<n><ins>:
+    - फलेँ
+    बैल<n><obl>:
+    - बैले
+    बैल​<n><loc>:
+    - बैले
+    माली<n><ins>:
+    - मालिएँँ
+    राजा<n><ins>:
+    - राजेँ
+  Demonstratives:
+    इ<dem><nom>:
+    - इ​​
+    इ<itg><gen>:
+    - केकर
+    इ<rel><obl>:
+    - जेकरा
+  Finite Verbs: {}
+  Imperfective:
+    देख​<v><impf>:
+    - देखैत
+    देख​<v><impf><obl>:
+    - देखैते
+    सुत<v><impf><obl>:
+    - सुतैते
+    सुत​<v><impf>:
+    - सुतैत
+  Neutral:
+    देख​<v><hab>:
+    - देखा
+    देख​<v><hab><obl>:
+    - देखे
+    सुत<v><hab><obl>:
+    - सुते
+    सुत​<v><hab>:
+    - सुता
+  Nominal Non-finite Forms: {}
+  Nouns: {}
+  Perfective:
+    देख​<v><perf>:
+    - देखले
+    देख​<v><perf><obl>:
+    - देखला
+    सुत<v><perf><obl>:
+    - सुतला
+    सुत​<v><perf>:
+    - सुतल
+  Personal Endings:
+    देख<v><past><s_p1><o_p3>:
+    - देखाली
+    देख<v><past><s_p1><o_p3><hi>:
+    - देखालीऐन
+    देख<v><past><s_p1><o_p3><low>:
+    - देखालीऐ
+    देख<v><past><s_p2><o_p2><hi>:
+    - देखालओ
+    देख<v><past><s_p3><o_p2><low>:
+    - देखालोऔ
+  Personal Pronouns:
+    तु<prn><p2><pl>:
+    - तोहनि
+    तु<prn><p2><sg>:
+    - तु​​
+    तु<prn><p2><sg><gen>:
+    - तोर​​
+    तु<prn><p2><sg><gen><hi>:
+    - तोहारा​​
+    तु<prn><p2><sg><obl><hi>:
+    - इनकारा​​
+    तु<prn><p3><sg><gen><hi><prx>:
+    - इनकारा​​
+    तु<prn><p3><sg><obl><hi><prx>:
+    - इनकर​​
+    हम<prn><p1><pl>:
+    - हमानी​​
+    हम<prn><p1><sg>:
+    - हम​​
+    हम<prn><p1><sg><obl>:
+    - हमारा
+  Plural Forms:
+    bail<n><pl>:
+    - bailan
+    cor<n><pl>:
+    - coran
+    ghorā<n><pl>:
+    - ghōran
+    mālī<n><pl>:
+    - mālī log
+    phal<n><pl>:
+    - phal sab
+    rājā<n><pl>:
+    - rājā log
+    घोरा<n><pl>:
+    - गोरन​​
+    चोर​<n><pl>:
+    - चोरन
+    फल<n><pl>:
+    - फल सब
+    बैल​<n><pl>:
+    - बैलन
+    माली<n><pl>:
+    - माली लोग
+    राजा<n><pl>:
+    - राजा लोग
+  Pronouns: {}
+  Tense/Mood:
+    सुन<v><fut><imp>:
+    - सुनीहि
+    सुन<v><fut><s_p1><o_p3>:
+    - सुनबि
+    सुन<v><past><s_p1><o_p3>:
+    - सुनलि
+    सुन<v><pis><s_p1><o_p3>:
+    - सुनति
+    सुन<v><pres><s_p1><o_p3>:
+    - सुनइ
+  Verbs: {}
