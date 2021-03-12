@@ -3,15 +3,22 @@
 ###############################################################################
 
 LANG1=mag
+SCRIPT1=Lat
+SCRIPT2=Dev
+LANG1SCRIPT1=$(LANG1)@$(SCRIPT1)
+LANG1SCRIPT2=$(LANG1)@$(SCRIPT2)
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON =			\
 	$(LANG1).automorf.hfst		\
 	$(LANG1).automorf.bin		\
 	$(LANG1).automorf.att.gz	\
-	$(LANG1).autogen.hfst		\
-	$(LANG1).autogen.bin		\
-	$(LANG1).autogen.att.gz		\
+	$(LANG1SCRIPT1).autogen.hfst		\
+	$(LANG1SCRIPT1).autogen.bin		\
+	$(LANG1SCRIPT1).autogen.att.gz		\
+	$(LANG1SCRIPT2).autogen.hfst		\
+	$(LANG1SCRIPT2).autogen.bin		\
+	$(LANG1SCRIPT2).autogen.att.gz		\
 	$(LANG1).autopgen.bin		\
 	$(LANG1).prob                   \
 	$(LANG1).rlx.bin
@@ -49,24 +56,50 @@ LEXCFLAGS=-v --Werror
 .deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexd.hfst .deps/$(LANG1).twol.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexd.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
-$(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
+$(LANG1SCRIPT1).autogen.hfst: .deps/$(LANG1).RL.hfst
 	hfst-fst2fst -O $< -o $@
 
-.deps/$(LANG1).spellrelax.hfst: $(BASENAME).$(LANG1).spellrelax .deps/.d
+$(LANG1SCRIPT2).autogen.hfst: .deps/$(LANG1).RL.hfst .deps/$(SCRIPT1)-$(SCRIPT2).hfst
+	hfst-compose -1 $< -2 .deps/$(SCRIPT1)-$(SCRIPT2).hfst | hfst-fst2fst -O -o $@
+
+.deps/$(LANG1SCRIPT1).spellrelax.hfst: $(BASENAME).$(LANG1SCRIPT1).spellrelax .deps/.d
 	hfst-regexp2fst -S -o $@ $<
 
-$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).spellrelax.hfst
-	hfst-compose -1 $< -2 .deps/$(LANG1).spellrelax.hfst | hfst-invert | hfst-fst2fst -O -o $@
+.deps/$(LANG1SCRIPT2).spellrelax.hfst: $(BASENAME).$(LANG1SCRIPT2).spellrelax .deps/.d
+	hfst-regexp2fst -S -o $@ $<
 
-$(LANG1).autogen.att.gz: $(LANG1).autogen.hfst
+.deps/$(LANG1SCRIPT1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1SCRIPT1).spellrelax.hfst .deps/.d
+	hfst-compose -1 $< -2 .deps/$(LANG1SCRIPT1).spellrelax.hfst | hfst-invert -o $@
+
+.deps/$(SCRIPT1)-$(SCRIPT2).hfst: $(BASENAME).$(SCRIPT1)-$(SCRIPT2).lexd .deps/.d
+	lexd $< .deps/$(SCRIPT1)-$(SCRIPT2).att
+	hfst-txt2fst .deps/$(SCRIPT1)-$(SCRIPT2).att -o $@
+
+.deps/$(LANG1SCRIPT2).LR.hfst: .deps/$(LANG1).LR.hfst .deps/$(SCRIPT1)-$(SCRIPT2).hfst .deps/.d
+	hfst-compose -1 $< -2 .deps/$(SCRIPT1)-$(SCRIPT2).hfst -o $@
+
+.deps/$(LANG1SCRIPT2).automorf.hfst: .deps/$(LANG1SCRIPT2).LR.hfst .deps/$(LANG1SCRIPT2).spellrelax.hfst .deps/.d
+	hfst-compose -1 $< -2 .deps/$(LANG1SCRIPT2).spellrelax.hfst | hfst-invert -o $@
+
+$(LANG1).automorf.hfst: .deps/$(LANG1SCRIPT1).automorf.hfst .deps/$(LANG1SCRIPT2).automorf.hfst
+	hfst-union -1 .deps/$(LANG1SCRIPT1).automorf.hfst -2 .deps/$(LANG1SCRIPT2).automorf.hfst | hfst-fst2fst -O -o $@
+
+$(LANG1SCRIPT1).autogen.att.gz: $(LANG1SCRIPT1).autogen.hfst
+	hfst-fst2txt $< | gzip -9 -c -n > $@
+
+$(LANG1SCRIPT2).autogen.att.gz: $(LANG1SCRIPT2).autogen.hfst
 	hfst-fst2txt $< | gzip -9 -c -n > $@
 
 $(LANG1).automorf.att.gz: $(LANG1).automorf.hfst
 	hfst-fst2txt $< | gzip -9 -c -n > $@
 
-$(LANG1).autogen.bin: $(LANG1).autogen.att.gz .deps/.d
-	zcat < $< > .deps/$(LANG1).autogen.att
-	lt-comp lr .deps/$(LANG1).autogen.att $@
+$(LANG1SCRIPT1).autogen.bin: $(LANG1SCRIPT1).autogen.att.gz .deps/.d
+	zcat < $< > .deps/$(LANG1SCRIPT1).autogen.att
+	lt-comp lr .deps/$(LANG1SCRIPT1).autogen.att $@
+
+$(LANG1SCRIPT2).autogen.bin: $(LANG1SCRIPT2).autogen.att.gz .deps/.d
+	zcat < $< > .deps/$(LANG1SCRIPT2).autogen.att
+	lt-comp lr .deps/$(LANG1SCRIPT2).autogen.att $@
 
 $(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
 	zcat < $< > .deps/$(LANG1).automorf.att
