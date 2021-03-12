@@ -8,7 +8,7 @@
 # Noun Cases
 # <loc>    # Locative
 # <ins>    # Instrumental
-# <obl>    # Oblique
+# <obl>    # Oblique. same as nominative except context
 
 # Verb Forms
 # <hab>    # Habitual
@@ -52,14 +52,8 @@
 ###############################################################################
 
 PATTERNS
-NounRoot RegNounInfl
+NounRoot [ <n>: ] Case
 Punctuation
-
-
-LEXICON RegNounInfl
-
-<n><sg>:
-<n><pl>:>s
 
 
 ###############################################################################
@@ -68,7 +62,21 @@ LEXICON RegNounInfl
 
 LEXICON NounRoot
 
-house:house   # A noun
+ghorā:ghorā   # A noun
+bail:bail
+cor:cor
+phal:phal
+rājā:rājā
+mālī:mālī
+
+LEXICON Case
+<pl>:an
+<pl>:sab
+<pl>:log
+<loc>:ē
+<inst>:ē̃
+<obl>:e
+<obl>:
 
 
 LEXICON Punctuation

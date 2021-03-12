@@ -1,8 +1,8 @@
 Config:
   hfst:
     App: hfst-lookup
-    Gen: ../mag_t.autogen.hfst
-    Morph: ../mag_t.automorf.hfst
+    Gen: ../mag.autogen.hfst
+    Morph: ../mag.automorf.hfst
 Tests:
   Auxiliary:
     ha<v><fts><s_p1><o_p3>:
