@@ -45,7 +45,7 @@ Tests:
   Imperfective:
     dekh<v><impf><obl>:
     - dekhaite
-    dekh​<v><impf>:
+    dekh<v><impf>:
     - dekhait
     sut<v><impf>:
     - sutait
@@ -54,7 +54,7 @@ Tests:
   Neutral:
     dekh<v><hab><obl>:
     - dekhe
-    dekh​<v><hab>:
+    dekh<v><hab>:
     - dekhā
     sut<v><hab>:
     - sutā
@@ -84,15 +84,15 @@ Tests:
     - dekhaliau
   Personal Pronouns:
     ham<prn><pers><p1><pl>:
-    - hamāni​​
+    - hamāni
     ham<prn><pers><p1><sg>:
-    - ham​​
+    - ham
     ham<prn><pers><p1><sg><obl>:
     - hamārā
     tu<prn><pers><hi><prx><p3><sg><gen>:
     - inkar
     tu<prn><pers><hi><prx><p3><sg><obl>:
-    - inkārā​​
+    - inkārā
     tu<prn><pers><p2><pl>:
     - tohāni
     tu<prn><pers><p2><sg>:
@@ -100,7 +100,7 @@ Tests:
     tu<prn><pers><p2><sg><gen>:
     - tohārā
     tu<prn><pers><p2><sg><obl><hi>:
-    - inkārā​​
+    - inkārā
   Plural Forms:
     bail<n><pl>:
     - bailan
