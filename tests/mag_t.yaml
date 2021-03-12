@@ -1,0 +1,129 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../mag_t.autogen.hfst
+    Morph: ../mag_t.automorf.hfst
+Tests:
+  Auxiliary:
+    ha<v><fts><s_p1><o_p3>:
+    - hobi
+    ha<v><past><s_p1><o_p3>:
+    - hāli
+    ha<v><pis><s_p1><o_p3>:
+    - hoti
+    ha<v><pres><s_p1><o_p3>:
+    - hi
+    ha<v><prs><s_p1><o_p3>:
+    - holi
+  Case:
+    bail<n><loc>:
+    - bailē
+    bail<n><obl>:
+    - baile
+    cor<n><loc>:
+    - corē
+    cor<n><obl>:
+    - cor
+    ghora<n><obl>:
+    - ghora
+    ghorā<n><loc><pl>:
+    - ghōrēn
+    mālī<n><inst>:
+    - māliē̃
+    phal<n><inst>:
+    - phalē̃
+    rājā<n><inst>:
+    - rājē̃
+  Demonstratives:
+    i<prn><dem><nom>:
+    - i
+    i<prn><itg><gen>:
+    - kekar
+    i<prn><rel><obl>:
+    - jekarā
+  Finite Verbs: {}
+  Imperfective:
+    dekh<v><impf><obl>:
+    - dekhaite
+    dekh​<v><impf>:
+    - dekhait
+    sut<v><impf>:
+    - sutait
+    sut<v><impf><obl>:
+    - sutaite
+  Neutral:
+    dekh<v><hab><obl>:
+    - dekhe
+    dekh​<v><hab>:
+    - dekhā
+    sut<v><hab>:
+    - sutā
+    sut<v><hab><obl>:
+    - sute
+  Nominal Non-finite Forms: {}
+  Nouns: {}
+  Perfective:
+    dekh<v><perf>:
+    - dekhale
+    dekh<v><perf><obl>:
+    - dekhalā
+    sut<v><perf>:
+    - sutal
+    sut<v><perf><obl>:
+    - sutalā
+  Personal Endings:
+    dekh<v><past><s_p1><o_p3>:
+    - dekhali
+    dekh<v><past><s_p1><o_p3><hi>:
+    - dekhaliain
+    dekh<v><past><s_p1><o_p3><low>:
+    - dekhaliai
+    dekh<v><past><s_p2><o_p2><hi>:
+    - dekhalio
+    dekh<v><past><s_p3><o_p2><low>:
+    - dekhaliau
+  Personal Pronouns:
+    ham<prn><pers><p1><pl>:
+    - hamāni​​
+    ham<prn><pers><p1><sg>:
+    - ham​​
+    ham<prn><pers><p1><sg><obl>:
+    - hamārā
+    tu<prn><pers><hi><prx><p3><sg><gen>:
+    - inkar
+    tu<prn><pers><hi><prx><p3><sg><obl>:
+    - inkārā​​
+    tu<prn><pers><p2><pl>:
+    - tohāni
+    tu<prn><pers><p2><sg>:
+    - tu
+    tu<prn><pers><p2><sg><gen>:
+    - tohārā
+    tu<prn><pers><p2><sg><obl><hi>:
+    - inkārā​​
+  Plural Forms:
+    bail<n><pl>:
+    - bailan
+    cor<n><pl>:
+    - coran
+    ghorā<n><pl>:
+    - ghōran
+    mālī<n><pl>:
+    - mālī log
+    phal<n><pl>:
+    - phal sab
+    rājā<n><pl>:
+    - rājā log
+  Pronouns: {}
+  Tense/Mood:
+    sun<v><fut><imp>:
+    - sunīhi
+    sun<v><fut><s_p1><o_p3>:
+    - sunbi
+    sun<v><past><s_p1><o_p3>:
+    - sunli
+    sun<v><pis><s_p1><o_p3>:
+    - sunti
+    sun<v><pres><s_p1><o_p3>:
+    - suni
+  Verbs: {}

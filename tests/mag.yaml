@@ -16,20 +16,6 @@ Tests:
     ह<v><prs><s_p1><o_p3>:
     - होलि
   Case:
-    bail<n><pl>:
-    - baile ke
-    cor<n><pl>:
-    - cor ke
-    ghora<n><pl>:
-    - ghora ke
-    ghorā<n><pl>:
-    - ghōrē
-    mālī<n><pl>:
-    - māliē̃
-    phal<n><pl>:
-    - phalē̃
-    rājā<n><pl>:
-    - rājē̃
     घोरा<n><loc>:
     - घोरे
     घोरा​<n><obl>:
@@ -49,11 +35,13 @@ Tests:
     राजा<n><ins>:
     - राजेँ
   Demonstratives:
-    इ<dem><nom>:
+    इ<prn><det><correl><obl>:
+    - जेकरा
+    इ<prn><det><dem><nom>:
     - इ​​
-    इ<itg><gen>:
+    इ<prn><det><itg><gen>:
     - केकर
-    इ<rel><obl>:
+    इ<prn><det><rel><obl>:
     - जेकरा
   Finite Verbs: {}
   Imperfective:
@@ -97,39 +85,27 @@ Tests:
     देख<v><past><s_p3><o_p2><low>:
     - देखालोऔ
   Personal Pronouns:
-    तु<prn><p2><pl>:
-    - तोहनि
-    तु<prn><p2><sg>:
-    - तु​​
-    तु<prn><p2><sg><gen>:
-    - तोर​​
-    तु<prn><p2><sg><gen><hi>:
+    इ<prn><pers><p3><sg><gen>:
     - तोहारा​​
-    तु<prn><p2><sg><obl><hi>:
+    इ<prn><pers><p3><sg><hi><obl>:
     - इनकारा​​
-    तु<prn><p3><sg><gen><hi><prx>:
+    इ<prn><pers><p3><sg><hi><prx><gen>:
     - इनकारा​​
-    तु<prn><p3><sg><obl><hi><prx>:
+    इ<prn><pers><p3><sg><hi><prx><obl>:
     - इनकर​​
-    हम<prn><p1><pl>:
+    तु<prn><pers><p2><pl>:
+    - तोहनि
+    तु<prn><pers><p2><sg>:
+    - तु​​
+    तु<prn><pers><p2><sg><gen>:
+    - तोर​​
+    हम<prn><pers><p1><pl>:
     - हमानी​​
-    हम<prn><p1><sg>:
+    हम<prn><pers><p1><sg>:
     - हम​​
-    हम<prn><p1><sg><obl>:
+    हम<prn><pers><p1><sg><obl>:
     - हमारा
   Plural Forms:
-    bail<n><pl>:
-    - bailan
-    cor<n><pl>:
-    - coran
-    ghorā<n><pl>:
-    - ghōran
-    mālī<n><pl>:
-    - mālī log
-    phal<n><pl>:
-    - phal sab
-    rājā<n><pl>:
-    - rājā log
     घोरा<n><pl>:
     - गोरन​​
     चोर​<n><pl>:
