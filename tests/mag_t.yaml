@@ -26,8 +26,8 @@ Tests:
     - cor
     ghora<n><obl>:
     - ghora
-    ghorā<n><loc><pl>:
-    - ghōrēn
+    ghorā<n><loc>:
+    - ghōrē
     mālī<n><inst>:
     - māliē̃
     phal<n><inst>:
@@ -64,13 +64,13 @@ Tests:
   Nouns: {}
   Perfective:
     dekh<v><perf>:
-    - dekhale
+    - dekhal
     dekh<v><perf><obl>:
-    - dekhalā
+    - dekhlā
     sut<v><perf>:
     - sutal
     sut<v><perf><obl>:
-    - sutalā
+    - sutlā
   Personal Endings:
     dekh<v><past><s_p1><o_p3>:
     - dekhali

@@ -54,6 +54,8 @@
 PATTERNS
 NounRoot [ <n>: ] Case
 Punctuation
+VerbRoot [ <v>: ] 
+VerbRoot [ <v>: ] Aspect
 
 
 ###############################################################################
@@ -71,13 +73,28 @@ mālī:mālī
 
 LEXICON Case
 <pl>:an
-<pl>:sab
-<pl>:log
+<pl>:\ sab
+<pl>:\ log
 <loc>:ē
 <inst>:ē̃
 <obl>:e
 <obl>:
 
+#VerbRoot [ <v>: ]
+#VerbRoot [ <v>: ] Aspect
+
+LEXICON VerbRoot
+dekh:dekh
+sut:sut
+sun:sun
+
+LEXICON Aspect
+<hab>:ā
+<hab><obl>:e
+<impf>:ait
+<impf><obl>:aite
+<perf>:al
+<perf><obl>:lā
 
 LEXICON Punctuation
 
