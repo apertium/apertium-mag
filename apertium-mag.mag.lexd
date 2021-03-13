@@ -54,9 +54,9 @@
 PATTERNS
 NounRoot [ <n>: ] Case
 Punctuation
-VerbRoot [ <v>: ] 
+VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific? 
 VerbRoot [ <v>: ] Aspect
-
+PersonalPronoun
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -80,7 +80,7 @@ LEXICON Case
 <obl>:e
 <obl>:
 
-#VerbRoot [ <v>: ]
+#VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific? 
 #VerbRoot [ <v>: ] Aspect
 
 LEXICON VerbRoot
@@ -95,6 +95,35 @@ LEXICON Aspect
 <impf><obl>:aite
 <perf>:al
 <perf><obl>:lā
+
+LEXICON Tense
+<pres>:
+<past>:l
+<pis>:t
+<fut>:b
+
+LEXICON Subject
+<s_p1>:i
+<s_p2>:a
+<s_p3>:o
+
+LEXICON ObjectHonorific
+<o_p2><hi>:o
+<o_p2><low>:au
+<o_p3><hi>:ain
+<o_p3><low>:ai
+
+LEXICON PersonalPronoun
+<prn><pers><p1><sg>:ham
+<prn><pers><p1><pl>:hamāni
+<prn><pers><p1><sg><obl>:hamārā
+<prn><pers><p2><sg>:tu
+<prn><pers><p2><pl>:tohāni
+<prn><pers><p2><sg><gen>:tora
+<prn><pers><p2><sg><obl><hi>:inkārā
+<prn><pers><p2><sg><gen>:tohārā
+<prn><pers><hi><prx><p3><sg><obl>:inkārā​​
+<prn><pers><hi><prx><p3><sg><gen>:inkar
 
 LEXICON Punctuation
 

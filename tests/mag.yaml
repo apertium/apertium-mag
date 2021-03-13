@@ -5,15 +5,15 @@ Config:
     Morph: ../mag.automorf.hfst
 Tests:
   Auxiliary:
-    ha<v><fts><s_p1><o_p3>:
+    ha<v><fts><s_p1>:
     - hobi
-    ha<v><past><s_p1><o_p3>:
+    ha<v><past><s_p1>:
     - hāli
-    ha<v><pis><s_p1><o_p3>:
+    ha<v><pis><s_p1>:
     - hoti
-    ha<v><pres><s_p1><o_p3>:
+    ha<v><pres><s_p1>:
     - hi
-    ha<v><prs><s_p1><o_p3>:
+    ha<v><prs><s_p1>:
     - holi
   Case:
     bail<n><loc>:
@@ -72,34 +72,34 @@ Tests:
     sut<v><perf><obl>:
     - sutlā
   Personal Endings:
-    dekh<v><past><s_p1><o_p3>:
-    - dekhali
-    dekh<v><past><s_p1><o_p3><hi>:
-    - dekhaliain
-    dekh<v><past><s_p1><o_p3><low>:
-    - dekhaliai
-    dekh<v><past><s_p2><o_p2><hi>:
-    - dekhalio
-    dekh<v><past><s_p3><o_p2><low>:
-    - dekhaliau
+    sun<v><past><s_p1>:
+    - sunli
+    sun<v><past><s_p1><o_p3><hi>:
+    - sunliain
+    sun<v><past><s_p1><o_p3><low>:
+    - sunliai
+    sun<v><past><s_p2><o_p2><hi>:
+    - sunlao
+    sun<v><past><s_p3><o_p2><low>:
+    - sunloau
   Personal Pronouns:
-    ham<prn><pers><p1><pl>:
-    - hamāni
-    ham<prn><pers><p1><sg>:
-    - ham
-    ham<prn><pers><p1><sg><obl>:
-    - hamārā
-    tu<prn><pers><hi><prx><p3><sg><gen>:
+    <prn><pers><hi><prx><p3><sg><gen>:
     - inkar
-    tu<prn><pers><hi><prx><p3><sg><obl>:
+    <prn><pers><hi><prx><p3><sg><obl>:
     - inkārā
-    tu<prn><pers><p2><pl>:
+    <prn><pers><p1><pl>:
+    - hamāni
+    <prn><pers><p1><sg>:
+    - ham
+    <prn><pers><p1><sg><obl>:
+    - hamārā
+    <prn><pers><p2><pl>:
     - tohāni
-    tu<prn><pers><p2><sg>:
+    <prn><pers><p2><sg>:
     - tu
-    tu<prn><pers><p2><sg><gen>:
+    <prn><pers><p2><sg><gen>:
     - tohārā
-    tu<prn><pers><p2><sg><obl><hi>:
+    <prn><pers><p2><sg><obl><hi>:
     - inkārā
   Plural Forms:
     bail<n><pl>:
@@ -118,12 +118,12 @@ Tests:
   Tense/Mood:
     sun<v><fut><imp>:
     - sunīhi
-    sun<v><fut><s_p1><o_p3>:
+    sun<v><fut><s_p1>:
     - sunbi
-    sun<v><past><s_p1><o_p3>:
+    sun<v><past><s_p1>:
     - sunli
-    sun<v><pis><s_p1><o_p3>:
+    sun<v><pis><s_p1>:
     - sunti
-    sun<v><pres><s_p1><o_p3>:
+    sun<v><pres><s_p1>:
     - suni
   Verbs: {}
