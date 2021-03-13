@@ -3,9 +3,54 @@ Letters+
 Punctuation+
 
 LEXICON Letters
-su:सु
-n:न
-li:लि
+क:k
+ख:kh
+ग:g
+घ:gh
+ङ:ṅ
+च:c
+छ:ch
+ज:j
+झ:jh
+ञ:ñ
+ट:ṭ
+ठ:ṭh
+ड:ḍ
+ढ:ḍh
+त:t
+थ:th
+द:d
+ध:dh
+न:n
+प:p
+फ:ph
+ब:b
+भ:bh
+म:m
+ह:h
+ल:l
+श:ś
+ष:ṣ
+र:r
+अ:a
+आ:ā
+इ:i
+ई:ī
+उ:u
+ऊ:ū
+ए:e
+ओ:o
+ऐ:ai
+औ:au
+ा:ā
+ि:i
+ी:ī
+ु:u
+ू:ū
+े:e
+ै:ai
+ो:o
+ौ:au
 
 # if it's written as one glyph (NOT codepoint!) on either side,
 # list it here
