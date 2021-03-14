@@ -1,0 +1,37 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../mag.autogen.hfst
+    Morph: ../mag.automorf.hfst
+Tests:
+  CommonWords:
+    ke<unk>:
+    - ke
+    magahi<unk>:
+    - magahi
+    mẽ<unk>:
+    - mẽ
+    ki<unk>:
+    - ki
+    ko<unk>:
+    - ko
+    khabar<unk>:
+    - khabar
+    aur<unk>:
+    - aur
+    hai<unk>:
+    - hai
+    sharbhaat<unk>:
+    - sharbhaat
+    se<unk>:
+    - se
+    aau<unk>:
+    - aau
+    yah<unk>:
+    - yah
+    ii<unk>:
+    - ii
+    lie<unk>:
+    - lie
+    par<unk>:
+    - par
