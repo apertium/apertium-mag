@@ -5,11 +5,11 @@ Config:
     Morph: ../mag.automorf.hfst
 Tests:
   CommonWords:
-    ke<unk>:
+    ke<post>:
     - ke
-    magahi<unk>:
+    magahi<n>:
     - magahi
-    mẽ<unk>:
+    mẽ<post>:
     - mẽ
     ki<unk>:
     - ki
@@ -23,7 +23,7 @@ Tests:
     - hai
     sharbhaat<unk>:
     - sharbhaat
-    se<unk>:
+    se<post>:
     - se
     aau<unk>:
     - aau
@@ -33,5 +33,5 @@ Tests:
     - ii
     lie<unk>:
     - lie
-    par<unk>:
+    par<post>:
     - par
