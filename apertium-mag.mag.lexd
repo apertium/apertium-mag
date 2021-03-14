@@ -57,6 +57,7 @@ Punctuation
 VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific? 
 VerbRoot [ <v>: ] Aspect
 PersonalPronoun
+Postposition
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -70,6 +71,7 @@ cor:cor
 phal:phal
 rājā:rājā
 mālī:mālī
+magahi:magahi
 
 LEXICON Case
 <pl>:an
@@ -124,6 +126,13 @@ LEXICON PersonalPronoun
 <prn><pers><p2><sg><gen>:tohārā
 <prn><pers><hi><prx><p3><sg><obl>:inkārā​​
 <prn><pers><hi><prx><p3><sg><gen>:inkar
+
+
+#Postpositions don't inflect
+LEXICON Postposition
+ke<post>:ke
+mẽ<post>:mẽ
+par<post>:par
 
 LEXICON Punctuation
 
