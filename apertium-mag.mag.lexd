@@ -52,7 +52,7 @@
 ###############################################################################
 
 PATTERNS
-NounRoot [ <n>: ] Case
+NounRoot [ <n>: ] Case?
 Punctuation
 VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific? 
 VerbRoot [ <v>: ] Aspect
