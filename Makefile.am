@@ -72,7 +72,7 @@ $(LANG1SCRIPT2).autogen.hfst: .deps/$(LANG1).RL.hfst .deps/$(SCRIPT1)-$(SCRIPT2)
 	hfst-compose -1 $< -2 .deps/$(LANG1SCRIPT1).spellrelax.hfst | hfst-invert -o $@
 
 .deps/$(SCRIPT1)-$(SCRIPT2).hfst: $(BASENAME).$(SCRIPT1)-$(SCRIPT2).lexd .deps/.d
-	lexd $< .deps/$(SCRIPT1)-$(SCRIPT2).att
+	lexd -U $< .deps/$(SCRIPT1)-$(SCRIPT2).att
 	hfst-txt2fst .deps/$(SCRIPT1)-$(SCRIPT2).att -o $@
 
 .deps/$(LANG1SCRIPT2).LR.hfst: .deps/$(LANG1).LR.hfst .deps/$(SCRIPT1)-$(SCRIPT2).hfst .deps/.d
