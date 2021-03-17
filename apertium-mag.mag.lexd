@@ -54,7 +54,7 @@
 PATTERNS
 NounRoot [ <n>: ] Case?
 Punctuation
-VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific? 
+VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific?
 VerbRoot [ <v>: ] Aspect
 PersonalPronoun
 Postposition
@@ -82,7 +82,7 @@ LEXICON Case
 <obl>:e
 <obl>:
 
-#VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific? 
+#VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific?
 #VerbRoot [ <v>: ] Aspect
 
 LEXICON VerbRoot
@@ -159,6 +159,7 @@ LEXICON Punctuation
 )<rpar>:)
 \\<sent>:\\
 \/<sent>:\/
+।<sent>:।
 
 
 # Resources:
@@ -170,4 +171,3 @@ LEXICON Punctuation
 # https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
 # https://github.com/hfst/
 # http://wiki.apertium.org/wiki/Hfst
-
