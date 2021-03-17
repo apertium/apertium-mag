@@ -76,7 +76,7 @@ $(LANG1SCRIPT2).autogen.hfst: .deps/$(LANG1).RL.hfst .deps/$(SCRIPT1)-$(SCRIPT2)
 	hfst-txt2fst .deps/$(SCRIPT1)-$(SCRIPT2).att -o $@
 
 .deps/$(LANG1SCRIPT2).LR.hfst: .deps/$(LANG1).LR.hfst .deps/$(SCRIPT1)-$(SCRIPT2).hfst .deps/.d
-	hfst-compose -1 $< -2 .deps/$(SCRIPT1)-$(SCRIPT2).hfst -o $@
+	hfst-invert .deps/$(SCRIPT1)-$(SCRIPT2).hfst | hfst-compose -1 $< -2 - -o $@
 
 .deps/$(LANG1SCRIPT2).automorf.hfst: .deps/$(LANG1SCRIPT2).LR.hfst .deps/$(LANG1SCRIPT2).spellrelax.hfst .deps/.d
 	hfst-compose -1 $< -2 .deps/$(LANG1SCRIPT2).spellrelax.hfst | hfst-invert -o $@
