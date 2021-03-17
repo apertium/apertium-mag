@@ -71,9 +71,15 @@ $(LANG1SCRIPT2).autogen.hfst: .deps/$(LANG1).RL.hfst .deps/$(SCRIPT1)-$(SCRIPT2)
 .deps/$(LANG1SCRIPT1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1SCRIPT1).spellrelax.hfst .deps/.d
 	hfst-compose -1 $< -2 .deps/$(LANG1SCRIPT1).spellrelax.hfst | hfst-invert -o $@
 
-.deps/$(SCRIPT1)-$(SCRIPT2).hfst: $(BASENAME).$(SCRIPT1)-$(SCRIPT2).lexd .deps/.d
+.deps/$(SCRIPT1)-$(SCRIPT2).lexd.hfst: $(BASENAME).$(SCRIPT1)-$(SCRIPT2).lexd .deps/.d
 	lexd -U $< .deps/$(SCRIPT1)-$(SCRIPT2).att
 	hfst-txt2fst .deps/$(SCRIPT1)-$(SCRIPT2).att | hfst-invert -o $@
+
+.deps/$(SCRIPT1)-$(SCRIPT2).twol.hfst: $(BASENAME).$(SCRIPT1)-$(SCRIPT2).twol .deps/.d
+	hfst-twolc $< -o $@
+
+.deps/$(SCRIPT1)-$(SCRIPT2).hfst: .deps/$(SCRIPT1)-$(SCRIPT2).lexd.hfst .deps/$(SCRIPT1)-$(SCRIPT2).twol.hfst .deps/.d
+	hfst-compose-intersect -1 .deps/$(SCRIPT1)-$(SCRIPT2).lexd.hfst -2 .deps/$(SCRIPT1)-$(SCRIPT2).twol.hfst -o $@
 
 .deps/$(LANG1SCRIPT2).LR.hfst: .deps/$(LANG1).LR.hfst .deps/$(SCRIPT1)-$(SCRIPT2).hfst .deps/.d
 	hfst-compose -1 $< -2 .deps/$(SCRIPT1)-$(SCRIPT2).hfst -o $@
