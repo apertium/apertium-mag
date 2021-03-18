@@ -71,14 +71,14 @@ cor:cor
 phal:phal
 rājā:rājā
 mālī:mālī
-magahī:magahī
+magaHī:magaHī
 
 LEXICON Case
 <pl>:an
 <pl>:\ sab
 <pl>:\ log
 <loc>:ē
-<inst>:ē̃
+<inst>:ēṃ
 <obl>:e
 <obl>:
 
@@ -116,14 +116,14 @@ LEXICON ObjectHonorific
 <o_p3><low>:ai
 
 LEXICON PersonalPronoun
-<prn><pers><p1><sg>:ham
-<prn><pers><p1><pl>:hamāni
-<prn><pers><p1><sg><obl>:hamārā
+<prn><pers><p1><sg>:Ham
+<prn><pers><p1><pl>:Hamāni
+<prn><pers><p1><sg><obl>:Hamārā
 <prn><pers><p2><sg>:tu
-<prn><pers><p2><pl>:tohāni
+<prn><pers><p2><pl>:toHāni
 <prn><pers><p2><sg><gen>:tora
 <prn><pers><p2><sg><obl><hi>:inkārā
-<prn><pers><p2><sg><gen>:tohārā
+<prn><pers><p2><sg><gen>:toHārā
 <prn><pers><hi><prx><p3><sg><obl>:inkārā​​
 <prn><pers><hi><prx><p3><sg><gen>:inkar
 
@@ -131,7 +131,7 @@ LEXICON PersonalPronoun
 #Postpositions don't inflect
 LEXICON Postposition
 ke<post>:ke
-mẽ<post>:mẽ
+meṃ<post>:meṃ
 par<post>:par
 se<post>:se
 
@@ -146,7 +146,7 @@ LEXICON Punctuation
 -<guio>:-
 —<guio>:—
 ,<cm>:,
-?<sent>:? 
+?<sent>:?
 '<apos>:'
 "<quot>:"
 «<lquot>:«

@@ -27,30 +27,27 @@ LEXICON Letters
 ब:b
 भ:bh
 म:m
-ह:h
+ह:H
 ल:l
 श:ś
 ष:ṣ
 र:r
-अ:a
-आ:ā
-इ:i
-ई:ī
-उ:u
-ऊ:ū
-ए:e
-ओ:o
-ऐ:ai
-औ:au
-ा:ā
-ि:i
-ी:ī
-ु:u
-ू:ū
-े:e
-ै:ai
-ो:o
-ौ:au
+स:s
+ं:ṃ
+ं:◌̃
+ः:ḥ
+{A}:a
+{AA}:ā
+{I}:i
+{II}:ī
+{U}:u
+{UU}:ū
+{E}:e
+{E}:ē
+{O}:o
+{O}:ō
+{AI}:ai
+{AU}:au
 
 # if it's written as one glyph (NOT codepoint!) on either side,
 # list it here
