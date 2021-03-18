@@ -32,25 +32,16 @@ LEXICON Letters
 श:ś
 ष:ṣ
 र:r
-अ:a
-आ:ā
-इ:i
-ई:ī
-उ:u
-ऊ:ū
-ए:e
-ओ:o
-ऐ:ai
-औ:au
-ा:ā
-ि:i
-ी:ī
-ु:u
-ू:ū
-े:e
-ै:ai
-ो:o
-ौ:au
+{A}:a
+{AA}:ā
+{I}:i
+{II}:ī
+{U}:u
+{UU}:ū
+{E}:e
+{O}:o
+{AI}:ai
+{AU}:au
 
 # if it's written as one glyph (NOT codepoint!) on either side,
 # list it here
