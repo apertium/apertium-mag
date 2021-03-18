@@ -78,7 +78,7 @@ LEXICON Case
 <pl>:\ sab
 <pl>:\ log
 <loc>:ē
-<inst>:ē̃
+<inst>:ēṃ
 <obl>:e
 <obl>:
 
@@ -131,7 +131,7 @@ LEXICON PersonalPronoun
 #Postpositions don't inflect
 LEXICON Postposition
 ke<post>:ke
-mẽ<post>:mẽ
+meṃ<post>:meṃ
 par<post>:par
 se<post>:se
 
@@ -146,7 +146,7 @@ LEXICON Punctuation
 -<guio>:-
 —<guio>:—
 ,<cm>:,
-?<sent>:? 
+?<sent>:?
 '<apos>:'
 "<quot>:"
 «<lquot>:«
