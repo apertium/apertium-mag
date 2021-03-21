@@ -2,6 +2,8 @@ Alphabet
  A Ā I Ī U Ū Ṛ Ṝ Ḷ Ḹ E Ē O Ō K G Ṅ H C J Ñ Y Ś Ṭ Ḍ Ṇ R Ṣ T D N L S P B M V Ṃ Ḥ
  a ā i ī u ū ṛ ṝ ḷ ḹ e ē o ō k g ṅ h c j ñ y ś ṭ ḍ ṇ r ṣ t d n l s p b m v ṃ ḥ ;
 
+%{e%}:e %{e%}:0
+
 Sets
 
 Vowel = A Ā I Ī U Ū Ṛ Ṝ Ḷ Ḹ E Ē O Ō
@@ -9,8 +11,8 @@ Vowel = A Ā I Ī U Ū Ṛ Ṝ Ḷ Ḹ E Ē O Ō
 
 Rules
 
- "Remove suffix vowel with vowel-ending stem"
- i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+"realise {e} as null if after a morpheme-final vowel"
+%{e%}:0 <=> :Vowels %>:0 _ ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

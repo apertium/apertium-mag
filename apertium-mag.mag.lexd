@@ -74,13 +74,12 @@ mālī:mālī
 magaHī:magaHī
 
 LEXICON Case
-<pl>:an
-<pl>:\ sab # Dir/LR
-<pl>:\ log # Dir/LR
-<loc>:ē
-<inst>:ēṃ
-<obl>:e
-<obl>:
+<pl>:>an
+<pl>:>\ sab # Dir/LR
+<pl>:>\ log # Dir/LR
+<loc>:>ē
+<inst>:>ēṃ
+<obl>:>{e}
 
 #VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific?
 #VerbRoot [ <v>: ] Aspect
@@ -93,27 +92,27 @@ sun:sun
 LEXICON Aspect
 <hab>:ā
 <hab><obl>:e
-<impf>:ait
-<impf><obl>:aite
-<perf>:al
-<perf><obl>:lā
+<impf>:>ait
+<impf><obl>:>aite
+<perf>:>al
+<perf><obl>:>lā
 
 LEXICON Tense
-<pres>:
-<past>:l
-<pis>:t
-<fut>:b
+<pres>:>
+<past>:>l
+<pis>:>t
+<fut>:>b
 
 LEXICON Subject
-<s_p1>:i
-<s_p2>:a
-<s_p3>:o
+<s_p1>:>i
+<s_p2>:>a
+<s_p3>:>o
 
 LEXICON ObjectHonorific
-<o_p2><hi>:o
-<o_p2><low>:au
-<o_p3><hi>:ain
-<o_p3><low>:ai
+<o_p2><hi>:>o
+<o_p2><low>:>au
+<o_p3><hi>:>ain
+<o_p3><low>:>ai
 
 LEXICON PersonalPronoun
 <prn><pers><p1><sg>:Ham
