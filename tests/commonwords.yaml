@@ -1,7 +1,7 @@
 Config:
   hfst:
     App: hfst-lookup
-    Gen: ../mag.autogen.hfst
+    Gen: ../mag@Lat.autogen.hfst
     Morph: ../mag.automorf.hfst
 Tests:
   CommonWords:
