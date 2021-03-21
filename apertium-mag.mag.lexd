@@ -80,6 +80,7 @@ LEXICON Case
 <loc>:>ē
 <inst>:>ēṃ
 <obl>:>{e}
+<obl>:> # Dir/LR
 
 #VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific?
 #VerbRoot [ <v>: ] Aspect
