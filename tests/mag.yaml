@@ -1,20 +1,20 @@
 Config:
   hfst:
     App: hfst-lookup
-    Gen: ../mag.autogen.hfst
-    Morph: ../mag.automorf.hfst
+    Gen: ../mag@Lat.autogen.hfst
+    Morph: ../mag@Lat.automorf.hfst
 Tests:
   Auxiliary:
-    ha<v><fts><s_p1>:
-    - hobi
-    ha<v><past><s_p1>:
-    - hāli
-    ha<v><pis><s_p1>:
-    - hoti
-    ha<v><pres><s_p1>:
-    - hi
-    ha<v><prs><s_p1>:
-    - holi
+    Ha<v><fts><s_p1>:
+    - Hobi
+    Ha<v><past><s_p1>:
+    - Hāli
+    Ha<v><pis><s_p1>:
+    - Hoti
+    Ha<v><pres><s_p1>:
+    - Hi
+    Ha<v><prs><s_p1>:
+    - Holi
   Case:
     bail<n><loc>:
     - bailē
@@ -88,17 +88,17 @@ Tests:
     <prn><pers><hi><prx><p3><sg><obl>:
     - inkārā
     <prn><pers><p1><pl>:
-    - hamāni
+    - Hamāni
     <prn><pers><p1><sg>:
-    - ham
+    - Ham
     <prn><pers><p1><sg><obl>:
-    - hamārā
+    - Hamārā
     <prn><pers><p2><pl>:
-    - tohāni
+    - toHāni
     <prn><pers><p2><sg>:
     - tu
     <prn><pers><p2><sg><gen>:
-    - tohārā
+    - toHārā
     <prn><pers><p2><sg><obl><hi>:
     - inkārā
   Plural Forms:
@@ -117,7 +117,7 @@ Tests:
   Pronouns: {}
   Tense/Mood:
     sun<v><fut><imp>:
-    - sunīhi
+    - sunīHi
     sun<v><fut><s_p1>:
     - sunbi
     sun<v><past><s_p1>:
