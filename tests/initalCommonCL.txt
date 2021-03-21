@@ -1,0 +1,36 @@
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 0: CommonWords (Lexical/Generation)
+----------------------------------------[m
+[[0;36m 1/15[m][[1;31mFAIL[m] ke<post> [0;34m=>[m Missing results: ke
+[[0;36m 1/15[m][[1;31mFAIL[m] ke<post> [0;34m=>[m Unexpected results: ke<post>+?
+[[0;36m 2/15[m][[1;31mFAIL[m] magahī<n> [0;34m=>[m Missing results: magahī
+[[0;36m 2/15[m][[1;31mFAIL[m] magahī<n> [0;34m=>[m Unexpected results: magahī<n>+?
+[[0;36m 3/15[m][[1;31mFAIL[m] meṃ<post> [0;34m=>[m Missing results: meṃ
+[[0;36m 3/15[m][[1;31mFAIL[m] meṃ<post> [0;34m=>[m Unexpected results: meṃ<post>+?
+[[0;36m 4/15[m][[1;31mFAIL[m] kī<unk> [0;34m=>[m Missing results: kī
+[[0;36m 4/15[m][[1;31mFAIL[m] kī<unk> [0;34m=>[m Unexpected results: kī<unk>+?
+[[0;36m 5/15[m][[1;31mFAIL[m] ko<unk> [0;34m=>[m Missing results: ko
+[[0;36m 5/15[m][[1;31mFAIL[m] ko<unk> [0;34m=>[m Unexpected results: ko<unk>+?
+[[0;36m 6/15[m][[1;31mFAIL[m] khabar<unk> [0;34m=>[m Missing results: khabar
+[[0;36m 6/15[m][[1;31mFAIL[m] khabar<unk> [0;34m=>[m Unexpected results: khabar<unk>+?
+[[0;36m 7/15[m][[1;31mFAIL[m] aur<unk> [0;34m=>[m Missing results: aur
+[[0;36m 7/15[m][[1;31mFAIL[m] aur<unk> [0;34m=>[m Unexpected results: aur<unk>+?
+[[0;36m 8/15[m][[1;31mFAIL[m] hai<unk> [0;34m=>[m Missing results: hai
+[[0;36m 8/15[m][[1;31mFAIL[m] hai<unk> [0;34m=>[m Unexpected results: hai<unk>+?
+[[0;36m 9/15[m][[1;31mFAIL[m] ṣarbhāt<unk> [0;34m=>[m Missing results: ṣarbhāt
+[[0;36m 9/15[m][[1;31mFAIL[m] ṣarbhāt<unk> [0;34m=>[m Unexpected results: ṣarbhāt<unk>+?
+[[0;36m10/15[m][[1;31mFAIL[m] se<post> [0;34m=>[m Missing results: se
+[[0;36m10/15[m][[1;31mFAIL[m] se<post> [0;34m=>[m Unexpected results: se<post>+?
+[[0;36m11/15[m][[1;31mFAIL[m] āu<unk> [0;34m=>[m Missing results: āu
+[[0;36m11/15[m][[1;31mFAIL[m] āu<unk> [0;34m=>[m Unexpected results: āu<unk>+?
+[[0;36m12/15[m][[1;31mFAIL[m] yah<unk> [0;34m=>[m Missing results: yah
+[[0;36m12/15[m][[1;31mFAIL[m] yah<unk> [0;34m=>[m Unexpected results: yah<unk>+?
+[[0;36m13/15[m][[1;31mFAIL[m] ī<unk> [0;34m=>[m Missing results: ī
+[[0;36m13/15[m][[1;31mFAIL[m] ī<unk> [0;34m=>[m Unexpected results: ī<unk>+?
+[[0;36m14/15[m][[1;31mFAIL[m] lie<unk> [0;34m=>[m Missing results: lie
+[[0;36m14/15[m][[1;31mFAIL[m] lie<unk> [0;34m=>[m Unexpected results: lie<unk>+?
+[[0;36m15/15[m][[1;31mFAIL[m] par<post> [0;34m=>[m Missing results: par
+[[0;36m15/15[m][[1;31mFAIL[m] par<post> [0;34m=>[m Unexpected results: par<post>+?
+
+Test 0 - Passes: [0;32m0[m, Fails: [1;31m15[m, Total: [0;36m15[m
+Total passes: [0;32m0[m, Total fails: [1;31m15[m, Total: [0;36m15[m

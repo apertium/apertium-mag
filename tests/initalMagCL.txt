@@ -1,0 +1,153 @@
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 0: Auxiliary (Lexical/Generation)
+--------------------------------------[m
+[[0;36m1/5[m][[1;31mFAIL[m] Ha<v><fts><s_p1> [0;34m=>[m Missing results: Hobi
+[[0;36m1/5[m][[1;31mFAIL[m] Ha<v><fts><s_p1> [0;34m=>[m Unexpected results: Ha<v><fts><s_p1>+?
+[[0;36m2/5[m][[1;31mFAIL[m] Ha<v><past><s_p1> [0;34m=>[m Missing results: Hāli
+[[0;36m2/5[m][[1;31mFAIL[m] Ha<v><past><s_p1> [0;34m=>[m Unexpected results: Ha<v><past><s_p1>+?
+[[0;36m3/5[m][[1;31mFAIL[m] Ha<v><pis><s_p1> [0;34m=>[m Missing results: Hoti
+[[0;36m3/5[m][[1;31mFAIL[m] Ha<v><pis><s_p1> [0;34m=>[m Unexpected results: Ha<v><pis><s_p1>+?
+[[0;36m4/5[m][[1;31mFAIL[m] Ha<v><pres><s_p1> [0;34m=>[m Missing results: Hi
+[[0;36m4/5[m][[1;31mFAIL[m] Ha<v><pres><s_p1> [0;34m=>[m Unexpected results: Ha<v><pres><s_p1>+?
+[[0;36m5/5[m][[1;31mFAIL[m] Ha<v><prs><s_p1> [0;34m=>[m Missing results: Holi
+[[0;36m5/5[m][[1;31mFAIL[m] Ha<v><prs><s_p1> [0;34m=>[m Unexpected results: Ha<v><prs><s_p1>+?
+
+Test 0 - Passes: [0;32m0[m, Fails: [1;31m5[m, Total: [0;36m5[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 1: Case (Lexical/Generation)
+---------------------------------[m
+[[0;36m1/9[m][[0;32mPASS[m] bail<n><loc> [0;34m=>[m bailē
+[[0;36m2/9[m][[0;32mPASS[m] bail<n><obl> [0;34m=>[m baile
+[[0;36m2/9[m][[1;31mFAIL[m] bail<n><obl> [0;34m=>[m Unexpected results: bail
+[[0;36m3/9[m][[0;32mPASS[m] cor<n><loc> [0;34m=>[m corē
+[[0;36m4/9[m][[0;32mPASS[m] cor<n><obl> [0;34m=>[m cor
+[[0;36m4/9[m][[1;31mFAIL[m] cor<n><obl> [0;34m=>[m Unexpected results: core
+[[0;36m5/9[m][[1;31mFAIL[m] ghora<n><obl> [0;34m=>[m Missing results: ghora
+[[0;36m5/9[m][[1;31mFAIL[m] ghora<n><obl> [0;34m=>[m Unexpected results: ghora<n><obl>+?
+[[0;36m6/9[m][[1;31mFAIL[m] ghorā<n><loc> [0;34m=>[m Missing results: ghōrē
+[[0;36m6/9[m][[1;31mFAIL[m] ghorā<n><loc> [0;34m=>[m Unexpected results: ghorāē
+[[0;36m7/9[m][[1;31mFAIL[m] mālī<n><inst> [0;34m=>[m Missing results: māliēṃ
+[[0;36m7/9[m][[1;31mFAIL[m] mālī<n><inst> [0;34m=>[m Unexpected results: mālīēṃ
+[[0;36m8/9[m][[0;32mPASS[m] phal<n><inst> [0;34m=>[m phalēṃ
+[[0;36m9/9[m][[1;31mFAIL[m] rājā<n><inst> [0;34m=>[m Missing results: rājēṃ
+[[0;36m9/9[m][[1;31mFAIL[m] rājā<n><inst> [0;34m=>[m Unexpected results: rājāēṃ
+
+Test 1 - Passes: [0;32m5[m, Fails: [1;31m6[m, Total: [0;36m11[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 2: Demonstratives (Lexical/Generation)
+-------------------------------------------[m
+[[0;36m1/3[m][[1;31mFAIL[m] i<prn><dem><nom> [0;34m=>[m Missing results: i
+[[0;36m1/3[m][[1;31mFAIL[m] i<prn><dem><nom> [0;34m=>[m Unexpected results: i<prn><dem><nom>+?
+[[0;36m2/3[m][[1;31mFAIL[m] i<prn><itg><gen> [0;34m=>[m Missing results: kekar
+[[0;36m2/3[m][[1;31mFAIL[m] i<prn><itg><gen> [0;34m=>[m Unexpected results: i<prn><itg><gen>+?
+[[0;36m3/3[m][[1;31mFAIL[m] i<prn><rel><obl> [0;34m=>[m Missing results: jekarā
+[[0;36m3/3[m][[1;31mFAIL[m] i<prn><rel><obl> [0;34m=>[m Unexpected results: i<prn><rel><obl>+?
+
+Test 2 - Passes: [0;32m0[m, Fails: [1;31m3[m, Total: [0;36m3[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 3: Finite Verbs (Lexical/Generation)
+-----------------------------------------[m
+
+Test 3 - Passes: [0;32m0[m, Fails: [1;31m0[m, Total: [0;36m0[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 4: Imperfective (Lexical/Generation)
+-----------------------------------------[m
+[[0;36m1/4[m][[0;32mPASS[m] dekh<v><impf><obl> [0;34m=>[m dekhaite
+[[0;36m2/4[m][[0;32mPASS[m] dekh<v><impf> [0;34m=>[m dekhait
+[[0;36m3/4[m][[0;32mPASS[m] sut<v><impf> [0;34m=>[m sutait
+[[0;36m4/4[m][[0;32mPASS[m] sut<v><impf><obl> [0;34m=>[m sutaite
+
+Test 4 - Passes: [0;32m4[m, Fails: [1;31m0[m, Total: [0;36m4[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 5: Neutral (Lexical/Generation)
+------------------------------------[m
+[[0;36m1/4[m][[0;32mPASS[m] dekh<v><hab><obl> [0;34m=>[m dekhe
+[[0;36m2/4[m][[0;32mPASS[m] dekh<v><hab> [0;34m=>[m dekhā
+[[0;36m3/4[m][[0;32mPASS[m] sut<v><hab> [0;34m=>[m sutā
+[[0;36m4/4[m][[0;32mPASS[m] sut<v><hab><obl> [0;34m=>[m sute
+
+Test 5 - Passes: [0;32m4[m, Fails: [1;31m0[m, Total: [0;36m4[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 6: Nominal Non-finite Forms (Lexical/Generation)
+-----------------------------------------------------[m
+
+Test 6 - Passes: [0;32m0[m, Fails: [1;31m0[m, Total: [0;36m0[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 7: Nouns (Lexical/Generation)
+----------------------------------[m
+
+Test 7 - Passes: [0;32m0[m, Fails: [1;31m0[m, Total: [0;36m0[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 8: Perfective (Lexical/Generation)
+---------------------------------------[m
+[[0;36m1/4[m][[0;32mPASS[m] dekh<v><perf> [0;34m=>[m dekhal
+[[0;36m2/4[m][[0;32mPASS[m] dekh<v><perf><obl> [0;34m=>[m dekhlā
+[[0;36m3/4[m][[0;32mPASS[m] sut<v><perf> [0;34m=>[m sutal
+[[0;36m4/4[m][[0;32mPASS[m] sut<v><perf><obl> [0;34m=>[m sutlā
+
+Test 8 - Passes: [0;32m4[m, Fails: [1;31m0[m, Total: [0;36m4[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 9: Personal Endings (Lexical/Generation)
+---------------------------------------------[m
+[[0;36m1/5[m][[0;32mPASS[m] sun<v><past><s_p1> [0;34m=>[m sunli
+[[0;36m2/5[m][[0;32mPASS[m] sun<v><past><s_p1><o_p3><hi> [0;34m=>[m sunliain
+[[0;36m3/5[m][[0;32mPASS[m] sun<v><past><s_p1><o_p3><low> [0;34m=>[m sunliai
+[[0;36m4/5[m][[0;32mPASS[m] sun<v><past><s_p2><o_p2><hi> [0;34m=>[m sunlao
+[[0;36m5/5[m][[0;32mPASS[m] sun<v><past><s_p3><o_p2><low> [0;34m=>[m sunloau
+
+Test 9 - Passes: [0;32m5[m, Fails: [1;31m0[m, Total: [0;36m5[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 10: Personal Pronouns (Lexical/Generation)
+-----------------------------------------------[m
+[[0;36m1/9[m][[0;32mPASS[m] <prn><pers><hi><prx><p3><sg><gen> [0;34m=>[m inkar
+[[0;36m2/9[m][[1;31mFAIL[m] <prn><pers><hi><prx><p3><sg><obl> [0;34m=>[m Missing results: inkārā
+[[0;36m2/9[m][[1;31mFAIL[m] <prn><pers><hi><prx><p3><sg><obl> [0;34m=>[m Unexpected results: inkārā​​
+[[0;36m3/9[m][[0;32mPASS[m] <prn><pers><p1><pl> [0;34m=>[m Hamāni
+[[0;36m4/9[m][[0;32mPASS[m] <prn><pers><p1><sg> [0;34m=>[m Ham
+[[0;36m5/9[m][[0;32mPASS[m] <prn><pers><p1><sg><obl> [0;34m=>[m Hamārā
+[[0;36m6/9[m][[0;32mPASS[m] <prn><pers><p2><pl> [0;34m=>[m toHāni
+[[0;36m7/9[m][[0;32mPASS[m] <prn><pers><p2><sg> [0;34m=>[m tu
+[[0;36m8/9[m][[0;32mPASS[m] <prn><pers><p2><sg><gen> [0;34m=>[m toHārā
+[[0;36m8/9[m][[1;31mFAIL[m] <prn><pers><p2><sg><gen> [0;34m=>[m Unexpected results: tora
+[[0;36m9/9[m][[0;32mPASS[m] <prn><pers><p2><sg><obl><hi> [0;34m=>[m inkārā
+
+Test 10 - Passes: [0;32m8[m, Fails: [1;31m2[m, Total: [0;36m10[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 11: Plural Forms (Lexical/Generation)
+------------------------------------------[m
+[[0;36m1/6[m][[0;32mPASS[m] bail<n><pl> [0;34m=>[m bailan
+[[0;36m1/6[m][[1;31mFAIL[m] bail<n><pl> [0;34m=>[m Unexpected results: bail log, bail sab
+[[0;36m2/6[m][[0;32mPASS[m] cor<n><pl> [0;34m=>[m coran
+[[0;36m2/6[m][[1;31mFAIL[m] cor<n><pl> [0;34m=>[m Unexpected results: cor log, cor sab
+[[0;36m3/6[m][[1;31mFAIL[m] ghorā<n><pl> [0;34m=>[m Missing results: ghōran
+[[0;36m3/6[m][[1;31mFAIL[m] ghorā<n><pl> [0;34m=>[m Unexpected results: ghorā log, ghorāan, ghorā sab
+[[0;36m4/6[m][[0;32mPASS[m] mālī<n><pl> [0;34m=>[m mālī log
+[[0;36m4/6[m][[1;31mFAIL[m] mālī<n><pl> [0;34m=>[m Unexpected results: mālīan, mālī sab
+[[0;36m5/6[m][[0;32mPASS[m] phal<n><pl> [0;34m=>[m phal sab
+[[0;36m5/6[m][[1;31mFAIL[m] phal<n><pl> [0;34m=>[m Unexpected results: phalan, phal log
+[[0;36m6/6[m][[0;32mPASS[m] rājā<n><pl> [0;34m=>[m rājā log
+[[0;36m6/6[m][[1;31mFAIL[m] rājā<n><pl> [0;34m=>[m Unexpected results: rājāan, rājā sab
+
+Test 11 - Passes: [0;32m5[m, Fails: [1;31m6[m, Total: [0;36m11[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 12: Pronouns (Lexical/Generation)
+--------------------------------------[m
+
+Test 12 - Passes: [0;32m0[m, Fails: [1;31m0[m, Total: [0;36m0[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 13: Tense/Mood (Lexical/Generation)
+----------------------------------------[m
+[[0;36m1/5[m][[1;31mFAIL[m] sun<v><fut><imp> [0;34m=>[m Missing results: sunīHi
+[[0;36m1/5[m][[1;31mFAIL[m] sun<v><fut><imp> [0;34m=>[m Unexpected results: sun<v><fut><imp>+?
+[[0;36m2/5[m][[0;32mPASS[m] sun<v><fut><s_p1> [0;34m=>[m sunbi
+[[0;36m3/5[m][[0;32mPASS[m] sun<v><past><s_p1> [0;34m=>[m sunli
+[[0;36m4/5[m][[0;32mPASS[m] sun<v><pis><s_p1> [0;34m=>[m sunti
+[[0;36m5/5[m][[0;32mPASS[m] sun<v><pres><s_p1> [0;34m=>[m suni
+
+Test 13 - Passes: [0;32m4[m, Fails: [1;31m1[m, Total: [0;36m5[m
+[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-[0;36m-
+Test 14: Verbs (Lexical/Generation)
+-----------------------------------[m
+
+Test 14 - Passes: [0;32m0[m, Fails: [1;31m0[m, Total: [0;36m0[m
+Total passes: [0;32m39[m, Total fails: [1;31m23[m, Total: [0;36m62[m
