@@ -102,6 +102,7 @@ LEXICON Tense
 <past>:>l
 <pis>:>t
 <fut>:>b
+<fut><imp>:>iHa
 
 LEXICON Subject
 <s_p1>:>i
