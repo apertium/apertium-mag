@@ -5,16 +5,16 @@ Config:
     Morph: ../mag.automorf.hfst
 Tests:
   Auxiliary:
-    Ha<v><fts><s_p1>:
+    <aux><v><fts><s_p1>:
     - Hobi
-    Ha<v><past><s_p1>:
-    - Hāli
-    Ha<v><pis><s_p1>:
+    <aux><v><past><s_p1>:
+    - Hali
+    <aux><v><pis><s_p1>:
     - Hoti
-    Ha<v><pres><s_p1>:
+    <aux><v><pres><s_p1>:
     - Hi
-    Ha<v><prs><s_p1>:
-    - Holi
+    <aux><v><prs><s_p1>:
+    - Hoi
   Case:
     bail<n><loc>:
     - bailē
@@ -35,11 +35,11 @@ Tests:
     rājā<n><inst>:
     - rājēṃ
   Demonstratives:
-    i<prn><dem><nom>:
+    <prn><dem>:
     - i
-    i<prn><itg><gen>:
+    <prn><itg><gen>:
     - kekar
-    i<prn><rel><obl>:
+    <prn><rel><obl>:
     - jekarā
   Finite Verbs: {}
   Imperfective:
@@ -83,9 +83,9 @@ Tests:
     sun<v><past><s_p3><o_p2><low>:
     - sunloau
   Personal Pronouns:
-    <prn><pers><hi><prx><p3><sg><gen>:
+    <prn><pers><prx><p3><sg><gen><hi>:
     - inkar
-    <prn><pers><hi><prx><p3><sg><obl>:
+    <prn><pers><prx><p3><sg><obl><hi>:
     - inkārā
     <prn><pers><p1><pl>:
     - Hamāni
@@ -97,10 +97,10 @@ Tests:
     - toHāni
     <prn><pers><p2><sg>:
     - tu
-    <prn><pers><p2><sg><gen>:
-    - toHārā
     <prn><pers><p2><sg><obl><hi>:
-    - inkārā
+    - toHārā
+    <prn><pers><p3><sg><obl><hi>:
+    - unkārā
   Plural Forms:
     bail<n><pl>:
     - bailan

@@ -1,51 +1,69 @@
 # Morphological Transducer for Magahi
 
 # Part of speech categories
-# <n>      # Noun
-# <v>      # Verb
-# <adj>    # Adjective
+# <n>      Noun
+# <v>      Verb
+# <adj>    Adjective
 
 # Noun Cases
-# <loc>    # Locative
-# <ins>    # Instrumental
-# <obl>    # Oblique. same as nominative except context
+# <loc>    Locative
+# <ins>    Instrumental
+# <obl>    Oblique. same as nominative except context
 
 # Verb Forms
-# <hab>    # Habitual
-# <impf>   # Imperfective
-# <perf>   # Perfective
+# <hab>    Habitual
+# <impf>   Imperfective
+# <perf>   Perfective
 
 # Verb Endings
-# <prs>    # Present Subjunctive
-# <past>   # Simple Past
-# <pis>    # Imperfect Subjunctive
-# <fut>    # Future
-# <pres>   # Present
-# <fts>    # Future Subjunctive
-# <s_p1>   # Singular First Person
-# <s_p2>   # Singular Second Person
-# <s_p3>   # Singular Third Person
-# <o_p2>   # Second Person Singular Object
-# <o_p3>   # Third Person Singular Object
-# <hi>     # High Courtesy
-# <low>    # Low Courtesy
+# <prs>    Present Subjunctive
+# <past>   Simple Past
+# <pis>    Imperfect Subjunctive
+# <fut>    Future
+# <pres>   Present
+# <fts>    Future Subjunctive
+# <s_p1>   Singular First Person
+# <s_p2>   Singular Second Person
+# <s_p3>   Singular Third Person
+# <o_p2>   Second Person Singular Object
+# <o_p3>   Third Person Singular Object
+# <hi>     High Courtesy
+# <low>    Low Courtesy
 
-# <sent>   # Sentence-ending punctuation
-# <guio>   # Hyphen
-# <cm>     # Comma
-# <apos>   # Apostrophe
-# <quot>   # Quotation mark
-# <lquot>  # Left quotation mark
-# <rquot>  # Right quotation mark
-# <lpar>   # Left parenthesis
-# <rpar>   # Right parenthesis
+# <sent>   Sentence-ending punctuation
+# <guio>   Hyphen
+# <cm>     Comma
+# <apos>   Apostrophe
+# <quot>   Quotation mark
+# <lquot>  Left quotation mark
+# <rquot>  Right quotation mark
+# <lpar>   Left parenthesis
+# <rpar>   Right parenthesis
 
 # Number morphology
-# <pl>  # Plural
-# <sg>  # Singular
+# <pl>     Plural
+# <sg>     Singular
+
+# Pronouns and related adverbs
+# pronouns
+# <prn>    Pronoun
+# <pers>   Personal
+# <dem>    Demonstrative
+# <attr>   Attributive (like "this" in "this cat", "that cat", "which cat", etc.)
+# <rel>    Relative
+# <cor>    Correlative
+# relatives and correlatives are a fairly unique feature of indo aryan languages. It's easiest to explain with an example. In the sentence "The girl _with whom_ you are speaking, _she_ is my sister", _with whom_ is a relative pronoun, and _she_ is a correlative pronoun
+
+# adverbs
+# <quan>   Quantitative (this much, that much, how much, etc.)
+# <adjv>   Adjectival (I think like "its", "whose", etc.)
+# <adv>    Adverb
+# <man>    Manner adverb (in this way, in that way, in which way, etc.)
+# <pla>    Place adverb (here, there, etc.)
+# <time>   Time adverb (now, then, when, etc.)
 
 # Other symbols
-# >      # Morpheme boundary
+# >        Morpheme boundary
 
 ###############################################################################
 ###                       M O R P H O T A C T I C S                         ###
@@ -56,7 +74,9 @@ NounRoot [ <n>: ] Case?
 Punctuation
 VerbRoot [ <v>: ] Tense? Subject? ObjectHonorific?
 VerbRoot [ <v>: ] Aspect
+[ <aux>:H ] [ <v>: ] AuxTense Subject? ObjectHonorific?
 PersonalPronoun
+[ <prn>: ] OtherParadigms OtherParadigmsDeclension
 Postposition
 
 ###############################################################################
@@ -105,6 +125,13 @@ LEXICON Tense
 <fut>:>b
 <fut><imp>:>iHa
 
+LEXICON AuxTense
+<pres>:>
+<past>:>al
+<pis>:>ot
+<prs>:>o
+<fts>:>ob
+
 LEXICON Subject
 <s_p1>:>i
 <s_p2>:>a
@@ -118,16 +145,49 @@ LEXICON ObjectHonorific
 
 LEXICON PersonalPronoun
 <prn><pers><p1><sg>:Ham
-<prn><pers><p1><pl>:Hamāni
+<prn><pers><p1><sg><gen>:Hamār
 <prn><pers><p1><sg><obl>:Hamārā
+<prn><pers><p1><pl>:Hamāni
 <prn><pers><p2><sg>:tu
+<prn><pers><p2><sg><gen>:tor
+<prn><pers><p2><sg><obl>:torā
 <prn><pers><p2><pl>:toHāni
-<prn><pers><p2><sg><gen>:toHārā
-<prn><pers><p2><sg><obl><hi>:inkārā
-<prn><pers><p2><sg><gen>:toHārā
-<prn><pers><hi><prx><p3><sg><obl>:inkārā
-<prn><pers><hi><prx><p3><sg><gen>:inkar
+<prn><pers><p2><sg><gen><hi>:toHār
+<prn><pers><p2><sg><obl><hi>:toHārā
+<prn><pers><prx><p3><sg>:i
+<prn><pers><prx><p3><sg><gen>:ekar
+<prn><pers><prx><p3><sg><obl>:ekārā
+<prn><pers><prx><p3><pl>:i\ sab
+<prn><pers><prx><p3><sg><gen><hi>:inkar
+<prn><pers><prx><p3><sg><obl><hi>:inkārā
+<prn><pers><p3><sg>:u
+<prn><pers><p3><sg><gen>:okar
+<prn><pers><p3><sg><obl>:okārā
+<prn><pers><p3><pl>:u\ sab
+<prn><pers><p3><sg><gen><hi>:unkar
+<prn><pers><p3><sg><obl><hi>:unkārā
 
+LEXICON OtherParadigms
+<dem>:
+<itg>:k
+<rel>:j
+<cor>:{T}
+
+LEXICON OtherParadigmsDeclension
+:>i
+<prx>:>u
+<gen>:>ekar
+<gen><prx>:>okar
+<obl>:>ekarā
+<obl><prx>:>okarā
+<att>:>i
+<att><prx>:>u
+<quant>:>etan{ā}
+<quant><prx>:>otan{ā}
+<man>:>aise
+<man><prx>:>oise
+<pla>:>ahāṃ
+<time>:>ab
 
 #Postpositions don't inflect
 LEXICON Postposition

@@ -2,7 +2,9 @@ Alphabet
  A Ā I Ī U Ū Ṛ Ṝ Ḷ Ḹ E Ē O Ō K G Ṅ H C J Ñ Y Ś Ṭ Ḍ Ṇ R Ṣ T D N L S P B M V Ṃ Ḥ
  a ā i ī u ū ṛ ṝ ḷ ḹ e ē o ō k g ṅ h c j ñ y ś ṭ ḍ ṇ r ṣ t d n l s p b m v ṃ ḥ 
 
-%{e%}:e %{e%}:0;
+%{ā%}:ā %{ā%}:0
+%{e%}:e %{e%}:0
+%{T%}:s %{T%}:t;
 
 Sets
 
@@ -13,6 +15,16 @@ Rules
 
 "realise {e} as null if after a morpheme-final vowel"
 %{e%}:0 <=> :Vowel %>:0 _ ;
+
+"tetanā should be tetan, so realize {ā} as null after tetan"
+%{ā%}:0 <=> :t %>:0 :e :t :a :n _ ;
+
+"realize {T} as t in 'taisan' 'tetan' 'taise' 'tahāṃ' 'tab' and s everywhere else"
+%{T%}:t <=> _ %>:0 :a :i :s :a :n ;
+            _ %>:0 :e :t :a :n;
+            _ %>:0 :a :i :s :e;
+            _ %>:0 :a :h :ā :ṃ;
+            _ %>:0 :a :b;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
