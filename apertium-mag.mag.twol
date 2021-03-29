@@ -4,7 +4,8 @@ Alphabet
 
 %{ā%}:ā %{ā%}:0
 %{e%}:e %{e%}:0
-%{T%}:s %{T%}:t;
+%{T%}:s %{T%}:t
+%{I%}:i %{I%}:e ;
 
 Sets
 
@@ -21,10 +22,13 @@ Rules
 
 "realize {T} as t in 'taisan' 'tetan' 'taise' 'tahāṃ' 'tab' and s everywhere else"
 %{T%}:t <=> _ %>:0 :a :i :s :a :n ;
-            _ %>:0 :e :t :a :n;
-            _ %>:0 :a :i :s :e;
-            _ %>:0 :a :h :ā :ṃ;
-            _ %>:0 :a :b;
+            _ %>:0 :e :t :a :n ;
+            _ %>:0 :a :i :s :e ;
+            _ %>:0 :a :h :ā :ṃ ;
+            _ %>:0 :a :b ;
+
+"realize {I} as i if it is by itself, otherwise e"
+%{I%}:i <=> .#. %>:0 _ .#. ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

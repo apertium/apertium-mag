@@ -53,6 +53,7 @@
 # <rel>    Relative
 # <cor>    Correlative
 # relatives and correlatives are a fairly unique feature of indo aryan languages. It's easiest to explain with an example. In the sentence "The girl _with whom_ you are speaking, _she_ is my sister", _with whom_ is a relative pronoun, and _she_ is a correlative pronoun
+# For a magahi example, consider "जे लडिका दौड है, से हमर भऐ है" ("je laṛikā dauṛ hai, se hamar bhāi hai"), literally "relative boy run is, correlative mine brother is", or "the boy who is running is my brother"
 
 # adverbs
 # <quan>   Quantitative (this much, that much, how much, etc.)
@@ -78,20 +79,75 @@ VerbRoot [ <v>: ] Aspect
 PersonalPronoun
 [ <prn>: ] OtherParadigms OtherParadigmsDeclension
 Postposition
+Adjectives [ <adj>: ]
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
 
 LEXICON NounRoot
+ghorā:ghorā		# horse
+bail:bail		# bull
+phal:phal		# fruit
+magaHī:magaHī		# magahī
+# jantar:jantar		# instrument
+# jag:jag			# religious ceremony
+# jug:jug			# era
+# bans:bans		# lineage
+# bansi:bansi		# flute
+# bacan:bacan		# word, promise
+# bajar:bajar		# thunderbolt
+# teoHār:teoHār		# festival
+# piās:piās		# thirst
+# ciuṃti:ciuṃti		# ant
+# subhāw:subhāw		# nature
+# iāri:iāri		# friendship
+# gāṃo:gāṃo		# village
+# ṭhāṃo:ṭhāṃo		# place
+# murHi:murHi		# roasted rice
+# moṛhā:moṛhā		# sitting stool
+# tilHā:tilHā		# mound
+# cinHā:cinHā		# sign
+# tumHiṃ:tumHiṃ		# musical instrument
+# karia:karia		# black
+# Har:Har			# plow
+# phār:phār		# plowshare
+# karam:karam		# destiny
+# darad:darad		# pain
+# jeonār:jeonār		# feast
+# garHan:garHan		# eclipse
+# ṭhelā:ṭhelā		# pushcart
+# bojhā:bojhā		# load
+# koṛā:koṛā		# whip
+# basant:basant		# spring
+# dokān:dokān		# store
+# loHā:loHā		# iron
+# loHār:loHār		# blacksmith
+# sonā:sonā		# gold
+# sonār:sonār		# goldsmith
+# ḍākā:ḍākā		# robbery
+# ḍakait:ḍakait		# robber
+# nokari:nokari		# job
+# moṭari:moṭari		# bundle
+# jhulā:jhulā		# swing
+# dālbhāt:dālbhāt		# everyday meal
 
-ghorā:ghorā   # A noun
-bail:bail
-cor:cor
-phal:phal
-rājā:rājā
-mālī:mālī
-magaHī:magaHī
+bāp:bāp			# father
+laṛiki:laṛiki		# girl
+laṛikā:laṛikā		# boy
+bhāi:bhāi		# brother
+bahin:bahin		# sister
+rājā:rājā		# king
+maugi:maugi		# woman
+beṭā:beṭā		# son
+beṭī:beṭī		# daughter
+buṛhā:buṛhā		# old man
+buṛhiyā:buṛhiyā		# old woman
+cor:cor			# thief
+mālī:mālī		# gardener
+goālā:goālā		# milkman
+maugā:maugā		# effeminate person
+jam:jam			# death god
 
 LEXICON Case
 <pl>:>an
@@ -106,9 +162,17 @@ LEXICON Case
 #VerbRoot [ <v>: ] Aspect
 
 LEXICON VerbRoot
-dekh:dekh
-sut:sut
-sun:sun
+dekh:dekh		# see
+sun:sun			# hear
+dho:dho			# wash
+bo:bo			# sow
+likh:likh		# write
+cinH:cinH		# recognize
+pis:pis			# grind
+khā:khā			# eat
+
+sut:sut			# sleep
+dauṛ:dauṛ		# run
 
 LEXICON Aspect
 <hab>:ā
@@ -146,7 +210,7 @@ LEXICON ObjectHonorific
 LEXICON PersonalPronoun
 <prn><pers><p1><sg>:Ham
 <prn><pers><p1><sg><gen>:Hamār
-<prn><pers><p1><sg><obl>:Hamārā
+<prn><pers><p1><sg><obl>:Hamarā
 <prn><pers><p1><pl>:Hamāni
 <prn><pers><p2><sg>:tu
 <prn><pers><p2><sg><gen>:tor
@@ -174,13 +238,13 @@ LEXICON OtherParadigms
 <cor>:{T}
 
 LEXICON OtherParadigmsDeclension
-:>i
+:{I}
 <prx>:>u
 <gen>:>ekar
 <gen><prx>:>okar
 <obl>:>ekarā
 <obl><prx>:>okarā
-<att>:>i
+<att>:{I}
 <att><prx>:>u
 <quant>:>etan{ā}
 <quant><prx>:>otan{ā}
@@ -189,12 +253,17 @@ LEXICON OtherParadigmsDeclension
 <pla>:>ahāṃ
 <time>:>ab
 
-#Postpositions don't inflect
+# Postpositions don't inflect
 LEXICON Postposition
-ke<post>:ke
-meṃ<post>:meṃ
-par<post>:par
-se<post>:se
+ke<post>:ke		# very general, but used for dative, accusative, and genitive
+se<post>:se		# also general, but used for instrumental and ablative
+meṃ<post>:meṃ		# in
+par<post>:par		# on
+la<post>:la		# for
+
+# Adjectives also don't inflect
+LEXICON Adjectives
+āu:āu			# more (I think, I had to do a lot of detective work to figure this one out)
 
 LEXICON Punctuation
 
