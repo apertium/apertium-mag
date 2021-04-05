@@ -1,6 +1,5 @@
 PATTERNS
 Letters+
-Punctuation+
 
 LEXICON Letters
 क:k
@@ -55,10 +54,5 @@ LEXICON Letters
 # list it here
 # if the interpretation of a latin letter is context-sensitive,
 # list all the contexts
-
-LEXICON Punctuation
-.:.
-?:?
-।:।
 
 # list any other characters from your lexicon here
