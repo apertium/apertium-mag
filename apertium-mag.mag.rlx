@@ -12,6 +12,8 @@ REMOVE (n) OR (v) IF (1 (n s)) ;
 REMOVE (pers) IF (-1 (n)) ;
 REMOVE (att) IF (-1 (n)) ;
 
+SELECT (obl) IF (1 (post)) ;
+
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
 
