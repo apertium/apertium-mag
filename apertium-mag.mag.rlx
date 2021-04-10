@@ -1,3 +1,5 @@
+# wiki:https://wikis.swarthmore.edu/ling073/Magahi/Disambiguation
+
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
 DELIMITERS = "<.>" ;
 
@@ -8,10 +10,11 @@ SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
 REMOVE (n) OR (v) IF (1 (n s)) ;
 
-# if a noun follows, it must be a demonstrative
+# if preceded by a noun, should be a demonstrative
 REMOVE (pers) IF (-1 (n)) ;
 REMOVE (att) IF (-1 (n)) ;
 
+# if followed by a postposition, should be oblique
 SELECT (obl) IF (1 (post)) ;
 
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.

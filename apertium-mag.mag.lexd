@@ -4,6 +4,9 @@
 # <n>      Noun
 # <v>      Verb
 # <adj>    Adjective
+# <adv>    Adverb
+# <post>   Postposition
+# <cnj>    Conjunction
 
 # Noun Cases
 # <loc>    Locative
@@ -80,6 +83,8 @@ PersonalPronoun
 [ <prn>: ] OtherParadigms OtherParadigmsDeclension
 Postposition
 Adjectives [ <adj>: ]
+Adverbs [ <adv>: ]
+Conjunctions [ <cnj>: ]
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -90,48 +95,58 @@ ghorā:ghorā		# horse
 bail:bail		# bull
 phal:phal		# fruit
 magaHī:magaHī		# magahī
-# jantar:jantar		# instrument
-# jag:jag			# religious ceremony
-# jug:jug			# era
-# bans:bans		# lineage
-# bansi:bansi		# flute
-# bacan:bacan		# word, promise
-# bajar:bajar		# thunderbolt
-# teoHār:teoHār		# festival
-# piās:piās		# thirst
-# ciuṃti:ciuṃti		# ant
-# subhāw:subhāw		# nature
-# iāri:iāri		# friendship
-# gāṃo:gāṃo		# village
-# ṭhāṃo:ṭhāṃo		# place
-# murHi:murHi		# roasted rice
-# moṛhā:moṛhā		# sitting stool
-# tilHā:tilHā		# mound
-# cinHā:cinHā		# sign
-# tumHiṃ:tumHiṃ		# musical instrument
-# karia:karia		# black
-# Har:Har			# plow
-# phār:phār		# plowshare
-# karam:karam		# destiny
-# darad:darad		# pain
-# jeonār:jeonār		# feast
-# garHan:garHan		# eclipse
-# ṭhelā:ṭhelā		# pushcart
-# bojhā:bojhā		# load
-# koṛā:koṛā		# whip
-# basant:basant		# spring
-# dokān:dokān		# store
-# loHā:loHā		# iron
-# loHār:loHār		# blacksmith
-# sonā:sonā		# gold
-# sonār:sonār		# goldsmith
-# ḍākā:ḍākā		# robbery
-# ḍakait:ḍakait		# robber
-# nokari:nokari		# job
-# moṭari:moṭari		# bundle
-# jhulā:jhulā		# swing
-# dālbhāt:dālbhāt		# everyday meal
+jantar:jantar		# instrument
+jag:jag			# religious ceremony
+jug:jug			# era
+bans:bans		# lineage
+bansi:bansi		# flute
+bacan:bacan		# word, promise
+bajar:bajar		# thunderbolt
+teoHār:teoHār		# festival
+piās:piās		# thirst
+ciuṃti:ciuṃti		# ant
+subhāw:subhāw		# nature
+iāri:iāri		# friendship
+gāṃo:gāṃo		# village
+ṭhāṃo:ṭhāṃo		# place
+murHi:murHi		# roasted rice
+moṛhā:moṛhā		# sitting stool
+tilHā:tilHā		# mound
+cinHā:cinHā		# sign
+tumHiṃ:tumHiṃ		# musical instrument
+karia:karia		# black
+Har:Har			# plow
+phār:phār		# plowshare
+karam:karam		# destiny
+darad:darad		# pain
+jeonār:jeonār		# feast
+garHan:garHan		# eclipse
+ṭhelā:ṭhelā		# pushcart
+bojhā:bojhā		# load
+koṛā:koṛā		# whip
+basant:basant		# spring
+dokān:dokān		# store
+loHā:loHā		# iron
+loHār:loHār		# blacksmith
+sonā:sonā		# gold
+sonār:sonār		# goldsmith
+ḍākā:ḍākā		# robbery
+ḍakait:ḍakait		# robber
+nokari:nokari		# job
+moṭari:moṭari		# bundle
+jhulā:jhulā		# swing
+dālbhāt:dālbhāt		# everyday meal
+gāw:gāw			# village
+etnā:etnā		# meantime
+tapaseā:tapaseā		# austerities NOT SURE!!!
+jaṅgal:jaṅgal		# forest
+neāw:neāw		# justice
+pāṃo			# feet
 
+chelā:chelā		# disciple
+sādhū:sādhū		# saint
+patukī:patukī		# followers
+sipāHī:sipāHī		# sepoys
 bāp:bāp			# father
 laṛiki:laṛiki		# girl
 laṛikā:laṛikā		# boy
@@ -170,7 +185,13 @@ likh:likh		# write
 cinH:cinH		# recognize
 pis:pis			# grind
 khā:khā			# eat
+khojate:khojate		# search
+ghur:ghur		# return
+kah:kah			# say
+banālā:banālā		# make
 
+baiṭh:baiṭh		# sit
+jā:jā			# go
 sut:sut			# sleep
 dauṛ:dauṛ		# run
 
@@ -263,7 +284,19 @@ la<post>:la		# for
 
 # Adjectives also don't inflect
 LEXICON Adjectives
-āu:āu			# more (I think, I had to do a lot of detective work to figure this one out)
+apan:apan		# own
+bels:bels		# better
+parna:parna		# low
+
+# Nor do adverbs
+LEXICON Adverbs
+tab:tab			# then
+huaṃ:huaṃ		# there
+bhī:bhī			# even
+
+# Or conjunctions
+LEXICON Conjunctions
+āu:āu			# and
 
 LEXICON Punctuation
 
