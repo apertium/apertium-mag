@@ -5,7 +5,8 @@ Alphabet
 %{ā%}:ā %{ā%}:0
 %{e%}:e %{e%}:0
 %{T%}:s %{T%}:t
-%{I%}:i %{I%}:e ;
+%{I%}:i %{I%}:e
+%{W%}:w %{W%}:y ;
 
 Sets
 
@@ -29,6 +30,9 @@ Rules
 
 "realize {I} as e if it is before a syllable boundary, otherwise i"
 %{I%}:e <=> %>:0 _ ;
+
+"yā after i and wā everywhere else"
+%{W%}:y <=> :i %>:0 _ ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

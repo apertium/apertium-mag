@@ -74,14 +74,14 @@
 ###############################################################################
 
 PATTERNS
-NounRoot [ <n>: ] Case?
+NounRoot [ <n>: ] Case? [ <def>:>{W}ā ]?
 Punctuation
 VerbRoot [ <v>: ] Tense Subject? ObjectHonorific?
 VerbRoot [ <v>: ] Aspect
 [ <aux>:H ] [ <v>: ] AuxTense Subject? ObjectHonorific?
 PersonalPronoun
 [ <prn>: ] OtherParadigms OtherParadigmsDeclension
-Postposition
+Postposition [ <post>: ]
 Adjectives [ <adj>: ]
 Adverbs [ <adv>: ]
 Conjunctions [ <cnj>: ]
@@ -131,7 +131,6 @@ loHār:loHār		# blacksmith
 sonā:sonā		# gold
 sonār:sonār		# goldsmith
 ḍākā:ḍākā		# robbery
-ḍakait:ḍakait		# robber
 nokari:nokari		# job
 moṭari:moṭari		# bundle
 jhulā:jhulā		# swing
@@ -141,8 +140,29 @@ etnā:etnā		# meantime
 tapaseā:tapaseā		# austerities NOT SURE!!!
 jaṅgal:jaṅgal		# forest
 neāw:neāw		# justice
-pāṃo			# feet
+pāṃo:pāṃo		# feet
+phar:phar      		# fruit
+pānī:pānī      		# water
+Hawā:Hawā      		# air
+Hāth:Hāth      		# hand
+cham:cham      		# mercy
+iād:iād        		# memory
+dayā:dayā      		# compassion
+thakainī:thakainī	# weariness
+kaleān:kaleān		# welfare
+bāṭ:bāṭ			# thing
+nām:nām			# name
+dam:dam			# moment
+sikhāwan:sikhāwan	# advice
+paHilā:paHilā		# first
+bhulāte:bhulāte		# way
+pāoṃ:pāoṃ		# feet
+ber:ber			# time
 
+ḍakait:ḍakait		# robber
+maHārāj:maHārāj		# great-king
+narāyan:narāyan		# God
+sāmī:sāmī		# lord
 chelā:chelā		# disciple
 sādhū:sādhū		# saint
 patukī:patukī		# followers
@@ -189,11 +209,22 @@ khojate:khojate		# search
 ghur:ghur		# return
 kah:kah			# say
 banālā:banālā		# make
+rakha:rakha		# keep
+da:da			# give
+puch:puch		# ask
+bhulāte:bhulāte		# lose
+lāg:lāg			# touch
+jān:jān			# know
+pī:pī			# drink
+jor:jor			# clasp
+bhe:bhe			# become
 
 baiṭh:baiṭh		# sit
 jā:jā			# go
 sut:sut			# sleep
 dauṛ:dauṛ		# run
+raha:raha		# live
+bol:bol			# speak
 
 LEXICON Aspect
 <hab>:ā
@@ -276,23 +307,36 @@ LEXICON OtherParadigmsDeclension
 
 # Postpositions don't inflect
 LEXICON Postposition
-ke<post>:ke		# very general, but used for dative, accusative, and genitive
-se<post>:se		# also general, but used for instrumental and ablative
-meṃ<post>:meṃ		# in
-par<post>:par		# on
-la<post>:la		# for
+ke:ke		# very general, but used for dative, accusative, and genitive
+se:se		# also general, but used for instrumental and ablative
+meṃ:meṃ		# in
+par:par		# on
+la:la		# for
+jī:jī		# the, might be old fashioned
 
 # Adjectives also don't inflect
 LEXICON Adjectives
 apan:apan		# own
-bels:bels		# better
+belas:belas		# better
 parna:parna		# low
+ṭhanḍhā:ṭhanḍhā		# cool
+ego:ego			# one
+bhīrī:bhīrī		# near
+piāsal:piāsal		# thirsty
+khus:khus		# glad
+chāro:chāro		# four
+thoṛe:thoṛe		# some
+koī:koī			# certain
 
 # Nor do adverbs
 LEXICON Adverbs
 tab:tab			# then
 huaṃ:huaṃ		# there
 bhī:bhī			# even
+hāṃ:hāṃ			# yes
+nayaṃ:nayaṃ		# no
+sāyad:sāyad		# maybe
+bahut:bahut		# very
 
 # Or conjunctions
 LEXICON Conjunctions
