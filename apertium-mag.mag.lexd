@@ -7,6 +7,7 @@
 # <adv>    Adverb
 # <post>   Postposition
 # <cnj>    Conjunction
+# <det>    Determiner
 
 # Noun Cases
 # <loc>    Locative
@@ -17,6 +18,7 @@
 # <hab>    Habitual
 # <impf>   Imperfective
 # <perf>   Perfective
+# <inf>    Infinitive
 
 # Verb Endings
 # <prs>    Present Subjunctive
@@ -78,6 +80,7 @@ NounRoot [ <n>: ] Case? [ <def>:>{W}ā ]?
 Punctuation
 VerbRoot [ <v>: ] Tense Subject? ObjectHonorific?
 VerbRoot [ <v>: ] Aspect
+VerbRoot [ <v>: ] [ <inf>:e ]
 [ <aux>:H ] [ <v>: ] AuxTense Subject? ObjectHonorific?
 PersonalPronoun
 [ <prn>: ] OtherParadigms OtherParadigmsDeclension
@@ -85,6 +88,7 @@ Postposition [ <post>: ]
 Adjectives [ <adj>: ]
 Adverbs [ <adv>: ]
 Conjunctions [ <cnj>: ]
+Determiners [ <det>: ]
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -150,11 +154,14 @@ iād:iād        		# memory
 dayā:dayā      		# compassion
 thakainī:thakainī	# weariness
 kaleān:kaleān		# welfare
-bāṭ:bāṭ			# thing
+bāt:bāt			# thing
 nām:nām			# name
 dam:dam			# moment
 sikhāwan:sikhāwan	# advice
 paHilā:paHilā		# first
+dūsar:dūsar		# second
+tīsar:tīsar		# third
+dayā:dayā		# compassion
 bhulāte:bhulāte		# way
 pāoṃ:pāoṃ		# feet
 ber:ber			# time
@@ -171,7 +178,7 @@ bāp:bāp			# father
 laṛiki:laṛiki		# girl
 laṛikā:laṛikā		# boy
 bhāi:bhāi		# brother
-bahin:bahin		# sister
+baHin:baHin		# sister
 rājā:rājā		# king
 maugi:maugi		# woman
 beṭā:beṭā		# son
@@ -207,10 +214,11 @@ pis:pis			# grind
 khā:khā			# eat
 khojate:khojate		# search
 ghur:ghur		# return
-kah:kah			# say
+kaH:kaH			# say
 banālā:banālā		# make
-rakha:rakha		# keep
-da:da			# give
+rakh:rakh		# keep
+jap:jap			# mutter
+de:de			# give
 puch:puch		# ask
 bhulāte:bhulāte		# lose
 lāg:lāg			# touch
@@ -221,9 +229,10 @@ bhe:bhe			# become
 
 baiṭh:baiṭh		# sit
 jā:jā			# go
+ge:ge			# went
 sut:sut			# sleep
 dauṛ:dauṛ		# run
-raha:raha		# live
+raHa:raHa		# live
 bol:bol			# speak
 
 LEXICON Aspect
@@ -250,14 +259,19 @@ LEXICON AuxTense
 
 LEXICON Subject
 <s_p1>:>i
+<s_p1>:>ī # Dir/LR
 <s_p2>:>a
 <s_p3>:>o
 
 LEXICON ObjectHonorific
 <o_p2><hi>:>o
+<o_p2><hi>:>ṃ # Dir/LR
 <o_p2><low>:>au
 <o_p3><hi>:>ain
+<o_p3><hi>:>thin # Dir/LR
+<o_p3><hi>:>thīn # Dir/LR
 <o_p3><low>:>ai
+<o_p3><low>:>an #Dir/LR
 
 LEXICON PersonalPronoun
 <prn><pers><p1><sg>:Ham
@@ -265,15 +279,18 @@ LEXICON PersonalPronoun
 <prn><pers><p1><sg><obl>:Hamarā
 <prn><pers><p1><pl>:Hamāni
 <prn><pers><p2><sg>:tu
+<prn><pers><p2><sg>:tūṃ # Dir/LR
 <prn><pers><p2><sg><gen>:tor
 <prn><pers><p2><sg><obl>:torā
 <prn><pers><p2><pl>:toHāni
 <prn><pers><p2><sg><gen><hi>:toHār
 <prn><pers><p2><sg><obl><hi>:toHārā
 <prn><pers><prx><p3><sg>:i
+<prn><pers><prx><p3><sg>:ī # Dir/LR
 <prn><pers><prx><p3><sg><gen>:ekar
 <prn><pers><prx><p3><sg><obl>:ekārā
 <prn><pers><prx><p3><pl>:i\ sab
+<prn><pers><prx><p3><sg>:ī\ sab # Dir/LR
 <prn><pers><prx><p3><sg><gen><hi>:inkar
 <prn><pers><prx><p3><sg><obl><hi>:inkārā
 <prn><pers><p3><sg>:u
@@ -302,7 +319,7 @@ LEXICON OtherParadigmsDeclension
 <quant><prx>:>otan{ā}
 <man>:>aise
 <man><prx>:>oise
-<pla>:>ahāṃ
+<pla>:>aHāṃ
 <time>:>ab
 
 # Postpositions don't inflect
@@ -324,23 +341,27 @@ ego:ego			# one
 bhīrī:bhīrī		# near
 piāsal:piāsal		# thirsty
 khus:khus		# glad
-chāro:chāro		# four
+cāro:cāro		# four
 thoṛe:thoṛe		# some
 koī:koī			# certain
 
 # Nor do adverbs
 LEXICON Adverbs
 tab:tab			# then
-huaṃ:huaṃ		# there
+Huaṃ:Huaṃ		# there
 bhī:bhī			# even
-hāṃ:hāṃ			# yes
+Hāṃ:Hāṃ			# yes
 nayaṃ:nayaṃ		# no
 sāyad:sāyad		# maybe
-bahut:bahut		# very
+baHut:baHut		# very
 
 # Or conjunctions
 LEXICON Conjunctions
 āu:āu			# and
+
+LEXICON Determiners
+kuch:kuch		# some
+Har:Har			# every
 
 LEXICON Punctuation
 
