@@ -262,6 +262,7 @@ LEXICON Subject
 <s_p1>:>ī # Dir/LR
 <s_p2>:>a
 <s_p3>:>o
+<s_p3>:>an # Dir/LR
 
 LEXICON ObjectHonorific
 <o_p2><hi>:>o
@@ -271,7 +272,6 @@ LEXICON ObjectHonorific
 <o_p3><hi>:>thin # Dir/LR
 <o_p3><hi>:>thīn # Dir/LR
 <o_p3><low>:>ai
-<o_p3><low>:>an #Dir/LR
 
 LEXICON PersonalPronoun
 <prn><pers><p1><sg>:Ham
