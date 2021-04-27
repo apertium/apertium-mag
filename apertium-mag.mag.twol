@@ -6,7 +6,8 @@ Alphabet
 %{e%}:e %{e%}:0
 %{T%}:s %{T%}:t
 %{I%}:i %{I%}:e
-%{W%}:w %{W%}:y ;
+%{W%}:w %{W%}:y
+%{a%}:a %{a%}:0 ;
 
 Sets
 
@@ -14,6 +15,9 @@ Vowel = A Ā I Ī U Ū Ṛ Ṝ Ḷ Ḹ E Ē O Ō
         a ā i ī u ū ṛ ṝ ḷ ḹ e ē o ō ;
 
 Rules
+
+"realise {a} as null if after ā"
+%{a%}:0 <=> :ā %>:0 _ ;
 
 "realise {e} as null if after a morpheme-final vowel"
 %{e%}:0 <=> :Vowel %>:0 _ ;

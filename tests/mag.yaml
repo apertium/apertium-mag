@@ -35,11 +35,11 @@ Tests:
     rājā<n><inst>:
     - rājēṃ
   Demonstratives:
-    <prn><dem>:
+    prn<prn><dem>:
     - i
-    <prn><itg><gen>:
+    prn<prn><itg><gen>:
     - kekar
-    <prn><rel><obl>:
+    prn<prn><rel><obl>:
     - jekarā
   Finite Verbs: {}
   Imperfective:
@@ -83,23 +83,23 @@ Tests:
     sun<v><past><s_p3><o_p2><low>:
     - sunloau
   Personal Pronouns:
-    <prn><pers><prx><p3><sg><gen><hi>:
+    prpers<prn><pers><prx><p3><sg><gen><hi>:
     - inkar
-    <prn><pers><prx><p3><sg><obl><hi>:
+    prpers<prn><pers><prx><p3><sg><obl><hi>:
     - inkārā
-    <prn><pers><p1><pl>:
+    prpers<prn><pers><p1><pl>:
     - Hamāni
-    <prn><pers><p1><sg>:
+    prpers<prn><pers><p1><sg>:
     - Ham
-    <prn><pers><p1><sg><obl>:
+    prpers<prn><pers><p1><sg><obl>:
     - Hamarā
-    <prn><pers><p2><pl>:
+    prpers<prn><pers><p2><pl>:
     - toHāni
-    <prn><pers><p2><sg>:
+    prpers<prn><pers><p2><sg>:
     - tu
-    <prn><pers><p2><sg><obl><hi>:
+    prpers<prn><pers><p2><sg><obl><hi>:
     - toHārā
-    <prn><pers><p3><sg><obl><hi>:
+    prpers<prn><pers><p3><sg><obl><hi>:
     - unkārā
   Plural Forms:
     bail<n><pl>:
@@ -113,7 +113,7 @@ Tests:
     phal<n><pl>:
     - phalan
     rājā<n><pl>:
-    - rājāan
+    - rājān
   Pronouns: {}
   Tense/Mood:
     sun<v><fut><imp>:
