@@ -239,6 +239,7 @@ bol:bol			# speak
 rāj:rāj			# govern
 kar:kar			# make
 
+
 LEXICON Aspect
 <hab>:ā
 <hab><obl>:e
@@ -403,3 +404,122 @@ LEXICON Punctuation
 # https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
 # https://github.com/hfst/
 # http://wiki.apertium.org/wiki/Hfst
+
+      <e><p><l>jāpahūṃc<s n="v"/></l><r>rise<s n="vblex"/></r></p></e>
+      <e><p><l>baiṭhge<s n="v"/></l><r>sit<s n="vblex"/></r></p></e>
+      <e><p><l>pi<s n="v"/></l><r>drink<s n="vblex"/></r></p></e>
+      <e><p><l>jap<s n="v"/></l><r>mutter<s n="v"/></r></p></e>
+      
+      <e><p><l>piāsal<s n="adj"/></l><r>thirsty<s n="adj"/></r></p></e>
+      <e><p><l>aisan<s n="adj"/></l><r>like<s n="adj"/></r></p></e>
+
+      <e><p><l>thoṛā<s n="adv"/></l><r>little<s n="adv"/></r></p></e>
+      <e><p><l>nikal<s n="adv"/></l><r>leave<s n="vblex"/></r></p></e>
+
+      <e><p><l>narāy<s n="n"/></l><r>god<s n="n"/></r></p></e>
+      <e><p><l>sab<s n="post"/></l><r>plural<s n="pl"/></r></p></e>
+      <e><p><l>ankar<s n="prn"/></l>other<r><s n="prn"/></r></p></e>
+      <e><p><l>cūk<s n="n"/></l><r>mistake<s n="n"/></r></p></e>
+      <e><p><l>chamā<s n="n"/></l><r>mercy<s n="n"/></r></p></e>
+      <e><p><l>cauṭhā<s n="n"/></l><r>fourth<s n="n"/></r></p></e>
+      <e><p><l>kabhī<s n="adv"/></l><r>ever<s n="adv"/></r></p></e>
+
+      <e><p><l>ghamaṇḍ<s n="n"/></l><r>pride<s n="n"/></r></p></e>
+      <e><p><l>nā<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
+      <e><p><l>je<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
+      <e><p><l>keu<s n="adv"/></l><r>ever<s n="adv"/></r></p></e>
+      <e><p><l>sādh<s n="v"/></l><r>bring<s n="vblex"/></r></p></e>
+      <e><p><l>sadā<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
+      <e><p><l>Ha<s n="aux"/></l><r>be<s n="vbser"/></r></p></e>
+      <e><p><l>baikunṭh<s n="n"/></l>heaven<r><s n="n"/></r></p></e>
+      <e><p><l>sewāy<s n="adv"/></l><r>besides<s n="adv"/></r></p></e>
+      <e><p><l>ek<s n="adj"/></l><r>one<s n="adj"/></r></p></e>
+
+      <e><p><l>neāw<s n="n"/></l><r>justice<s n="n"/></r></p></e>
+      <e><p><l>pakkā<s n="adj"/></l>firm<r><s n="adj"/></r></p></e>
+      <e><p><l>rahe<s n="v"/></l><r>remain<s n="vblex"/></r></p></e>
+      <e><p><l>cāHī<s n="adj"/></l><r>proper<s n="adj"/></r></p></e>
+      <e><p><l>khātir<s n="n"/></l><r>favor<s n="n"/></r></p></e>
+      <e><p><l>bigāṛe<s n="v"/></l><r>unmake<s n="vblex"/></r></p></e>
+      <e><p><l>yā<s n="conj"/></l><r>or<s n="conj"/></r></p></e>
+      <e><p><l>banāwe<s n="v"/></l><r>make<s n="vblex"/></r></p></e>
+      <e><p><l>pāṃo<s n="n"/></l><r>foot<s n="n"/><s n="pl"/></r></p></e>
+      <e><p><l>gir<s n="adv"/></l><r>down<s n="adv"/></r></p></e>
+
+      <e><p><l>par<s n="v"/></l><r>fall<s n="vblex"/></r></p></e>
+      <e><p><l>rājkar<s n="v"/></l><r>govern<s n="vblex"/></r></p></e>
+      <e><p><l>gā<s n="aux"/></l><r>be<s n="vbser"/></r></p></e>
+      <e><p><l>khojate<s n="v"/></l><r>search<s n="vblex"/></r></p></e>
+      <e><p><l>huāṃ<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
+      <e><p><l>ge<s n="v"/></l><r>come<s n="vblex"/><s n="past"/></r></p></e>
+      <e><p><l>parnām<s n="n"/></l><r>bow<s n="n"/></r></p></e>
+      <e><p><l>parnā<s n="v"/></l><r>bow<s n="vblex"/></r></p></e>
+      <e><p><l>gaṃ<s n="n"/></l><r>village<s n="n"/></r></p></e>
+
+      <e><p><l>ghur<s n="v"/></l><r>return<s n="vblex"/></r></p></e>
+    
+      <e><p><l>ādmī<s n="n"/></l><r>man<s n="n"/></r></p></e>
+      <e><p><l>beṭā<s n="n"/></l><r>son<s n="n"/></r></p></e>
+      <e><p><l>dugo<s n="adj"/></l><r>two<s n="adj"/></r></p></e>
+      <e><p><l>ohhoṭkā<s n="n"/></l><r>younger<s n="n"/></r></p></e>
+      <e><p><l>bāp<s n="n"/></l><r>father<s n="n"/></r></p></e>
+      <e><p><l>deda<s n="v"/></l><r>give<s n="vblex"/></r></p></e>
+      <e><p><l>bābu<s n="n"/></l><r>father<s n="n"/></r></p></e>
+      <e><p><l>cīj<s n="n"/></l><r>property<s n="n"/></r></p></e>
+      <e><p><l>din<s n="n"/></l><r>day<s n="n"/></r></p></e>
+      <e><p><l>bakhrā<s n="n"/></l><r>share<s n="n"/></r></p></e>
+      
+      <e><p><l>sab<s n="adj"/></l><r>all<s n="adj"/></r></p></e>
+      <e><p><l>dūno<s n="n"/></l><r>both<s n="n"/></r></p></e>
+      <e><p><l>laga<s n="v"/></l><r>begin<s n="vblex"/></r></p></e>
+      <e><p><l>sūar<s n="n"/></l><r>swine<s n="n"/></r></p></e>
+      <e><p><l>bāṃṭ<s n="v"/></l><r>divide<s n="vblex"/></r></p></e>
+      <e><p><l>ḍher<s n="det"/></l><r>many<s n="det"/></r></p></e>
+      <e><p><l>bīte<s n="v"/></l><r>pass<s n="vblex"/></r></p></e>
+      <e><p><l>pau<s n="v"/></l><r>allow<s n="vblex"/></r></p></e>
+      <e><p><l>baṭorsaṭor<s n="v"/></l><r><s n="vblex"/></r></p></e>
+      <e><p><l>dūr<s n="adj"/></l><r>far<s n="adj"/></r></p></e>
+      
+      <e><p><l>baṛi<s n="adv"/></l><r><s n="adv"/></r></p></e>
+      <e><p><l>des<s n="n"/></l><r>country<s n="n"/></r></p></e>
+      <e><p><l>cal<s n="adv"/></l><r>away<s n="adv"/></r></p></e>
+      <e><p><l>puṃjī<s n="n"/></l><r>fortune<s n="n"/></r></p></e>
+      <e><p><l>kucāli<s n="n"/></l><r>misconduct<s n="n"/></r></p></e>
+      <e><p><l>jiān<s n="n"/></l><r>waste<s n="vblex"/></r></p></e>
+      <e><p><l>akāl<s n="n"/></l><r>famine<s n="n"/></r></p></e>
+      <e><p><l>paṛa<s n="v"/></l><r>fell<s n="vblex"/></r></p></e>
+      <e><p><l>gawaṃcuk<s n="v"/></l><r>lose<s n="vblex"/></r></p></e>
+      <e><p><l>bhārī<s n="adj"/></l><r>heavy<s n="adj"/></r></p></e>
+      
+      <e><p><l>diksik<s n="n"/></l><r>trouble<s n="n"/></r></p></e>
+      <e><p><l>lag<s n="v"/></l><r>begin<s n="vblex"/></r></p></e>
+      <e><p><l>rahwaiyā<s n="n"/></l><r>inhabitant<s n="n"/></r></p></e>
+      <e><p><l>hīṃāṃ<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
+      <e><p><l><s n=""/></l><r><s n=""/></r></p></e>
+      <e><p><l>bādh<s n="n"/></l><r>field<s n="n"/></r></p></e>
+      <e><p><l>sūar<s n="n"/></l><r>swine<s n="n"/></r></p></e>
+      <e><p><l>charāwe<s n="v"/></l><r>feed<s n="vblex"/></r></p></e>
+      <e><p><l>peṭhau<s n="v"/></l><r>send<s n="vblex"/></r></p></e>
+      <e><p><l>bhūsā<s n="n"/></l><r>husk<s n="n"/></r></p></e>
+
+      <e><p><l>bākī<s n="conj"/></l><r>but<s n="conj"/></r></p></e>
+      <e><p><l>peṭ<s n="n"/></l><r>belly<s n="n"/></r></p></e>
+      <e><p><l>bhare<s n="v"/></l><r>fill<s n="vblex"/></r></p></e>
+      <e><p><l>mara<s n="v"/></l><r>die<s n="vblex"/></r></p></e>
+      <e><p><l>lilh<s n="v"/></l><r>covet<s n="vblex"/></r></p></e>
+      <e><p><l>bujhāe<s n="v"/></l><r>understand<s n="vblex"/></r></p></e>
+      <e><p><l>kaigo<s n="n"/></l><r>several<s n="n"/></r></p></e>
+      <e><p><l>naukarcākar<s n="n"/></l><r>servant<s n="n"/></r></p></e>
+      <e><p><l>haṃṭhuāman<s n="adj"/></l><r>abundant<s n="adj"/></r></p></e>
+      <e><p><l>ab<s n="conj"/></l><r>now<s n="conj"/></r></p></e>
+
+      <e><p><l>uṭh<s n="v"/></l><r>arise<s n="vblex"/></r></p></e>
+      <e><p><l>hīṃ<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
+      <e><p><l>bhūkh<s n="n"/></l><r>hunger<s n="n"/></r></p></e>
+      <e><p><l>pāp<s n="n"/></l><r>sin<s n="n"/></r></p></e>
+      <e><p><l>baṛā<s n="adj"/></l><r>great<s n="adj"/></r></p></e>
+      <e><p><l>kahāwe<s n="adj"/></l><r>called<s n="adj"/></r></p></e>
+      <e><p><l>jukur<s n="adj"/></l><r>fit<s n="adj"/></r></p></e>
+      <e><p><l>majūrā<s n="n"/></l><r>laborer<s n="n"/></r></p></e>
+      <e><p><l>nīar<s n="adj"/></l><r>like<s n="adj"/></r></p></e>
+      <e><p><l>bas<s n="adj"/></l><r>enough<s n="adj"/></r></p></e>
