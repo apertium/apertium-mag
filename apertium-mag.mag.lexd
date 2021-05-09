@@ -76,7 +76,7 @@
 ###############################################################################
 
 PATTERNS
-NounRoot [ <n>: ] Case? [ <def>:>{W}ā ]? Number?
+NounRoot [ <n>: ] Case [ <def>:>{W}ā ]? Number?
 Punctuation
 VerbRoot [ <v>: ] Tense Subject ObjectHonorific?
 VerbRoot [ <v>: ] Aspect
@@ -96,140 +96,135 @@ Determiners [ <det>: ]
 ###############################################################################
 
 LEXICON NounRoot
-ghorā:ghorā		# horse
-bail:bail		# bull
-phal:phal		# fruit
-magaHī:magaHī		# magahī
-jantar:jantar		# instrument
-jag:jag			# religious ceremony
-jug:jug			# era
-bans:bans		# lineage
-bansi:bansi		# flute
-bacan:bacan		# word, promise
-bajar:bajar		# thunderbolt
-teoHār:teoHār		# festival
-piās:piās		# thirst
-ciuṃti:ciuṃti		# ant
-subhāw:subhāw		# nature
-iāri:iāri		# friendship
-gāṃo:gāṃo		# village
-ṭhāṃo:ṭhāṃo		# place
-murHi:murHi		# roasted rice
-moṛhā:moṛhā		# sitting stool
-tilHā:tilHā		# mound
-cinHā:cinHā		# sign
-tumHiṃ:tumHiṃ		# musical instrument
-karia:karia		# black
-Har:Har			# plow
-phār:phār		# plowshare
-karam:karam		# destiny
-darad:darad		# pain
-jeonār:jeonār		# feast
-garHan:garHan		# eclipse
-ṭhelā:ṭhelā		# pushcart
-bojhā:bojhā		# load
-koṛā:koṛā		# whip
-basant:basant		# spring
-dokān:dokān		# store
-loHā:loHā		# iron
-loHār:loHār		# blacksmith
-sonā:sonā		# gold
-sonār:sonār		# goldsmith
-ḍākā:ḍākā		# robbery
-nokari:nokari		# job
-moṭari:moṭari		# bundle
-jhulā:jhulā		# swing
-dālbhāt:dālbhāt		# everyday meal
-gāw:gāw			# village
-etnā:etnā		# meantime
-tapaseā:tapaseā		# austerities NOT SURE!!!
-jaṅgal:jaṅgal		# forest
-neāw:neāw		# justice
-pāṃo:pāṃo		# feet
-phar:phar      		# fruit
-pānī:pānī      		# water
-Hawā:Hawā      		# air
-Hāth:Hāth      		# hand
-cham:cham      		# mercy
-iād:iād        		# memory
-dayā:dayā      		# compassion
-thakainī:thakainī	# weariness
-kaleān:kaleān		# welfare
-bāt:bāt			# thing
-nām:nām			# name
-dam:dam			# moment
-sikha:sikha		# advice
-paHilā:paHilā		# first
-dūsar:dūsar		# second
-tīsar:tīsar		# third
-dayā:dayā		# compassion
-bhulāte:bhulāte		# way
-pāoṃ:pāoṃ		# feet
-ber:ber			# time
+ghorā:ghorā			# horse
+bail:bail			# bull
+phal:phal			# fruit
+magaHī:magaHī			# magahī
+jantar:jantar			# instrument
+jag:jag				# religious ceremony
+jug:jug				# era
+bans:bans			# lineage
+bansi:bansi			# flute
+bacan:bacan			# word, promise
+bajar:bajar			# thunderbolt
+teoHār:teoHār			# festival
+piās:piās			# thirst
+ciuṃti:ciuṃti			# ant
+subhāw:subhāw			# nature
+iāri:iāri			# friendship
+gāṃo:gāṃo			# village
+ṭhāṃo:ṭhāṃo			# place
+murHi:murHi			# roasted rice
+moṛhā:moṛhā			# sitting stool
+tilHā:tilHā			# mound
+cinHā:cinHā			# sign
+tumHiṃ:tumHiṃ			# musical instrument
+karia:karia			# black
+Har:Har				# plow
+phār:phār			# plowshare
+karam:karam			# destiny
+darad:darad			# pain
+jeonār:jeonār			# feast
+garHan:garHan			# eclipse
+ṭhelā:ṭhelā			# pushcart
+bojhā:bojhā			# load
+koṛā:koṛā			# whip
+basant:basant			# spring
+dokān:dokān			# store
+loHā:loHā			# iron
+loHār:loHār			# blacksmith
+sonā:sonā			# gold
+sonār:sonār			# goldsmith
+ḍākā:ḍākā			# robbery
+nokari:nokari			# job
+moṭari:moṭari			# bundle
+jhulā:jhulā			# swing
+dālbhāt:dālbhāt			# everyday meal
+gāw:gāw				# village
+etnā:etnā			# meantime
+tapaseā:tapaseā			# austerities NOT SURE!!!
+jaṅgal:jaṅgal			# forest
+neāw:neāw			# justice
+pāṃo:pāṃo			# feet
+phar:phar			# fruit
+pānī:pānī			# water
+Hawā:Hawā			# air
+Hāth:Hāth			# hand
+cham:cham			# mercy
+iād:iād				# memory
+dayā:dayā			# compassion
+thakainī:thakainī		# weariness
+kaleān:kaleān			# welfare
+bāt:bāt				# thing
+nām:nām				# name
+dam:dam				# moment
+sikha:sikha			# advice
+paHilā:paHilā			# first
+dūsar:dūsar			# second
+tīsar:tīsar			# third
+bhulāte:bhulāte			# way
+pāoṃ:pāoṃ			# foot
+ber:ber				# time
 
-ḍakait:ḍakait		# robber
-maHārāj:maHārāj		# great-king
-narāyan:narāyan		# God
-sāmī:sāmī		# lord
-chelā:chelā		# disciple
-sādhū:sādhū		# saint
-patukī:patukī		# followers
-sipāHī:sipāHī		# sepoys
-bāp:bāp			# father
-laṛiki:laṛiki		# girl
-laṛikā:laṛikā		# boy
-bhāi:bhāi		# brother
-baHin:baHin		# sister
-rājā:rājā		# king
-maugi:maugi		# woman
-beṭā:beṭā		# son
-beṭī:beṭī		# daughter
-buṛhā:buṛhā		# old man
-buṛhiyā:buṛhiyā		# old woman
-cor:cor			# thief
-mālī:mālī		# gardener
-goālā:goālā		# milkman
-maugā:maugā		# effeminate person
-jam:jam			# death god
+ḍakait:ḍakait			# robber
+maHārāj:maHārāj			# great-king
+narāyan:narāyan			# God
+sāmī:sāmī			# lord
+chelā:chelā			# disciple
+sādhū:sādhū			# saint
+patukī:patukī			# followers
+sipāHī:sipāHī			# sepoys
+bāp:bāp				# father
+laṛiki:laṛiki			# girl
+laṛikā:laṛikā			# boy
+bhāi:bhāi			# brother
+baHin:baHin			# sister
+rājā:rājā			# king
+maugi:maugi			# woman
+beṭī:beṭī			# daughter
+buṛhā:buṛhā			# old man
+buṛhiyā:buṛhiyā			# old woman
+cor:cor				# thief
+mālī:mālī			# gardener
+goālā:goālā			# milkman
+maugā:maugā			# effeminate person
+jam:jam				# death god
 
-majūrā:majūrā   # laborer
-pāp:pāp # sin
-bhūkh:bhūkh # hunger
-naukarcākar:naukarcākar # servant
-kaigo:kaigo # several
-peṭ:peṭ # belly
-bhūsā:bhūsā # husk
-sūar:sūar   # swine
-bādh:bādh   # field
-rahwaiyā:rahwaiyā   # inhabitant
-diksik:diksik   # trouble
-akāl:akāl   # famine
-kucāli:kucāli   # misconduct
-puṃjī:puṃjī # fortune
-des:des # country
-sūar:sūar   # swine
-dūno:dūno   # both
-bakhrā:bakhrā   # share
-din:din # day
-cīj:cīj # property
-bābu:bābu   # father
-bāp:bāp # father
-ohhoṭkā:ohhoṭkā # younger
-beṭā:beṭā   # son
-ādmī:ādmī   # man
-gaṃ:gaṃ # village
-parnām:parnām   # bow
-pāṃo:pāṃo   # foot
-khātir:khātir   # favor
-neāw:neāw   # justice
-baikunṭh:baikunṭh   # 
-ghamaṇḍ:ghamaṇḍ # pride
-cauṭhā:cauṭhā   # fourth
-chamā:chamā # mercy
-cūk:cūk # mistake
-narāy:narāy # god
+majūrā:majūrā			# laborer
+pāp:pāp				# sin
+bhūkh:bhūkh			# hunger
+naukarcākar:naukarcākar		# servant
+kaigo:kaigo			# several
+peṭ:peṭ				# belly
+bhūsā:bhūsā			# husk
+sūar:sūar			# swine
+bādh:bādh			# field
+rahwaiyā:rahwaiyā		# inhabitant
+diksik:diksik			# trouble
+akāl:akāl			# famine
+kucāli:kucāli			# misconduct
+puṃjī:puṃjī			# fortune
+des:des				# country
+dūno:dūno			# both
+bakhrā:bakhrā			# share
+din:din				# day
+cīj:cīj				# property
+bābu:bābu			# father
+ohhoṭkā:ohhoṭkā			# younger
+beṭā:beṭā			# son
+ādmī:ādmī			# man
+gaṃ:gaṃ				# village
+parnām:parnām			# bow
+khātir:khātir			# favor
+baikunṭh:baikunṭh		# heaven
+ghamaṇḍ:ghamaṇḍ			# pride
+cauṭhā:cauṭhā			# fourth
+chamā:chamā			# mercy
+cūk:cūk				# mistake
+narāy:narāy			# god
 
 LEXICON Case
+<nom>:>
 <loc>:>e
 <inst>:>eṃ
 <obl>:>{e}
@@ -237,79 +232,70 @@ LEXICON Case
 
 LEXICON Number
 <pl>:>{a}n
-<pl>:>\ sab # Dir/LR
-<pl>:>\ log # Dir/LR
 
 #VerbRoot [ <v>: ] Tense Subject? ObjectHonorific?
 #VerbRoot [ <v>: ] Aspect
 
 LEXICON VerbRoot
-dekh:dekh		# see
-jap:jap         # mutter
-sun:sun			# hear
-dho:dho			# wash
-bo:bo			# sow
-likh:likh		# write
-cinH:cinH		# recognize
-pis:pis			# grind
-khā:khā			# eat
-khojate:khojate		# search
-ghur:ghur		# return
-kaH:kaH			# say
-banālā:banālā		# make
-rakh:rakh		# keep
-jap:jap			# mutter
-de:de			# give
-puch:puch		# ask
-bhulāte:bhulāte		# lose
-lāg:lāg			# touch
-jān:jān			# know
-pī:pī			# drink
-jor:jor			# clasp
-bhe:bhe			# become
-
-baiṭh:baiṭh		# sit
-jā:jā			# go
-ge:ge			# went
-sut:sut			# sleep
-dauṛ:dauṛ		# run
-raHa:raHa		# live
-bol:bol			# speak
-rāj:rāj			# govern
-kar:kar			# make
-
-uṭh:uṭh     # arise
-bujhāe:bujhāe       # understand
-lilhs:lilhs     # covet
-maras:maras     # die
-bhare:bhare        # fill
-peṭhau:peṭhau       # send
-charāw:charāwe      # feed
-lag:lag      # begin
-gawaṃcuk:gawaṃcuk     # lose
-paṛa:paṛa     # fell
-jiān:jiān     # waste
-baṭorsaṭor:baṭorsaṭor       # 
-pau:pau      # allow
-bīte:bīte     # pass
-bāṃṭ:bāṃṭ     # divide
-laga:laga     # begin
-deda:deda     # give
-ghur:ghur     # return
-parnā:parnā        # bow
-ge:ge       # come
-khojate:khojate      # search
-rājkar:rājkar       # govern
-par:par      # fall
-banāwe:banāwe       # make
-bigāṛe:bigāṛe       # unmake
-rahe:rahe     # remain
-sādh:sādh     # bring
-nikal:nikal        # leave
-pi:pi       # drink
-baiṭhge:baiṭhge      # sit
-jāpahūṃc:jāpahūṃc     # rise
-
+dekh:dekh			# see
+jap:jap				# mutter
+sun:sun				# hear
+dho:dho				# wash
+bo:bo				# sow
+likh:likh			# write
+cinH:cinH			# recognize
+pis:pis				# grind
+khā:khā				# eat
+khojate:khojate			# search
+ghur:ghur			# return
+kaH:kaH				# say
+banālā:banālā			# make
+rakh:rakh			# keep
+de:de				# give
+puch:puch			# ask
+bhulāte:bhulāte			# lose
+lāg:lāg				# touch
+jān:jān				# know
+pī:pī				# drink
+jor:jor				# clasp
+bhe:bhe				# become
+baiṭh:baiṭh			# sit
+jā:jā				# go
+sut:sut				# sleep
+dauṛ:dauṛ			# run
+raHa:raHa			# live
+bol:bol				# speak
+rāj:rāj				# govern
+kar:kar				# make
+uṭh:uṭh				# arise
+bujhāe:bujhāe			# understand
+lilhs:lilhs			# covet
+maras:maras			# die
+bhare:bhare			# fill
+peṭhau:peṭhau			# send
+charāwe:charāwe			# feed
+lag:lag				# begin
+gawaṃcuk:gawaṃcuk		# lose
+paṛa:paṛa			# fell
+jiān:jiān			# waste
+baṭorsaṭor:baṭorsaṭor		# collect
+pau:pau				# allow
+bīte:bīte			# pass
+bāṃṭ:bāṃṭ			# divide
+laga:laga			# begin
+deda:deda			# give
+parnā:parnā			# bow
+ge:ge				# come
+rājkar:rājkar			# govern
+par:par				# fall
+banāwe:banāwe			# make
+bigāṛe:bigāṛe			# unmake
+rahe:rahe			# remain
+sādh:sādh			# bring
+nikal:nikal			# leave
+pi:pi				# drink
+baiṭhge:baiṭhge			# sit
+jāpahūṃc:jāpahūṃc		# rise
 
 LEXICON Aspect
 <hab>:ā
@@ -378,7 +364,7 @@ prpers<prn><p3><sg><gen><hi>:unkar
 prpers<prn><p3><sg><obl><hi>:unkārā
 
 LEXICON Pronoun
-ankar:ankar # other
+ankar:ankar			# other
 
 LEXICON OtherParadigms
 <dem>:
@@ -404,76 +390,76 @@ LEXICON OtherParadigmsDeclension
 
 # Postpositions don't inflect
 LEXICON Postposition
-ke:ke		# very general, but used for dative, accusative, and genitive
-se:se		# also general, but used for instrumental and ablative
-meṃ:meṃ		# in
-par:par		# on
-lā:lā		# for
-jī:jī		# the, might be old fashioned
-sab:sab # plural
+ke:ke				# very general, but used for dative, accusative, and genitive
+se:se				# also general, but used for instrumental and ablative
+meṃ:meṃ				# in
+par:par				# on
+lā:lā				# for
+jī:jī				# the, might be old fashioned
+sab:sab				# plural
 
-# Adjectives also don't inflect
+				# Adjectives also don't inflect
 LEXICON Adjectives
-apan:apan		# own
-bes:bes			# better
-parna:parna		# low
-ṭhanḍhā:ṭhanḍhā		# cool
-ego:ego			# one
-bhīrī:bhīrī		# near
-piāsal:piāsal		# thirsty
-khus:khus		# glad
-cāro:cāro		# four
-thoṛe:thoṛe		# some
-koī:koī			# certain
-bas:bas     # enough
-nīar:nīar        # like
-jukur:jukur       # s n="adj"/>
-kahāwe:kahāwe      # called
-baṛā:baṛā        # great
-haṃṭhuāman:haṃṭhuāman      # abundant
-bhārī:bhārī       # heavy
-dūr:dūr     # far
-sab:sab     # all
-dugo:dugo        # two
-cāHī:cāHī        # proper
-pakkā:pakkā       # 
-ek:ek      # one
-aisan:aisan       # like
-piāsal:piāsal      # thirsty
+apan:apan			# own
+bes:bes				# better
+parna:parna			# low
+ṭhanḍhā:ṭhanḍhā			# cool
+ego:ego				# one
+bhīrī:bhīrī			# near
+piāsal:piāsal			# thirsty
+khus:khus			# glad
+cāro:cāro			# four
+thoṛe:thoṛe			# some
+koī:koī				# certain
+bas:bas				# enough
+nīar:nīar			# like
+jukur:jukur			# fit
+kahāwe:kahāwe			# called
+baṛā:baṛā			# great
+haṃṭhuāman:haṃṭhuāman		# abundant
+bhārī:bhārī			# heavy
+dūr:dūr				# far
+sab:sab				# all
+dugo:dugo			# two
+cāHī:cāHī			# proper
+pakkā:pakkā			# firm
+ek:ek				# one
+aisan:aisan			# like
 
 # Nor do adverbs
 LEXICON Adverbs
-tab:tab			# then
-Huaṃ:Huaṃ		# there
-bhī:bhī			# even
-Hāṃ:Hāṃ			# yes
-nayaṃ:nayaṃ		# no
-sāyad:sāyad		# maybe
-baHut:baHut		# very
-hīṃ:hīṃ       # near
-hīṃāṃ:hīṃāṃ       # near
-cal:cal     # away
-baṛi:baṛi        # 
-huā:huāṃ        # there
-gir:gir     # down
-sewāy:sewāy       # besides
-sadā:sadā        # always
-keu:keu     # ever
-nā:nā      # not
-kabhī:kabhī       # ever
-thoṛā:thoṛā       # little
+tab:tab				# then
+Huaṃ:Huaṃ			# there
+bhī:bhī				# even
+Hāṃ:Hāṃ				# yes
+nayaṃ:nayaṃ			# no
+sāyad:sāyad			# maybe
+baHut:baHut			# very
+hīṃ:hīṃ				# near
+hīṃāṃ:hīṃāṃ			# near
+cal:cal				# away
+baṛi:baṛi			# very
+huāṃ:huāṃ			# there
+gir:gir				# down
+sewāy:sewāy			# besides
+sadā:sadā			# always
+keu:keu				# ever
+nā:nā				# not
+kabhī:kabhī			# ever
+thoṛā:thoṛā			# little
 
 # Or conjunctions
 LEXICON Conjunctions
-āu:āu			# and
-ab:ab   # now
-bākī:bākī   # but
-yā:yā   # or
+āu:āu				# and
+ab:ab				# now
+bākī:bākī			# but
+yā:yā				# or
 
+# Or determiners
 LEXICON Determiners
-kuch:kuch		# some
-Har:Har			# every
-ḍher:ḍher   # many
+kuch:kuch			# some
+Har:Har				# every
+ḍher:ḍher			# many
 
 LEXICON Punctuation
 
@@ -501,7 +487,6 @@ LEXICON Punctuation
 \/<sent>:\/
 ।<sent>:।
 
-
 # Resources:
 # https://github.com/apertium/lexd/blob/master/Usage.md
 # https://wiki.apertium.org/wiki/List_of_symbols
@@ -511,12 +496,3 @@ LEXICON Punctuation
 # https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
 # https://github.com/hfst/
 # http://wiki.apertium.org/wiki/Hfst
-
-
-
-
-
-      
-      
-      
-

@@ -4,28 +4,25 @@
 DELIMITERS = "<.>" ;
 
 # We can define sets for common tag clusters
-LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
-LIST SecondPersonPronouns = (prn p2); #(prn p2 sg nom) (prn p2 pl) ;
+LIST SecondPersonPronouns = (prn p2);
 
 SECTION
+
 # If there is a singular noun to the right, I cannot be a verb or noun.
 REMOVE (n) OR (v) IF (1 (n s)) ;
 
-# if preceded by a noun, should be a demonstrative
-REMOVE (pers) IF (-1 (n)) ;
-REMOVE (att) IF (-1 (n)) ;
+# if followed by a noun, should be a demonstrative
+REMOVE (p3) IF (1 (n)) ;
+REMOVE (att) IF (1 (n)) ;
 
-# if followed by a postposition, should be oblique
-SELECT (obl) IF (1 (post)) ;
+# if followed by a postposition, shouldn't be nominative
+REMOVE (nom) IF (1 (post)) ;
 
-# if preceded by a second person pronoun, verb should be s_p2
-# SELECT (s_p2) IF (-1 (prn p2 nom)) ;
-REMOVE (inf) IF (-1 (prn)) (0 (v)) ;
-REMOVE (s_p2) IF (-1 (prn p1)) (0 (v)) ;
-REMOVE (s_p2) IF (-1 (prn p3)) (0 (v)) ;
+# If preceded by a second person pronoun, should be s_p2
+REMOVE (inf) IF (-1 (prn p2 nom)) (0 (v)) ;
 
-# If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
-SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+# if preceded by a pronoun other than a second person pronoun, verb should not be s_p2
+REMOVE (s_p2) IF (NOT (-1 (prn p2))) (0 (v)) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
