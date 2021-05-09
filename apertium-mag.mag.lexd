@@ -78,10 +78,10 @@
 PATTERNS
 NounRoot [ <n>: ] Case? [ <def>:>{W}ā ]? Number?
 Punctuation
-VerbRoot [ <v>: ] Tense Subject? ObjectHonorific?
+VerbRoot [ <v>: ] Tense Subject ObjectHonorific?
 VerbRoot [ <v>: ] Aspect
 VerbRoot [ <v>: ] [ <inf>:e ]
-[ <aux>:H ] [ <v>: ] AuxTense Subject? ObjectHonorific?
+[ <aux>:H ] [ <v>: ] AuxTense Subject ObjectHonorific?
 PersonalPronoun
 Pronoun
 [ prn<prn>: ] OtherParadigms OtherParadigmsDeclension
@@ -334,6 +334,7 @@ LEXICON AuxTense
 <fts>:>ob
 
 LEXICON Subject
+<inf>:>
 <s_p1>:>i
 <s_p1>:>ī # Dir/LR
 <s_p2>:>a
