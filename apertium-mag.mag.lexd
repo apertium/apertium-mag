@@ -400,7 +400,7 @@ jī:jī				# the, might be old fashioned
 sab:sab				# plural
 log:log				# other plural
 
-				# Adjectives also don't inflect
+# Adjectives also don't inflect
 LEXICON Adjectives
 apan:apan			# own
 bes:bes				# better

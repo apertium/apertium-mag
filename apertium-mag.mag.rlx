@@ -24,6 +24,25 @@ REMOVE (inf) IF (-1 (prn p2 nom)) (0 (v)) ;
 # if preceded by a pronoun other than a second person pronoun, verb should not be s_p2
 REMOVE (s_p2) IF (NOT (-1 (prn p2))) (0 (v)) ;
 
+# if unsure whether determiner or noun, if followed by noun or adjective, must be determiner
+REMOVE (n) IF (1 (n)) ;
+REMOVE (n) IF (1 (adj)) ;
+REMOVE (det) IF (NOT (1 (n))) ;
+REMOVE (det) IF (NOT (1 (adj))) ;
+
+# "<तब>"
+#         "prn" prn cor time
+#         "tab" adv
+# 
+# "<पर>"
+#         "par" post
+#         "par" v pres inf
+# ;       "par" v pres s_p2 REMOVE:25
+# 
+# "<सब>"
+#         "sab" post
+#         "sab" adj
+#         
 # Resources:
 # http://visl.sdu.dk/cg3.html
 # http://groups.google.com/group/constraint-grammar
