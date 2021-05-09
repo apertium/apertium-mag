@@ -280,16 +280,16 @@ kar:kar			# make
 
 uṭh:uṭh     # arise
 bujhāe:bujhāe       # understand
-lilh<s:lilh     # covet
-mara<s:mara     # die
+lilhs:lilhs     # covet
+maras:maras     # die
 bhare:bhare        # fill
 peṭhau:peṭhau       # send
 charāw:charāwe      # feed
 lag:lag      # begin
-gawaṃc:gawaṃcuk     # lose
+gawaṃcuk:gawaṃcuk     # lose
 paṛa:paṛa     # fell
 jiān:jiān     # waste
-baṭors:baṭorsaṭor       # 
+baṭorsaṭor:baṭorsaṭor       # 
 pau:pau      # allow
 bīte:bīte     # pass
 bāṃṭ:bāṃṭ     # divide
@@ -298,7 +298,7 @@ deda:deda     # give
 ghur:ghur     # return
 parnā:parnā        # bow
 ge:ge       # come
-khojat:khojate      # search
+khojate:khojate      # search
 rājkar:rājkar       # govern
 par:par      # fall
 banāwe:banāwe       # make
@@ -307,8 +307,8 @@ rahe:rahe     # remain
 sādh:sādh     # bring
 nikal:nikal        # leave
 pi:pi       # drink
-baiṭhg:baiṭhge      # sit
-jāpahū:jāpahūṃc     # rise
+baiṭhge:baiṭhge      # sit
+jāpahūṃc:jāpahūṃc     # rise
 
 
 LEXICON Aspect
@@ -350,29 +350,29 @@ LEXICON ObjectHonorific
 <o_p3><low>:>ai
 
 LEXICON PersonalPronoun
-prpers<prn><p1><sg>:Ham
+prpers<prn><p1><sg><nom>:Ham
 prpers<prn><p1><sg><gen>:Hamār
 prpers<prn><p1><sg><obl>:Hamarā
 prpers<prn><p1><pl>:Hamāni
-prpers<prn><p2><sg>:tu
-prpers<prn><p2><sg>:tūṃ # Dir/LR
+prpers<prn><p2><sg><nom>:tu
+prpers<prn><p2><sg><nom>:tūṃ # Dir/LR
 prpers<prn><p2><sg><gen>:tor
 prpers<prn><p2><sg><obl>:torā
 prpers<prn><p2><pl>:toHāni
 prpers<prn><p2><sg><gen><hi>:toHār
 prpers<prn><p2><sg><obl><hi>:toHārā
-prpers<prn><prx><p3><sg>:i
-prpers<prn><prx><p3><sg>:ī # Dir/LR
+prpers<prn><prx><p3><sg><nom>:i
+prpers<prn><prx><p3><sg><nom>:ī # Dir/LR
 prpers<prn><prx><p3><sg><gen>:ekar
 prpers<prn><prx><p3><sg><obl>:ekārā
 prpers<prn><prx><p3><pl>:i\ sab
 prpers<prn><prx><p3><sg>:ī\ sab # Dir/LR
 prpers<prn><prx><p3><sg><gen><hi>:inkar
 prpers<prn><prx><p3><sg><obl><hi>:inkārā
-prpers<prn><p3><sg>:u
+prpers<prn><p3><sg><nom>:u
 prpers<prn><p3><sg><gen>:okar
 prpers<prn><p3><sg><obl>:okārā
-prpers<prn><p3><pl>:u\ sab
+prpers<prn><p3><pl><nom>:u\ sab
 prpers<prn><p3><sg><gen><hi>:unkar
 prpers<prn><p3><sg><obl><hi>:unkārā
 
@@ -450,13 +450,13 @@ nayaṃ:nayaṃ		# no
 sāyad:sāyad		# maybe
 baHut:baHut		# very
 hīṃ:hīṃ       # near
-hīṃ:hīṃāṃ       # near
+hīṃāṃ:hīṃāṃ       # near
 cal:cal     # away
-baṛ:baṛi        # 
+baṛi:baṛi        # 
 huā:huāṃ        # there
 gir:gir     # down
-sew:sewāy       # besides
-sad:sadā        # always
+sewāy:sewāy       # besides
+sadā:sadā        # always
 keu:keu     # ever
 nā:nā      # not
 kabhī:kabhī       # ever
