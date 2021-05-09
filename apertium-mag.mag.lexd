@@ -90,6 +90,7 @@ Adjectives [ <adj>: ]
 Adverbs [ <adv>: ]
 Conjunctions [ <cnj>: ]
 Determiners [ <det>: ]
+Number [ <num>: ]
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -397,6 +398,7 @@ par:par				# on
 lā:lā				# for
 jī:jī				# the, might be old fashioned
 sab:sab				# plural
+log:log				# other plural
 
 				# Adjectives also don't inflect
 LEXICON Adjectives
