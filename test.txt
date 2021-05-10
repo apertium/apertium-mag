@@ -1,0 +1,722 @@
+"<कोई>"
+	"koī" adj
+"<जङगल>"
+	"jaṅgal" n obl
+	"jaṅgal" n nom
+"<में>"
+	"meṃ" post
+"<एगो>"
+	"ego" adj
+"<साधू>"
+	"sādhū" n obl
+	"sādhū" n nom
+"<रह>"
+	"raHa" v pres inf
+"<हलन>"
+	"" aux v past s_p3
+"<.>"
+	"." sent
+
+"<उनका>"
+	"*उनका"
+"<भीरी>"
+	"bhīrī" adj
+"<एगो>"
+	"ego" adj
+"<राजा>"
+	"rāj" v hab
+	"rājā" n obl
+	"rājā" n nom
+"<भुलाते>"
+	"bhulāte" n obl
+	"bhulāte" n nom
+	"bhulāte" v pres inf
+"<भुलाते>"
+	"bhulāte" n obl
+	"bhulāte" n nom
+	"bhulāte" v pres inf
+"<जापहुंचलन>"
+	"*जापहुंचलन"
+"<आउ>"
+	"āu" cnj
+"<साधू>"
+	"sādhū" n obl
+	"sādhū" n nom
+"<के>"
+	"ke" post
+"<देख>"
+	"dekh" v pres inf
+	"dekh" v pres s_p2
+"<के>"
+	"ke" post
+"<पाओं>"
+	"pāoṃ" n obl
+	"pāoṃ" n nom
+"<लाग>"
+	"lāg" v pres inf
+	"lāg" v pres s_p2
+"<के>"
+	"ke" post
+"<बैठगेलन>"
+	"baiṭhge" v past s_p3
+"<.>"
+	"." sent
+
+"<साधू>"
+	"sādhū" n obl
+	"sādhū" n nom
+"<उनका>"
+	"*उनका"
+"<पिआसल>"
+	"piāsal" adj
+"<जान>"
+	"jān" v pres inf
+	"jān" v pres s_p2
+"<के>"
+	"ke" post
+"<तोडा>"
+	"*तोडा"
+"<ऐसन>"
+	"aisan" adj
+"<जङगल>"
+	"jaṅgal" n obl
+	"jaṅgal" n nom
+"<के>"
+	"ke" post
+"<फर>"
+	"phar" n obl
+	"phar" n nom
+"<खाए>"
+	"khā" v inf
+	"khā" v hab obl
+"<ला>"
+	"lā" post
+"<देलथिन>"
+	"de" v past inf o_p3 hi
+	"de" v past s_p2 o_p3 hi
+"<,>"
+	"," cm
+"<आउ>"
+	"āu" cnj
+"<पानी>"
+	"pānī" n obl
+	"pānī" n nom
+"<पिला>"
+	"pi" v perf obl
+"<देलथिन>"
+	"de" v past inf o_p3 hi
+	"de" v past s_p2 o_p3 hi
+"<.>"
+	"." sent
+
+"<राजा>"
+	"rāj" v hab
+	"rājā" n obl
+	"rājā" n nom
+"<खा>"
+	"khā" v pres inf
+"<के>"
+	"ke" post
+"<आउ>"
+	"āu" cnj
+"<पानी>"
+	"pānī" n obl
+	"pānī" n nom
+"<पी>"
+	"pī" v pres inf
+"<के>"
+	"ke" post
+"<बहुत>"
+	"baHut" adv
+"<खुस>"
+	"khus" adj
+"<भेलन>"
+	"bhe" v past s_p3
+"<,>"
+	"," cm
+"<आउ>"
+	"āu" cnj
+"<ठनढा>"
+	"ṭhanḍhā" adj
+"<हवा>"
+	"*हवा"
+"<में>"
+	"meṃ" post
+"<थोडे>"
+	"thoṛe" adj
+"<बेर>"
+	"ber" n obl
+	"ber" n nom
+"<बैठ>"
+	"baiṭh" v pres inf
+	"baiṭh" v pres s_p2
+"<ला>"
+	"lā" post
+"<से>"
+	"se" post
+"<थकैनी>"
+	"thakainī" n obl
+	"thakainī" n nom
+"<निकल>"
+	"nikal" v pres inf
+	"nikal" v pres s_p2
+"<गेलैन>"
+	"ge" v past inf o_p3 hi
+"<.>"
+	"." sent
+
+"<तब>"
+	"prn" prn cor time
+	"tab" adv
+"<राजा>"
+	"rāj" v hab
+	"rājā" n obl
+	"rājā" n nom
+"<साधू>"
+	"sādhū" n obl
+	"sādhū" n nom
+"<जी>"
+	"jī" post
+"<से>"
+	"se" post
+"<हाथ>"
+	"Hāth" n obl
+	"Hāth" n nom
+"<जोर>"
+	"jor" v pres inf
+	"jor" v pres s_p2
+"<के>"
+	"ke" post
+"<पुछलन>"
+	"puch" v past s_p3
+"<के>"
+	"ke" post
+"<,>"
+	"," cm
+"<">"
+	""" quot
+"<महाराज>"
+	"maHārāj" n obl
+	"maHārāj" n nom
+"<!>"
+	"!" sent
+"<हमरा>"
+	"prpers" prn p1 sg obl
+"<कुछ>"
+	"kuch" det
+"<सिखावन>"
+	"*सिखावन"
+"<के>"
+	"ke" post
+"<बात>"
+	"bāt" n obl
+	"bāt" n nom
+"<कहीं>"
+	"kaH" v pres s_p1 o_p2 hi
+"<,>"
+	"," cm
+"<के>"
+	"ke" post
+"<जेकरा>"
+	"prn" prn rel obl
+"<से>"
+	"se" post
+"<हमर>"
+	"*हमर"
+"<कलेआन>"
+	"kaleān" n obl
+	"kaleān" n nom
+"<होय>"
+	"*होय"
+"<.>"
+	"." sent
+"<">"
+	""" quot
+
+"<साधू>"
+	"sādhū" n obl
+	"sādhū" n nom
+"<जी>"
+	"jī" post
+"<बोललन>"
+	"bol" v past s_p3
+"<के>"
+	"ke" post
+"<,>"
+	"," cm
+"<">"
+	""" quot
+"<ई>"
+	"prpers" prn prx p3 sg nom
+"<चारो>"
+	"cāro" adj
+"<बाट>"
+	"*बाट"
+"<के>"
+	"ke" post
+"<इआद>"
+	"iād" n obl
+	"iād" n nom
+"<रख>"
+	"rakh" v pres inf
+	"rakh" v pres s_p2
+"<.>"
+	"." sent
+
+"<पहिला>"
+	"paHilā" n obl
+	"paHilā" n nom
+"<ई>"
+	"prpers" prn prx p3 sg nom
+"<के>"
+	"ke" post
+"<,>"
+	"," cm
+"<नरायन>"
+	"*नरायन"
+"<सामी>"
+	"sāmī" n obl
+	"sāmī" n nom
+"<के>"
+	"ke" post
+"<नाम>"
+	"nām" n obl
+	"nām" n nom
+"<हर>"
+	"Har" det
+	"Har" n obl
+	"Har" n nom
+"<दम>"
+	"dam" n obl
+	"dam" n nom
+"<जपना>"
+	"*जपना"
+"<.>"
+	"." sent
+
+"<दूसर>"
+	"dūsar" n obl
+	"dūsar" n nom
+"<ई>"
+	"prpers" prn prx p3 sg nom
+"<के>"
+	"ke" post
+"<,>"
+	"," cm
+"<सब>"
+	"sab" post
+	"sab" adj
+"<जीउ>"
+	"*जीउ"
+"<पर>"
+	"par" post
+	"par" v pres inf
+	"par" v pres s_p2
+"<दया>"
+	"*दया"
+"<रखना>"
+	"*रखना"
+"<.>"
+	"." sent
+
+"<तीसर>"
+	"tīsar" n obl
+	"tīsar" n nom
+"<ई>"
+	"prpers" prn prx p3 sg nom
+"<के>"
+	"ke" post
+"<,>"
+	"," cm
+"<अनकर>"
+	"ankar"
+"<चूक>"
+	"cūk" n obl
+	"cūk" n nom
+"<के>"
+	"ke" post
+"<छमा>"
+	"chamā" n obl
+	"chamā" n nom
+"<करना>"
+	"*करना"
+"<.>"
+	"." sent
+
+"<आउ>"
+	"āu" cnj
+"<चौठा>"
+	"cauṭhā" n obl
+	"cauṭhā" n nom
+"<ई>"
+	"prpers" prn prx p3 sg nom
+"<के>"
+	"ke" post
+"<,>"
+	"," cm
+"<कभी>"
+	"kabhī" adv
+"<कोई>"
+	"koī" adj
+"<बात>"
+	"bāt" n obl
+	"bāt" n nom
+"<के>"
+	"ke" post
+"<घमणड>"
+	"*घमणड"
+"<ना>"
+	"nā" adv
+"<करना>"
+	"*करना"
+"<.>"
+	"." sent
+
+"<ई>"
+	"prpers" prn prx p3 sg nom
+"<चारो>"
+	"cāro" adj
+"<बात>"
+	"bāt" n obl
+	"bāt" n nom
+"<के>"
+	"ke" post
+"<जे>"
+	"*जे"
+"<केउ>"
+	"keu" adv
+"<साधन>"
+	"sādh" v pres s_p3
+"<कर>"
+	"kar" v pres inf
+	"kar" v pres s_p2
+"<है>"
+	"" aux v pres inf o_p3 low
+"<,>"
+	"," cm
+"<ओकरा>"
+	"prn" prn dem obl prx
+"<पर>"
+	"par" post
+	"par" v pres inf
+	"par" v pres s_p2
+"<भगवान>"
+	"*भगवान"
+"<सदा>"
+	"sadā" adv
+"<खुस>"
+	"khus" adj
+"<रह>"
+	"raHa" v pres inf
+"<हथ>"
+	"*हथ"
+"<.>"
+	"." sent
+
+"<आउ>"
+	"āu" cnj
+"<अनत>"
+	"*अनत"
+"<में>"
+	"meṃ" post
+"<ओकरा>"
+	"prn" prn dem obl prx
+"<बैकुनठ>"
+	"baikunṭh" n obl
+	"baikunṭh" n nom
+"<मिल>"
+	"*मिल"
+"<है>"
+	"" aux v pres inf o_p3 low
+"<.>"
+	"." sent
+
+"<एकरा>"
+	"prn" prn dem obl
+"<सेवाय>"
+	"*सेवाय"
+"<एक>"
+	"ek" adj
+"<बात>"
+	"bāt" n obl
+	"bāt" n nom
+"<राजा>"
+	"rāj" v hab
+	"rājā" n obl
+	"rājā" n nom
+"<लोग>"
+	"log" post
+"<के>"
+	"ke" post
+"<आउ>"
+	"āu" cnj
+"<भी>"
+	"bhī" adv
+"<है>"
+	"" aux v pres inf o_p3 low
+"<.>"
+	"." sent
+
+"<ऊ>"
+	"*ऊ"
+"<ई>"
+	"prpers" prn prx p3 sg nom
+"<है>"
+	"" aux v pres inf o_p3 low
+"<के>"
+	"ke" post
+"<,>"
+	"," cm
+"<नेआव>"
+	"*नेआव"
+"<में>"
+	"meṃ" post
+"<पकका>"
+	"pakkā" adj
+"<रहे>"
+	"*रहे"
+"<के>"
+	"ke" post
+"<चाही>"
+	"cāHī" adj
+"<.>"
+	"." sent
+
+"<कभी>"
+	"kabhī" adv
+"<केकरो>"
+	"*केकरो"
+"<खातिर>"
+	"khātir" n obl
+	"khātir" n nom
+"<से>"
+	"se" post
+"<केकरो>"
+	"*केकरो"
+"<बिगाडे>"
+	"bigāṛe" v pres inf
+"<या>"
+	"*या"
+"<बनावे>"
+	"*बनावे"
+"<के>"
+	"ke" post
+"<ना>"
+	"nā" adv
+"<चाही>"
+	"cāHī" adj
+"<.>"
+	"." sent
+"<">"
+	""" quot
+
+"<ई>"
+	"prpers" prn prx p3 sg nom
+"<सब>"
+	"sab" post
+	"sab" adj
+"<बात>"
+	"bāt" n obl
+	"bāt" n nom
+"<राजा>"
+	"rāj" v hab
+	"rājā" n obl
+	"rājā" n nom
+"<सुन>"
+	"sun" v pres inf
+	"sun" v pres s_p2
+"<के>"
+	"ke" post
+"<साधू>"
+	"sādhū" n obl
+	"sādhū" n nom
+"<जी>"
+	"jī" post
+"<के>"
+	"ke" post
+"<पांओ>"
+	"*पांओ"
+"<पर>"
+	"par" post
+	"par" v pres inf
+	"par" v pres s_p2
+"<गिर>"
+	"gir" adv
+"<परलन>"
+	"par" v past s_p3
+"<,>"
+	"," cm
+"<आउ>"
+	"āu" cnj
+"<कहलन>"
+	"kaH" v past s_p3
+"<के>"
+	"ke" post
+"<,>"
+	"," cm
+"<">"
+	""" quot
+"<हमरा>"
+	"prpers" prn p1 sg obl
+"<तूं>"
+	"prpers" prn p2 sg nom
+"<अपन>"
+	"apan" adj
+"<चेला>"
+	"*चेला"
+"<बना>"
+	"*बना"
+"<ला>"
+	"lā" post
+"<.>"
+	"." sent
+"<">"
+	""" quot
+
+"<तब>"
+	"prn" prn cor time
+	"tab" adv
+"<साधू>"
+	"sādhū" n obl
+	"sādhū" n nom
+"<जी>"
+	"jī" post
+"<कहलन>"
+	"kaH" v past s_p3
+"<के>"
+	"ke" post
+"<,>"
+	"," cm
+"<">"
+	""" quot
+"<जा>"
+	"jā" v pres inf
+"<तूं>"
+	"prpers" prn p2 sg nom
+"<,>"
+	"," cm
+"<नेआव>"
+	"*नेआव"
+"<से>"
+	"se" post
+"<राज>"
+	"rāj" v pres inf
+	"rāj" v pres s_p2
+"<कर>"
+	"kar" v pres inf
+	"kar" v pres s_p2
+"<गा>"
+	"*गा"
+"<.>"
+	"." sent
+
+"<नेआव>"
+	"*नेआव"
+"<से>"
+	"se" post
+"<राजकरना>"
+	"*राजकरना"
+"<,>"
+	"," cm
+"<जङगल>"
+	"jaṅgal" n obl
+	"jaṅgal" n nom
+"<में>"
+	"meṃ" post
+"<बैठ>"
+	"baiṭh" v pres inf
+	"baiṭh" v pres s_p2
+"<के>"
+	"ke" post
+"<तपसेआ>"
+	"tapaseā" n obl
+	"tapaseā" n nom
+"<करना>"
+	"*करना"
+"<से>"
+	"se" post
+"<भी>"
+	"bhī" adv
+"<बेस>"
+	"bes" adj
+"<है>"
+	"" aux v pres inf o_p3 low
+"<.>"
+	"." sent
+"<">"
+	""" quot
+
+"<एतना>"
+	"prn" prn dem quant
+	"etnā" n obl
+	"etnā" n nom
+"<में>"
+	"meṃ" post
+"<राजा>"
+	"rāj" v hab
+	"rājā" n obl
+	"rājā" n nom
+"<के>"
+	"ke" post
+"<सिपाही>"
+	"sipāHī" n obl
+	"sipāHī" n nom
+"<पतुकी>"
+	"patukī" n obl
+	"patukī" n nom
+"<राजा>"
+	"rāj" v hab
+	"rājā" n obl
+	"rājā" n nom
+"<के>"
+	"ke" post
+"<खोजते>"
+	"khojate" v pres inf
+"<खोजते>"
+	"khojate" v pres inf
+"<हुआं>"
+	"*हुआं"
+"<पहुंच>"
+	"*पहुंच"
+"<गेलन>"
+	"ge" v past s_p3
+"<.>"
+	"." sent
+
+"<तब>"
+	"prn" prn cor time
+	"tab" adv
+"<साधू>"
+	"sādhū" n obl
+	"sādhū" n nom
+"<जी>"
+	"jī" post
+"<के>"
+	"ke" post
+"<परनाम>"
+	"parnām" n obl
+	"parnām" n nom
+"<कर>"
+	"kar" v pres inf
+	"kar" v pres s_p2
+"<के>"
+	"ke" post
+"<राजा>"
+	"rāj" v hab
+	"rājā" n obl
+	"rājā" n nom
+"<अपन>"
+	"apan" adj
+"<गंव>"
+	"*गंव"
+"<में>"
+	"meṃ" post
+"<घुर>"
+	"ghur" v pres inf
+	"ghur" v pres s_p2
+"<ऐलन>"
+	"*ऐलन"
+"<.>"
+	"." sent
+
+
