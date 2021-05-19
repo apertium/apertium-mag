@@ -304,6 +304,7 @@ nikal:nikal			# leave
 pi:pi				# drink
 baiṭhge:baiṭhge			# sit
 jāpahūṃc:jāpahūṃc		# rise
+bhar:bhar           # fill
 
 LEXICON Aspect
 <hab>:ā
@@ -319,6 +320,7 @@ LEXICON Tense
 <pis>:>t
 <fut>:>b
 <fut><imp>:>iHa
+<imp>:>y
 
 LEXICON AuxTense
 <pres>:>
@@ -348,6 +350,7 @@ LEXICON ObjectHonorific
 LEXICON PersonalPronoun
 prpers<prn><p1><sg><nom>:Ham
 prpers<prn><p1><sg><gen>:Hamār
+prpers<prn><p1><sg><gen>:Hamar # Dir/LR
 prpers<prn><p1><sg><obl>:Hamarā
 prpers<prn><p1><pl>:Hamāni
 prpers<prn><p2><sg><nom>:tu
@@ -412,9 +415,14 @@ jī:jī				# the, might be old fashioned
 sab:sab				# plural
 log:log				# other plural
 ta:ta               # idk
+li:li               # idk
+sāth:sāth           # with
+kī:kī               # idk
+le:le               # idk
 
 # Adjectives also don't inflect
 LEXICON Adjectives
+tak:tak             # up to
 bes:bes				# better
 parna:parna			# low
 ṭhanḍhā:ṭhanḍhā			# cool
@@ -471,6 +479,7 @@ LEXICON Conjunctions
 ab:ab				# now
 bākī:bākī			# but
 yā:yā				# or
+lekin:lekin         # but
 
 # Or determiners
 LEXICON Determiners
