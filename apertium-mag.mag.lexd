@@ -225,6 +225,8 @@ cauṭhā:cauṭhā			# fourth
 chamā:chamā			# mercy
 cūk:cūk				# mistake
 narāy:narāy			# god
+nasadh:nasadh       # name?
+ghar:ghar           # house?
 
 LEXICON Case
 <nom>:>
@@ -300,7 +302,6 @@ nikal:nikal			# leave
 pi:pi				# drink
 baiṭhge:baiṭhge			# sit
 jāpahūṃc:jāpahūṃc		# rise
-nasadh:nasadh       # name?
 
 LEXICON Aspect
 <hab>:ā
@@ -331,6 +332,7 @@ LEXICON Subject
 <s_p2>:>a
 <s_p3>:>o
 <s_p3>:>an # Dir/LR
+<s_p3>:>th # Dir/LR
 
 LEXICON ObjectHonorific
 <o_p2><hi>:>o
