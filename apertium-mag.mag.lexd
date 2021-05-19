@@ -90,7 +90,8 @@ Adjectives [ <adj>: ]
 Adverbs [ <adv>: ]
 Conjunctions [ <cnj>: ]
 Determiners [ <det>: ]
-Number [ <num>: ]
+Numbers+ [ <num>: ]
+Interjection [ <ij>: ]
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -462,6 +463,21 @@ LEXICON Determiners
 kuch:kuch			# some
 Har:Har				# every
 ḍher:ḍher			# many
+
+LEXICON Interjection
+he:he               # we don't know
+
+LEXICON Numbers
+0:0
+1:1
+2:2
+3:3
+4:4
+5:5
+6:6
+7:7
+8:8
+9:9
 
 LEXICON Punctuation
 
