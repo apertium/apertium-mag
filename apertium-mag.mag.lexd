@@ -98,6 +98,8 @@ Interjection [ <ij>: ]
 ###############################################################################
 
 LEXICON NounRoot
+sāHit:sāHit         # literature
+kawitā:kawitā       # poem
 ghorā:ghorā			# horse
 bail:bail			# bull
 phal:phal			# fruit
@@ -367,7 +369,9 @@ prpers<prn><prx><p3><sg><obl>:ekārā
 prpers<prn><prx><p3><pl>:i\ sab
 prpers<prn><prx><p3><sg>:ī\ sab # Dir/LR
 prpers<prn><prx><p3><sg><gen><hi>:inkar
+prpers<prn><prx><p3><sg><gen><hi>:inkhar # Dir/LR
 prpers<prn><prx><p3><sg><obl><hi>:inkārā
+prpers<prn><prx><p3><sg><obl><hi>:inkhārā # Dir/LR
 prpers<prn><p3><sg><nom>:u
 prpers<prn><p3><sg><nom>:ū # Dir/LR
 prpers<prn><p3><sg><gen>:okar
@@ -375,27 +379,28 @@ prpers<prn><p3><sg><obl>:okārā
 prpers<prn><p3><pl><nom>:u\ sab
 prpers<prn><p3><pl><nom>:ū\ sab # Dir/LR
 prpers<prn><p3><sg><gen><hi>:unkar
+prpers<prn><p3><sg><gen><hi>:unkhar # Dir/LR
 prpers<prn><p3><sg><obl><hi>:unkārā
+prpers<prn><p3><sg><obl><hi>:unkhārā # Dir/LR
 
 LEXICON Pronoun
 ankar:ankar			# other
-apan:apan			# own
-apan<obl>:apane	    # own (but oblique, as in "they see my own")
 
 LEXICON OtherParadigms
 <dem>:
 <itg>:k
 <rel>:j
 <cor>:{T}
+<refl>:apan
 
 LEXICON OtherParadigmsDeclension
-:{I}
+:>e
 <prx>:>u
 <gen>:>ekar
 <gen><prx>:>okar
 <obl>:>ekarā
 <obl><prx>:>okarā
-<att>:{I}
+<att>:>e
 <att><prx>:>u
 <quant>:>etan{ā}
 <quant><prx>:>otan{ā}
