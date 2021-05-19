@@ -115,6 +115,7 @@ ciuṃti:ciuṃti			# ant
 subhāw:subhāw			# nature
 iāri:iāri			# friendship
 gāṃo:gāṃo			# village
+gāṃw:gāṃw			# Dir/LR village
 ṭhāṃo:ṭhāṃo			# place
 murHi:murHi			# roasted rice
 moṛhā:moṛhā			# sitting stool
@@ -242,6 +243,7 @@ LEXICON Number
 #VerbRoot [ <v>: ] Aspect
 
 LEXICON VerbRoot
+kām:kām             # work
 maHād:maHād         # unknown
 dekh:dekh			# see
 jap:jap				# mutter
@@ -374,6 +376,8 @@ prpers<prn><p3><sg><obl><hi>:unkārā
 
 LEXICON Pronoun
 ankar:ankar			# other
+apan:apan			# own
+apan<obl>:apane	    # own (but oblique, as in "they see my own")
 
 LEXICON OtherParadigms
 <dem>:
@@ -407,10 +411,10 @@ lā:lā				# for
 jī:jī				# the, might be old fashioned
 sab:sab				# plural
 log:log				# other plural
+ta:ta               # idk
 
 # Adjectives also don't inflect
 LEXICON Adjectives
-apan:apan			# own
 bes:bes				# better
 parna:parna			# low
 ṭhanḍhā:ṭhanḍhā			# cool
@@ -514,6 +518,7 @@ LEXICON Punctuation
 \\<sent>:\\
 \/<sent>:\/
 ।<sent>:।
+॰<sent>:॰
 
 # Resources:
 # https://github.com/apertium/lexd/blob/master/Usage.md
