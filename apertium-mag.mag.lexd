@@ -167,6 +167,7 @@ tīsar:tīsar			# third
 bhulāte:bhulāte			# way
 pāoṃ:pāoṃ			# foot
 ber:ber				# time
+yug:yug             # unknown
 
 ḍakait:ḍakait			# robber
 maHārāj:maHārāj			# great-king
@@ -239,6 +240,7 @@ LEXICON Number
 #VerbRoot [ <v>: ] Aspect
 
 LEXICON VerbRoot
+maHād:maHād         # unknown
 dekh:dekh			# see
 jap:jap				# mutter
 sun:sun				# hear
@@ -359,9 +361,11 @@ prpers<prn><prx><p3><sg>:ī\ sab # Dir/LR
 prpers<prn><prx><p3><sg><gen><hi>:inkar
 prpers<prn><prx><p3><sg><obl><hi>:inkārā
 prpers<prn><p3><sg><nom>:u
+prpers<prn><p3><sg><nom>:ū # Dir/LR
 prpers<prn><p3><sg><gen>:okar
 prpers<prn><p3><sg><obl>:okārā
 prpers<prn><p3><pl><nom>:u\ sab
+prpers<prn><p3><pl><nom>:ū\ sab # Dir/LR
 prpers<prn><p3><sg><gen><hi>:unkar
 prpers<prn><p3><sg><obl><hi>:unkārā
 
@@ -431,6 +435,7 @@ aisan:aisan			# like
 
 # Nor do adverbs
 LEXICON Adverbs
+to:to				# so
 tab:tab				# then
 Huaṃ:Huaṃ			# there
 bhī:bhī				# even
@@ -447,7 +452,8 @@ gir:gir				# down
 sewāy:sewāy			# besides
 sadā:sadā			# always
 keu:keu				# ever
-nā:nā				# not
+na:na               # not
+nā:nā				# Dir/LR not
 kabhī:kabhī			# ever
 thoṛā:thoṛā			# little
 
