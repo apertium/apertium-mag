@@ -92,17 +92,18 @@ Postposition* VerbRoot+ [ <v>: ] [ <pp>:tā ]
 Postposition* VerbRoot+ [ <v>: ] [ <pp>:ta ]
 Postposition* VerbRoot+ [ <n>:iyā ]
 
-Postposition* NounRoot+ [ <n>: ] Case [ <def>:>{W}ā ]? Number?
-Postposition* NounRoot+ [ <n>: ] Case [ <def>:>ā{W} ]? Number?
-Postposition* NounRoot+ [ <adj>:ī ]
-Postposition* NounRoot+ [ <adj>:iyā ]
-Postposition* NounRoot+ [ <adj>:īya ]
-Postposition* NounRoot+ [ <adj>:īyā ]
-Postposition* NounRoot+ [ <adj>:yika ]
-Postposition* NounRoot+ [ <adj>:yaka ]
-Postposition* NounRoot+ [ <adj>:yakār ]
-Postposition* NounRoot+ [ <adj>:kār ]
-Postposition* NounRoot+ [ :> ] VerbRoot [ <v>: ] 
+Adjectives* Postposition* NounRoot+ [ <n>: ] Case [ <def>:>{W}ā ]? Number?
+Adjectives* Postposition* NounRoot+ [ <n>: ] Case [ <def>:>ā{W} ]? Number?
+Adjectives* Postposition* NounRoot+ [ <adj>:ī ]
+Adjectives* Postposition* NounRoot+ [ <adj>:iyā ]
+Adjectives* Postposition* NounRoot+ [ <adj>:īya ]
+Adjectives* Postposition* NounRoot+ [ <adj>:īyā ]
+Adjectives* Postposition* NounRoot+ [ <adj>:tika ]
+Adjectives* Postposition* NounRoot+ [ <adj>:yika ]
+Adjectives* Postposition* NounRoot+ [ <adj>:yaka ]
+Adjectives* Postposition* NounRoot+ [ <adj>:yakār ]
+Adjectives* Postposition* NounRoot+ [ <adj>:ika ]
+Adjectives* Postposition* NounRoot+ [ :> ] VerbRoot [ <v>: ] 
 
 PersonalPronoun
 Pronoun
@@ -127,7 +128,55 @@ Url [ <url>: ]
 # ā ū ṃ ī ṛ ś ṣ ṭ ṇ
 
 LEXICON NounRoot  
+śailī:śailī					# style
+lekhanī:lekhanī					# pen/stylus
 sarthak:sarthak					# assistant
+sārthak:sārthak					# assistant
+saṃgaṭhan:saṃgaṭhan				# organization
+sāthī:sāthī					# parthenr
+hāṃth:hāṃth					# hand
+sītā:sītā					# name
+muddā:muddā					# name
+gop:gop						# ?
+danne:danne					# ?
+caudharī:caudharī				# Indian title
+awasar:awasar					# opportunity
+kaṃṭh:kaṃṭh					# jug
+ekare:ekare					# acre
+bādar:bādar					# ?
+baḍī:baḍī					# buddy?
+phuliyā:phuliyā					# town name
+dārū:dārū					# ?
+juān:juān					# ?
+baHādurpurī:baHādurpurī				# place name
+rānī:rānī					# queen
+saṃsamaraṇa:saṃsamaraṇa				# edition
+saṃjay:saṃjay					# name
+utsāH:utsāH					# place name
+sujhāw:sujhāw					# suggestion
+akṭūbar:akṭūbar					# October
+ḍeuṛhī:ḍeuṛhī					# ?
+paṃcaitī:paṃcaitī				# village council
+gauraw:gauraw					# name
+gagan:gagan					# name
+kalākār:kalākār					# artist
+dewarsī:dewarsī					# sage among the demigods
+darjan:darjan					# iranian village
+dhār:dhār					# torrent
+dheyan:dheyan					# name
+patnī:patnī					# name
+paṃḍit:paṃḍit					# pundit
+mauke:mauke					# chance
+bhunesar:bhunesar				# place name (typo of bhubaneswar?)
+manoj:manoj					# name
+śaHar:śaHar					# city
+taluk:taluk					# hereditary estate
+bin:bin						# bin
+baris:baris					# year
+waraṣ:waraṣ					# year
+baiṃk:baiṃk					# bank
+lakṣmī:lakṣmī					# Hindu goddess
+rūbal:rūbal					# ruble
 sekhar:sekhar					# name
 sardhāṃjalī:sardhāṃjalī				# tribute
 samīkṣā:samīkṣā					# name (also sports medicine center)
@@ -138,6 +187,7 @@ udaghāṭan:udaghāṭan				# inauguration
 awāj:awāj					# voice
 salīmā:salīmā					# ?
 galī:galī					# street
+saṛak:saṛak					# street
 gād:gād						# ?
 choṭgar:choṭgar					# place name
 citraṇ:citraṇ					# tv station
@@ -227,6 +277,7 @@ baje:baje					# evening
 parmeśwarī:parmeśwarī				# Hindu god
 naukarī:naukarī					# job
 śikṣā:śikṣā					# teacher
+śikṣaka:śikṣaka					# teacher
 adhikārī:adhikārī				# officer
 khāṛ:khāṛ					# place name
 katate:katate					# ?
@@ -320,6 +371,7 @@ goṣaṭī:goṣaṭī					# party
 kārṇa:kārṇa					# reason
 jal:jal						# water
 āyal:āyal					# oil
+tel:tel						# oil
 dukh:dukh					# sorrow
 duniyā:duniyā					# world
 koolej:koolej					# college
@@ -427,10 +479,12 @@ sababhe:sababhe					# ?
 manabh:manabh					# ?
 jīw:jīw						# life
 satar:satar					# seventy
+sāt:sāt						# seven
 pāṃc:pāṃc					# five
 das:das						# ten
 tīn:tīn						# three
 cār:cār						# four
+bīs:bīs						# twenty
 rūp:rūp						# ?
 bhāsā:bhāsā					# language
 bhāṣā:bhāṣā					# language
@@ -480,6 +534,7 @@ kumār:kumār					# name
 kājkaram:kājkaram				# name
 ḍo:ḍo						# doctor
 ḍo०:ḍo०					# doctor
+ḍokṭar:ḍokṭar					# doctor
 sāHit:sāHit					# literature
 saHit:saHit					# literature
 ghorā:ghorā					# horse
@@ -661,6 +716,16 @@ LEXICON Number
 
 LEXICON VerbRoot
 lai:lai						# ?
+rekhāṃki:rekhāṃki				# underline
+asar:asar					# bear
+dhey:dhey					# ?
+Howa:Howa					# ?
+cā:cā						# trick/move
+dew:dew						# ?
+paraśās:paraśās					# transgress
+paratikar:paratikar				# tresspass
+bec:bec						# sell
+saph:saph					# succeed
 samarapi:samarapi				# dedicate
 ḍar:ḍar						# fear
 the:the						# ?
@@ -744,6 +809,7 @@ biH:biH						# ?
 saṃcā:saṃcā					# operate
 parem:parem					# love
 śurū:śurū					# start
+śuru:śuru					# start
 batāyā:batāyā					# tell
 le:le						# ?
 aṃganā:aṃganā					# partake
@@ -911,6 +977,7 @@ prpers<prn><p1><sg><gen>:Hammar			# Dir/LR
 prpers<prn><p1><sg><obl>:Hamarā
 prpers<prn><p1><sg><obl>:Hamaro			# Dir/LR
 prpers<prn><p1><pl>:Hamāni
+prpers<prn><p1><pl>:HamaHīṃ			# Dir/LR
 prpers<prn><p2><sg><nom>:tu
 prpers<prn><p2><sg><nom>:tū			# Dir/LR
 prpers<prn><p2><sg><nom>:tūṃ			# Dir/LR
@@ -1021,6 +1088,13 @@ re:re						# idk
 # ā ū ṃ ī ṛ
 LEXICON Adjectives
 tanī:tanī					# stretched
+maHā:maHā					# great
+laghu:laghu					# short
+sabhī:sabhī					# all
+tej:tej						# fast
+bujhā:bujhā					# extinguished
+wiśeṣāṃka:wiśeṣāṃka				# special
+khuś:khuś					# happy
 garīb:garīb					# poor
 jawān:jawān					# young
 būṛhā:būṛhā					# old
@@ -1108,6 +1182,8 @@ yaṃ:yaṃ						# ?
 
 LEXICON Adverbs
 nīce:nīce					# down
+sābhār:sābhār					# sincerely
+lagabhag:lagabhag				# approximately
 nay:nay						# ?
 pīche:pīche					# back
 ūpar:ūpar					# up
@@ -1124,6 +1200,7 @@ Huaṃ:Huaṃ					# there
 bhī:bhī						# even
 Hāṃ:Hāṃ						# yes
 nayaṃ:nayaṃ					# no
+naHīṃ:naHīṃ					# no
 sāyad:sāyad					# maybe
 baHut:baHut					# very
 hīṃ:hīṃ						# near
@@ -1140,6 +1217,7 @@ nā:nā						# Dir/LR not
 kabhī:kabhī					# ever
 thoṛā:thoṛā					# little
 tau:tau						# ?
+taū:taū						# ?
 
 # Or conjunctions
 LEXICON Conjunctions
