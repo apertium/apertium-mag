@@ -9,7 +9,7 @@
 # <cnj>    Conjunction
 # <det>    Determiner
 
-# Noun Cases
+# Noun Cases 
 # <loc>    Locative
 # <ins>    Instrumental
 # <obl>    Oblique. same as nominative except context
@@ -76,12 +76,19 @@
 ###############################################################################
 
 PATTERNS
-NounRoot [ <n>: ] Case [ <def>:>{W}ā ]? Number?
 Punctuation
-VerbRoot [ <v>: ] Tense Subject ObjectHonorific?
+
+[ <aux>:H ] [ <v>: ] AuxTense Subject ObjectHonorific?
+
+VerbRoot [ <v>: ] Tense [ <tv>:k ]? Subject ObjectHonorific?
 VerbRoot [ <v>: ] Aspect
 VerbRoot [ <v>: ] [ <inf>:e ]
-[ <aux>:H ] [ <v>: ] AuxTense Subject ObjectHonorific?
+VerbRoot [ <v>: ] [ <pp>:tā ]
+
+NounRoot [ <n>: ] Case [ <def>:>{W}ā ]? Number?
+NounRoot [ <adj>:ī ]
+NounRoot [ :> ] VerbRoot [ <v>: ] 
+
 PersonalPronoun
 Pronoun
 [ prn<prn>: ] OtherParadigms OtherParadigmsDeclension
@@ -96,10 +103,50 @@ Interjection [ <ij>: ]
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
+#ā ū ṃ ī ṛ 
 
-LEXICON NounRoot
+LEXICON NounRoot  
+bhāsā:bhāsā # language
+jingī:jingī # ?
+saka:saka # ?
+atithi:atithi      # guest
+daśaratha:daśaratha # name
+deśa:deśa # country
+Hisua:Hisua # place name
+nawada:nawada # place name
+śarī:śarī # sari
+mithileś:mithileś # name
+yu:yu
+ratnā:ratnā
+sāl:sāl # year
+walā:walā # ?
+wikās:wikās        # development
+māy:māy
+man:man
+uday:uday           
+Hind:Hind
+rāma:rāma   # Rama
+rāt:rāt   # night
+magaH:magaH
+dharatī:dharatī # Earth
+biHār:biHār        # name of a region
+gīt:gīt              # song
+jayarām:jayarām           # idk
+samāj:samāj           # society
+nawādā:nawādā                  # name
+siṃH:siṃH               # name
+Howe:Howe                # name
+āyojan:āyojan             #event
+laghukathā:laghukathā           #short story
+kaHānī:kaHānī       # story
+maṃc:maṃc       # forum
+aṃk:aṃk         # digit
+lela:lela 
+bābū:bābū         # name
+kumār:kumār         #  name
+kājkaram:kājkaram         #name
+ṛe:ṛe #doctor
 sāHit:sāHit         # literature
-kawitā:kawitā       # poem
 ghorā:ghorā			# horse
 bail:bail			# bull
 phal:phal			# fruit
@@ -166,6 +213,7 @@ dam:dam				# moment
 sikha:sikha			# advice
 paHilā:paHilā			# first
 dūsar:dūsar			# second
+dosar:dosar         # Dir/LR second
 tīsar:tīsar			# third
 bhulāte:bhulāte			# way
 pāoṃ:pāoṃ			# foot
@@ -203,7 +251,7 @@ naukarcākar:naukarcākar		# servant
 kaigo:kaigo			# several
 peṭ:peṭ				# belly
 bhūsā:bhūsā			# husk
-sūar:sūar			# swine
+sūar:sūar			# swine 
 bādh:bādh			# field
 rahwaiyā:rahwaiyā		# inhabitant
 diksik:diksik			# trouble
@@ -213,14 +261,15 @@ puṃjī:puṃjī			# fortune
 des:des				# country
 dūno:dūno			# both
 bakhrā:bakhrā			# share
-din:din				# day
+din:din				# day 
 cīj:cīj				# property
 bābu:bābu			# father
 ohhoṭkā:ohhoṭkā			# younger
 beṭā:beṭā			# son
 ādmī:ādmī			# man
+admī:admī           # Dir/LR man
 gaṃ:gaṃ				# village
-parnām:parnām			# bow
+parnām:parnām			# bow 
 khātir:khātir			# favor
 baikunṭh:baikunṭh		# heaven
 ghamaṇḍ:ghamaṇḍ			# pride
@@ -232,6 +281,9 @@ nasadh:nasadh       # name?
 ghar:ghar           # house?
 patrikā:patrikā     # magazine?
 racnā:racnā         # creation
+mudā:mudā           # name?
+baṛkā:baṛkā         # ?
+netā:netā           # leader
 
 LEXICON Case
 <nom>:>
@@ -245,8 +297,19 @@ LEXICON Number
 
 #VerbRoot [ <v>: ] Tense Subject? ObjectHonorific?
 #VerbRoot [ <v>: ] Aspect
+# ā ū ṃ ī ṛ
 
 LEXICON VerbRoot
+badaHa:badaHa
+karabāw:karabāw
+kai:kai
+sar:sar
+bho:bho
+du:du
+go:go
+ca:ca
+samame:samame       # to meet (maybe)
+kawi:kawi           # write poetry
 kām:kām             # work
 maHād:maHād         # unknown
 dekh:dekh			# see
@@ -278,7 +341,8 @@ dauṛ:dauṛ			# run
 raHa:raHa			# live
 bol:bol				# speak
 rāj:rāj				# govern
-kar:kar				# make
+kar:kar				# do
+kār:kār             # Dir/LR do
 uṭh:uṭh				# arise
 bujhāe:bujhāe			# understand
 lilhs:lilhs			# covet
@@ -309,6 +373,7 @@ pi:pi				# drink
 baiṭhge:baiṭhge			# sit
 jāpahūṃc:jāpahūṃc		# rise
 bhar:bhar           # fill
+rahe:rahe           # stay
 
 LEXICON Aspect
 <hab>:ā
@@ -329,6 +394,7 @@ LEXICON Tense
 LEXICON AuxTense
 <pres>:>
 <past>:>al
+<past>:>ol # Dir/LR
 <pis>:>ot
 <prs>:>o
 <fts>:>ob
@@ -338,6 +404,7 @@ LEXICON Subject
 <s_p1>:>i
 <s_p1>:>ī # Dir/LR
 <s_p2>:>a
+<s_p2>:>ā # Dir/LR
 <s_p3>:>o
 <s_p3>:>an # Dir/LR
 <s_p3>:>th # Dir/LR
@@ -355,6 +422,7 @@ LEXICON PersonalPronoun
 prpers<prn><p1><sg><nom>:Ham
 prpers<prn><p1><sg><gen>:Hamār
 prpers<prn><p1><sg><gen>:Hamar # Dir/LR
+prpers<prn><p1><sg><gen>:Hammar # Dir/LR
 prpers<prn><p1><sg><obl>:Hamarā
 prpers<prn><p1><pl>:Hamāni
 prpers<prn><p2><sg><nom>:tu
@@ -363,6 +431,7 @@ prpers<prn><p2><sg><gen>:tor
 prpers<prn><p2><sg><obl>:torā
 prpers<prn><p2><pl>:toHāni
 prpers<prn><p2><sg><gen><hi>:toHār
+prpers<prn><p2><sg><gen><hi>:toHar # Dir/LR
 prpers<prn><p2><sg><obl><hi>:toHārā
 prpers<prn><prx><p3><sg><nom>:i
 prpers<prn><prx><p3><sg><nom>:ī # Dir/LR
@@ -382,11 +451,14 @@ prpers<prn><p3><pl><nom>:u\ sab
 prpers<prn><p3><pl><nom>:ū\ sab # Dir/LR
 prpers<prn><p3><sg><gen><hi>:unkar
 prpers<prn><p3><sg><gen><hi>:unkhar # Dir/LR
+prpers<prn><p3><sg><gen><hi>:unkha # Dir/LR
 prpers<prn><p3><sg><obl><hi>:unkārā
 prpers<prn><p3><sg><obl><hi>:unkhārā # Dir/LR
 
 LEXICON Pronoun
 ankar:ankar			# other
+<refl>:apan
+<refl>:appan # Dir/LR
 
 LEXICON OtherParadigms
 <dem>:
@@ -394,6 +466,7 @@ LEXICON OtherParadigms
 <rel>:j
 <cor>:{T}
 <refl>:apan
+<refl>:appan # Dir/LR
 
 LEXICON OtherParadigmsDeclension
 :>e
@@ -412,7 +485,13 @@ LEXICON OtherParadigmsDeclension
 <time>:>ab
 
 # Postpositions don't inflect
+#ā ū ṃ ī ṛ
+
 LEXICON Postposition
+
+ne:ne
+kā:kā
+bād:bād             # after
 ke:ke				# very general, but used for dative, accusative, and genitive
 se:se				# also general, but used for instrumental and ablative
 meṃ:meṃ				# in
@@ -425,10 +504,21 @@ ta:ta               # idk
 li:li               # idk
 sāth:sāth           # with
 kī:kī               # idk
+ki:ki               # Dir/LR idk
+ko:ko               # Dir/LR idk
 le:le               # idk
+re:re               # idk
 
 # Adjectives also don't inflect
+#ā ū ṃ ī ṛ
 LEXICON Adjectives
+
+koy:koy
+baṛī:baṛī           # big
+śarmā:śarmā
+bhārtī:bhārtī       # Indian
+nañ:nañ
+parsād:parsād
 tak:tak             # up to
 bes:bes				# better
 parna:parna			# low
@@ -449,6 +539,7 @@ haṃṭhuāman:haṃṭhuāman		# abundant
 bhārī:bhārī			# heavy
 dūr:dūr				# far
 sab:sab				# all
+sabhe:sabhe			# Dir/LR all
 dugo:dugo			# two
 cāHī:cāHī			# proper
 pakkā:pakkā			# firm
@@ -457,6 +548,8 @@ aisan:aisan			# like
 yaṃ:yaṃ
 
 # Nor do adverbs
+#ā ū ṃ ī ṛ
+
 LEXICON Adverbs
 to:to				# so
 tab:tab				# then
@@ -483,9 +576,13 @@ thoṛā:thoṛā			# little
 # Or conjunctions
 LEXICON Conjunctions
 āu:āu				# and
+ā:ā				    # probably and or or
+au:au				# Dir/LR and
+aur:aur				# Dir/LR and
 ab:ab				# now
 bākī:bākī			# but
 yā:yā				# or
+ya:ya				# Dir/LR or (probably)
 lekin:lekin         # but
 
 # Or determiners
@@ -493,6 +590,7 @@ LEXICON Determiners
 kuch:kuch			# some
 Har:Har				# every
 ḍher:ḍher			# many
+ājh:ājh             # determiner for ethnicities? (ājh tar-tar, ājh magahi?)
 
 LEXICON Interjection
 He:He               # we don't know
