@@ -59,6 +59,8 @@
 # <cor>    Correlative
 # relatives and correlatives are a fairly unique feature of indo aryan languages. It's easiest to explain with an example. In the sentence "The girl _with whom_ you are speaking, _she_ is my sister", _with whom_ is a relative pronoun, and _she_ is a correlative pronoun
 # For a magahi example, consider "जे लडिका दौड है, से हमर भऐ है" ("je laṛikā dauṛ hai, se hamar bhāi hai"), literally "relative boy run is, correlative mine brother is", or "the boy who is running is my brother"
+# <refl> Reflexive (like "my own", "my self", "own time", etc.)
+# <all> All (like "all time" "everyone" etc.)
 
 # adverbs
 # <quan>   Quantitative (this much, that much, how much, etc.)
@@ -72,308 +74,773 @@
 # >        Morpheme boundary
 
 ###############################################################################
-###                       M O R P H O T A C T I C S                         ###
+###                       M O R P H O T A C T I C S ###
 ###############################################################################
 
 PATTERNS
 Punctuation
 
-[ <aux>:H ] [ <v>: ] AuxTense Subject ObjectHonorific?
+[ <aux>:H ] [ <v>: ] AuxTense [ <tv>:k ]? Subject ObjectHonorific?
+[ <aux><v><pp>:Howa ]
+[ <aux><v><past><impf>:Hue ]
+[ <aux><v><past><perf>:Hiyai ]
 
-VerbRoot [ <v>: ] Tense [ <tv>:k ]? Subject ObjectHonorific?
-VerbRoot [ <v>: ] Aspect
-VerbRoot [ <v>: ] [ <inf>:e ]
-VerbRoot [ <v>: ] [ <pp>:tā ]
+Postposition* VerbRoot+ [ <v>: ] Tense [ <tv>:k ]? Subject ObjectHonorific?
+Postposition* VerbRoot+ [ <v>: ] [ <tv>:k ]? Aspect [ <tv>:ka ]?
+Postposition* VerbRoot+ [ <v>: ] Tense [ <inf>:e ]
+Postposition* VerbRoot+ [ <v>: ] [ <pp>:tā ]
+Postposition* VerbRoot+ [ <v>: ] [ <pp>:ta ]
+Postposition* VerbRoot+ [ <n>:iyā ]
 
-NounRoot [ <n>: ] Case [ <def>:>{W}ā ]? Number?
-NounRoot [ <adj>:ī ]
-NounRoot [ :> ] VerbRoot [ <v>: ] 
+Postposition* NounRoot+ [ <n>: ] Case [ <def>:>{W}ā ]? Number?
+Postposition* NounRoot+ [ <n>: ] Case [ <def>:>ā{W} ]? Number?
+Postposition* NounRoot+ [ <adj>:ī ]
+Postposition* NounRoot+ [ <adj>:iyā ]
+Postposition* NounRoot+ [ <adj>:īya ]
+Postposition* NounRoot+ [ <adj>:īyā ]
+Postposition* NounRoot+ [ <adj>:yika ]
+Postposition* NounRoot+ [ <adj>:yaka ]
+Postposition* NounRoot+ [ <adj>:yakār ]
+Postposition* NounRoot+ [ <adj>:kār ]
+Postposition* NounRoot+ [ :> ] VerbRoot [ <v>: ] 
 
 PersonalPronoun
 Pronoun
 [ prn<prn>: ] OtherParadigms OtherParadigmsDeclension
+[ prn<prn><indef><attr>:kauno ]
+[ prn<prn><indef><attr>:kaun ]			# Dir/LR
+[ prn<prn><indef><num>:kuch ]
+[ prn<prn><indef><quant>:kuch ]
+[ prn<prn><cor><pla>:yātrā ]
 Postposition [ <post>: ]
-Adjectives [ <adj>: ]
+[ :nā ]? Adjectives [ <adj>: ]
 Adverbs [ <adv>: ]
 Conjunctions [ <cnj>: ]
 Determiners [ <det>: ]
-Numbers+ [ <num>: ]
 Interjection [ <ij>: ]
+Numbers+ [ <num>: ]
+Url [ <url>: ]
 
 ###############################################################################
-###                          L E X I C O N                                  ###
+###                          L E X I C O N ###
 ###############################################################################
-#ā ū ṃ ī ṛ 
+# ā ū ṃ ī ṛ ś ṣ ṭ ṇ
 
 LEXICON NounRoot  
-bhāsā:bhāsā # language
-jingī:jingī # ?
-saka:saka # ?
-atithi:atithi      # guest
-daśaratha:daśaratha # name
-deśa:deśa # country
-Hisua:Hisua # place name
-nawada:nawada # place name
-śarī:śarī # sari
-mithileś:mithileś # name
-yu:yu
-ratnā:ratnā
-sāl:sāl # year
-walā:walā # ?
-wikās:wikās        # development
-māy:māy
-man:man
-uday:uday           
-Hind:Hind
-rāma:rāma   # Rama
-rāt:rāt   # night
-magaH:magaH
-dharatī:dharatī # Earth
-biHār:biHār        # name of a region
-gīt:gīt              # song
-jayarām:jayarām           # idk
-samāj:samāj           # society
-nawādā:nawādā                  # name
-siṃH:siṃH               # name
-Howe:Howe                # name
-āyojan:āyojan             #event
-laghukathā:laghukathā           #short story
-kaHānī:kaHānī       # story
-maṃc:maṃc       # forum
-aṃk:aṃk         # digit
-lela:lela 
-bābū:bābū         # name
-kumār:kumār         #  name
-kājkaram:kājkaram         #name
-ṛe:ṛe #doctor
-sāHit:sāHit         # literature
-ghorā:ghorā			# horse
-bail:bail			# bull
-phal:phal			# fruit
-magaHī:magaHī			# magahī
-jantar:jantar			# instrument
-jag:jag				# religious ceremony
-jug:jug				# era
-bans:bans			# lineage
-bansi:bansi			# flute
-bacan:bacan			# word, promise
-bajar:bajar			# thunderbolt
-teoHār:teoHār			# festival
-piās:piās			# thirst
-ciuṃti:ciuṃti			# ant
-subhāw:subhāw			# nature
-iāri:iāri			# friendship
-gāṃo:gāṃo			# village
-gāṃw:gāṃw			# Dir/LR village
-ṭhāṃo:ṭhāṃo			# place
-murHi:murHi			# roasted rice
-moṛhā:moṛhā			# sitting stool
-tilHā:tilHā			# mound
-cinHā:cinHā			# sign
-tumHiṃ:tumHiṃ			# musical instrument
-karia:karia			# black
-Har:Har				# plow
-phār:phār			# plowshare
-karam:karam			# destiny
-darad:darad			# pain
-jeonār:jeonār			# feast
-garHan:garHan			# eclipse
-ṭhelā:ṭhelā			# pushcart
-bojhā:bojhā			# load
-koṛā:koṛā			# whip
-basant:basant			# spring
-dokān:dokān			# store
-loHā:loHā			# iron
-loHār:loHār			# blacksmith
-sonā:sonā			# gold
-sonār:sonār			# goldsmith
-ḍākā:ḍākā			# robbery
-nokari:nokari			# job
-moṭari:moṭari			# bundle
-jhulā:jhulā			# swing
-dālbhāt:dālbhāt			# everyday meal
-gāw:gāw				# village
-etnā:etnā			# meantime
-tapaseā:tapaseā			# austerities NOT SURE!!!
-jaṅgal:jaṅgal			# forest
-neāw:neāw			# justice
-pāṃo:pāṃo			# feet
-phar:phar			# fruit
-pānī:pānī			# water
-Hawā:Hawā			# air
-Hāth:Hāth			# hand
-cham:cham			# mercy
-iād:iād				# memory
-dayā:dayā			# compassion
-thakainī:thakainī		# weariness
-kaleān:kaleān			# welfare
-bāt:bāt				# thing
-nām:nām				# name
-dam:dam				# moment
-sikha:sikha			# advice
-paHilā:paHilā			# first
-dūsar:dūsar			# second
-dosar:dosar         # Dir/LR second
-tīsar:tīsar			# third
-bhulāte:bhulāte			# way
-pāoṃ:pāoṃ			# foot
-ber:ber				# time
-yug:yug             # unknown
-
-ḍakait:ḍakait			# robber
-maHārāj:maHārāj			# great-king
-narāyan:narāyan			# God
-sāmī:sāmī			# lord
-chelā:chelā			# disciple
-sādhū:sādhū			# saint
-patukī:patukī			# followers
-sipāHī:sipāHī			# sepoys
-bāp:bāp				# father
-laṛiki:laṛiki			# girl
-laṛikā:laṛikā			# boy
-bhāi:bhāi			# brother
-baHin:baHin			# sister
-rājā:rājā			# king
-maugi:maugi			# woman
-beṭī:beṭī			# daughter
-buṛhā:buṛhā			# old man
-buṛhiyā:buṛhiyā			# old woman
-cor:cor				# thief
-mālī:mālī			# gardener
-goālā:goālā			# milkman
-maugā:maugā			# effeminate person
-jam:jam				# death god
-
-majūrā:majūrā			# laborer
-pāp:pāp				# sin
-bhūkh:bhūkh			# hunger
-naukarcākar:naukarcākar		# servant
-kaigo:kaigo			# several
-peṭ:peṭ				# belly
-bhūsā:bhūsā			# husk
-sūar:sūar			# swine 
-bādh:bādh			# field
-rahwaiyā:rahwaiyā		# inhabitant
-diksik:diksik			# trouble
-akāl:akāl			# famine
-kucāli:kucāli			# misconduct
-puṃjī:puṃjī			# fortune
-des:des				# country
-dūno:dūno			# both
-bakhrā:bakhrā			# share
-din:din				# day 
-cīj:cīj				# property
-bābu:bābu			# father
-ohhoṭkā:ohhoṭkā			# younger
-beṭā:beṭā			# son
-ādmī:ādmī			# man
-admī:admī           # Dir/LR man
-gaṃ:gaṃ				# village
-parnām:parnām			# bow 
-khātir:khātir			# favor
-baikunṭh:baikunṭh		# heaven
-ghamaṇḍ:ghamaṇḍ			# pride
-cauṭhā:cauṭhā			# fourth
-chamā:chamā			# mercy
-cūk:cūk				# mistake
-narāy:narāy			# god
-nasadh:nasadh       # name?
-ghar:ghar           # house?
-patrikā:patrikā     # magazine?
-racnā:racnā         # creation
-mudā:mudā           # name?
-baṛkā:baṛkā         # ?
-netā:netā           # leader
+sarthak:sarthak					# assistant
+sekhar:sekhar					# name
+sardhāṃjalī:sardhāṃjalī				# tribute
+samīkṣā:samīkṣā					# name (also sports medicine center)
+samiti:samiti					# committee
+kārykaram:kārykaram				# event
+kasauṭī:kasauṭī					# test
+udaghāṭan:udaghāṭan				# inauguration
+awāj:awāj					# voice
+salīmā:salīmā					# ?
+galī:galī					# street
+gād:gād						# ?
+choṭgar:choṭgar					# place name
+citraṇ:citraṇ					# tv station
+titakī:titakī					# butterfly
+ḍar:ḍar						# fear
+bhore:bhore					# ?
+narena:narena					# name
+narendra:narendra				# Narendra Modi, prime minister of India
+modi:modi					# Narendra Modi, prime minister of India
+dewaspurī:dewaspurī				# ?
+baṃdhu:baṃdhu					# brother
+pīṭh:pīṭh					# bench
+pāraṭī:pāraṭī					# place name
+noṭ:noṭ						# note
+netājī:netājī					# airport in west bengal
+subhaś:subhaś					# airport in west bengal
+nālandā:nālandā					# village in rajgir
+candra:candra					# airport in west bengal
+bose:bose					# airport in west bengal
+nārī:nārī					# name, place name, and movie title
+sauṃse:sauṃse					# ?
+Houle:Houle					# ?
+Howai:Howai					# ?
+rājgīr:rājgīr					# place name
+śobhā:śobhā					# name
+kādo:kādo					# ?
+roṭī:roṭī					# Nepali flatbread
+saṃdeś:saṃdeś					# message
+sāṃjh:sāṃjh					# dusk
+samdarśī:samdarśī				# ?
+wibhāgādhayakaṣ:wibhāgādhayakaṣ			# department head
+siṃgār:siṃgār					# singer?
+sās:sās						# ?
+akhabār:akhabār					# newspaper
+āśā:āśā						# name
+garām:garām					# ?
+gurū:gurū					# teacher (guru)
+gaṃgā:gaṃgā					# Ganges
+duārī:duārī					# name
+badrā:badrā					# name
+dhar:dhar					# name
+jhūmar:jhūmar					# chandelier
+juliyā:juliyā					# Julia
+becār:becār					# poor (n.)
+maiḍam:maiḍam					# madam
+janawarī:janawarī				# January
+ūHāṃ:ūHāṃ					# ?
+sale:sale					# ?
+saras:saras					# ?
+senā:senā					# army
+saciwa:saciwa					# secretary
+śiwa:śiwa					# Shiva
+raṃjīt:raṃjīt					# name
+korsis:korsis					# CoreSys
+kuccho:kuccho					# female dog
+kal:kal						# yesterday/tomorrow
+choṭakī:choṭakī					# nickname
+parācārya:parācārya				# name?
+parwīṇ:parwīṇ					# name
+śarotariya:śarotariya				# place name
+warmā:warmā					# name
+rameś:rameś					# name
+mukām:mukām					# place/point
+maHotsaw:maHotsaw				# name
+sajanī:sajanī					# name
+saṃbedhan:saṃbedhan				# address
+Hajār:Hajār					# thousand
+sunarī:sunarī					# place name
+saṃsāra:saṃsāra					# sanskrit technical term meaning world, rebirty, "cyclicality of all life, matter, existence"
+āwāj:āwāj					# voice
+cun:cun						# election
+lākh:lākh					# one hundred thousand
+chappal:chappal					# chapel
+parasatuti:parasatuti				# ?
+śekhpurā:śekhpurā				# place name
+wijay:wijay					# name (of a famous actor)
+kau:kau						# ?
+sanes:sanes					# senses?
+sujanī:sujanī					# bihari embroirdery
+janī:janī					# birth
+dīyā:dīyā					# ?
+tīnoṃ:tīnoṃ					# trio
+taraph:taraph					# side
+dhanaṃjay:dhanaṃjay				# name/movie title/actor
+bhāg:bhāg					# good
+baje:baje					# evening
+parmeśwarī:parmeśwarī				# Hindu god
+naukarī:naukarī					# job
+śikṣā:śikṣā					# teacher
+adhikārī:adhikārī				# officer
+khāṛ:khāṛ					# place name
+katate:katate					# ?
+kurasī:kurasī					# pedestal
+kān:kān						# ear
+phin:phin					# fin
+nāgarik:nāgarik					# citizen
+paṃkati:paṃkati					# rank, verse, line, range, string
+pūjā:pūjā					# hindu ritual
+Hirdā:Hirdā					# ?
+pareraṇā:pareraṇā				# ?
+samāroH:samāroH					# function
+sukh:sukh					# happiness
+dwārā:dwārā					# gate
+tar:tar						# level
+sadasay:sadasay					# member
+saHajoga:saHajoga				# kind of yoga
+raHalūṃ:raHalūṃ					# name
+daśā:daśā					# ?
+chātī:chātī					# chest
+bhārat:bhārat					# India
+enane:enane					# ?
+patra:patra					# parent
+patathar:patathar				# parent
+parsāra:parsāra					# ?
+bhīṛ:bhīṛ					# crowd
+maṃjhwekar:maṃjhwekar				# name
+saṃskāra:saṃskāra				# world
+sāwan:sāwan					# fifth month of the nanakshahi calendar
+kapaṛā:kapaṛā					# cloth
+biyāH:biyāH					# name
+bulknī:bulknī					# name
+khūbe:khūbe					# name
+pustaka:pustaka					# book
+ādhā:ādhā					# half
+bhijun:bhijun					# ?
+alāwe:alāwe					# ?
+ādhū:ādhū					# ?
+arūṇ:arūṇ					# ?
+miśar:miśar					# mischief
+laghukakhā:laghukakhā				# ?
+oHe:oHe						# ?
+ūHe:ūHe						# ?
+wariṣṭh:wariṣṭh					# senior
+rāmnāth:rāmnāth					# name
+saHayoga:saHayoga				# collaboration
+nayakā:nayakā					# ?
+mocha:mocha					# ?
+rājnīti:rājnīti					# politics
+Hāiku:Hāiku					# haiku
+rāmratan:rāmratan				# movie title
+bacacā:bacacā					# child
+jaldī:jaldī					# ?
+gelūṃ:gelūṃ					# ?
+ceHrā:ceHrā					# face
+śaphīk:śaphīk					# name (shafiq)
+kiraṇ:kiraṇ					# name
+logan:logan					# ?
+kiśor:kiśor					# teen
+wiśwa:wiśwa					# ?
+sitab:sitab					# ?
+māy:māy						# ?
+bāre:bāre					# ?
+pati:pati					# husband
+māṭī:māṭī					# movie name?
+saṃgraH:saṃgraH					# code
+ma:ma						# ?
+lewe:lewe					# ?
+pher:pher					# ?
+majur:majur					# ?
+khūn:khūn					# blood
+maHīnā:maHīnā					# month
+ghaṛī:ghaṛī					# clock
+sagro:sagro					# ?
+pūrṇā:pūrṇā					# name
+prophesar:prophesar				# professor
+maṃdir:maṃdir					# temple
+sāHeb:sāHeb					# noble/prince
+sāHab:sāHab					# noble/prince
+kathā:kathā					# ?
+wibhāg:wibhāg					# department
+butrū:butrū					# name
+rājeś:rājeś					# name
+dane:dane					# grain
+widyālaya:widyālaya				# school
+umeś:umeś					# name
+gāṛī:gāṛī					# cart
+radhiyā:radhiyā					# name
+yogeś:yogeś					# name
+goṣaṭī:goṣaṭī					# party
+kārṇa:kārṇa					# reason
+jal:jal						# water
+āyal:āyal					# oil
+dukh:dukh					# sorrow
+duniyā:duniyā					# world
+koolej:koolej					# college
+kajarī:kajarī					# kajari melon
+ām:ām						# mango
+nagar:nagar					# place name
+goṣaṭhī:goṣaṭhī					# place name
+pīṛhī:pīṛhī					# generation
+daur:daur					# round
+diwas:diwas					# day
+kalam:kalam					# pen
+lokārapaṇa:lokārapaṇa				# publication
+marad:marad					# ?
+wīṇā:wīṇā					# name
+lok:lok						# something to do with literature
+kumrī:kumrī					# name
+taiyo:taiyo					# ?
+laikā:laikā					# ? (lyka?)
+wiṣya:wiṣya					# topic
+sewā:sewā					# service
+samRdadh:samRdadh				# prosperity
+bhaṭṭā:bhaṭṭā					# name
+kitāb:kitāb					# book
+jāke:jāke					# ?
+meHrārū:meHrārū					# place name
+maṃḍap:maṃḍap					# pavilion
+bhaiyā:bhaiyā					# brother
+baṛgar:baṛgar					# name
+saṃgh:saṃgh					# union
+wiśwawidayālaya:wiśwawidayālaya			# university
+rūpaiyā:rūpaiyā					# rupee
+iyā:iyā						# ?
+dunno:dunno					# ? (dunno, lol)
+dunnū:dunnū					# ?
+dā:dā						# give?
+da:da						# give?
+bīc:bīc						# beach
+dūdh:dūdh					# milk
+wayaṃgay:wayaṃgay				# vanguard
+bhāw:bhāw					# price
+biāH:biāH					# ?
+eHī:eHī						# ?
+samajh:samajh					# understanding
+mor:mor						# peacock
+saṃskRti:saṃskRti				# sanskrit
+kRṣṇa:kRṣṇa					# Krishna
+sārathī:sārathī					# charioteer
+Hāsay:Hāsay					# ?
+phūl:phūl					# flower
+phen:phen					# fen
+candū:candū					# Chandu
+parayās:parayās					# effort
+sureś:sureś					# name
+paHāṛ:paHāṛ					# mountain
+baki:baki					# name?
+deH:deH						# body
+raṃg:raṃg					# color
+najar:najar					# eye
+goṛ:goṛ						# God
+phagunī:phagunī					# name
+sinHā:sinHā					# lion/brave person/sinha
+niHorā:niHorā					# name
+nai:nai						# ?
+paisā:paisā					# ?
+māṃjhī:māṃjhī					# name (mountain man)
+maṃtrī:maṃtrī					# mantra
+Hoke:Hoke					# ?
+mokā:mokā					# mocha?
+baṛ:baṛ						# size
+jagaH:jagaH					# place
+aśoka:aśoka					# Ashoka
+sujātā:sujātā					# Sujata
+māthā:māthā					# forehead
+iyād:iyād					# ?
+āwe:āwe						# ?
+dināṃk:dināṃk					# ?
+kāway:kāway					# ?
+wārisalīgaṃj:wārisalīgaṃj			# ?
+ḍhībrā:ḍhībrā					# place name
+parathinidhi:parathinidhi			# representative
+sau:sau						# sau
+goṣṭhīlogoṃ:goṣṭhīlogoṃ				# person
+caracā:caracā					# ?
+bhāt:bhāt					# morning
+diśā:diśā					# direction
+dhān:dhān					# paddy
+samamān:samamān					# honor
+itiHās:itiHās					# history
+Hamanī:Hamanī					# human?
+HamanaHīṃ:HamanaHīṃ				# human?
+sāmane:sāmane					# front
+dharma:dharma					# dharma
+kṣetra:kṣetra					# Kshetra
+pās:pās						# pass?
+khabar:khabar					# news
+aurat:aurat					# woman
+śaṃkar:śaṃkar					# name
+bār:bār						# times
+patā:patā					# address
+paṃkaj:paṃkaj					# name
+samay:samay					# time
+śabda:śabda					# speech utterance (Sanksrit technical term)
+āgū:āgū						# ?
+sababhe:sababhe					# ?
+manabh:manabh					# ?
+jīw:jīw						# life
+satar:satar					# seventy
+pāṃc:pāṃc					# five
+das:das						# ten
+tīn:tīn						# three
+cār:cār						# four
+rūp:rūp						# ?
+bhāsā:bhāsā					# language
+bhāṣā:bhāṣā					# language
+bhaujī:bhaujī					# patron
+kheta:kheta					# farm
+jingī:jingī					# ?
+saka:saka					# ?
+atithi:atithi					# guest
+daśaratha:daśaratha				# name
+deśa:deśa					# country
+Hisua:Hisuā					# city name
+nawada:nawada					# place name
+śarī:śarī					# sari
+mithileś:mithileś				# name
+yu:yu						# ?
+ratnā:ratnā					# ?
+sāl:sāl						# year
+walā:walā					# ?
+wikās:wikās					# development
+māy:māy						# ?
+man:man						# ?
+uday:uday					# ?
+Hind:Hind					# hindi
+rāma:rāma					# Rama
+rāt:rāt						# night
+magaH:magaH					# magahi
+dharatī:dharatī					# Earth
+biHār:biHār					# name of a region
+gīt:gīt						# song
+jayarām:jayarām					# idk
+samāj:samāj					# society
+nawādā:nawādā					# name
+siṃH:siṃH					# name
+muṃH:muṃH					# mouth
+Howe:Howe					# name
+āyojan:āyojan					# event
+laghukathā:laghukathā				# short story
+kaHānī:kaHānī					# story
+maṃc:maṃc					# forum
+aṃk:aṃk						# digit
+āṃkh:āṃkh					# eye
+āg:āg						# fire
+kisān:kisān					# farmer
+bābū:bābū					# name
+bābā:bābā					# name
+kumār:kumār					# name
+kājkaram:kājkaram				# name
+ḍo:ḍo						# doctor
+ḍo०:ḍo०					# doctor
+sāHit:sāHit					# literature
+saHit:saHit					# literature
+ghorā:ghorā					# horse
+bail:bail					# bull
+phal:phal					# fruit
+magaHī:magaHī					# magahī
+jantar:jantar					# instrument
+jag:jag						# religious ceremony
+dhan:dhan					# money
+widhā:widhā					# mode
+wicār:wicār					# thoughts
+jug:jug						# era
+bans:bans					# lineage
+bansi:bansi					# flute
+bacan:bacan					# word, promise
+bajar:bajar					# thunderbolt
+teoHār:teoHār					# festival
+piās:piās					# thirst
+ciuṃti:ciuṃti					# ant
+subhāw:subhāw					# nature
+iāri:iāri					# friendship
+gāṃo:gāṃo					# village
+gāṃw:gāṃw					# Dir/LR village
+ṭhāṃo:ṭhāṃo					# place
+murHi:murHi					# roasted rice
+moṛhā:moṛhā					# sitting stool
+tilHā:tilHā					# mound
+cinHā:cinHā					# sign
+tumHiṃ:tumHiṃ					# musical instrument
+karia:karia					# black
+Har:Har						# plow
+phār:phār					# plowshare
+karam:karam					# destiny
+darad:darad					# pain
+jeonār:jeonār					# feast
+garHan:garHan					# eclipse
+ṭhelā:ṭhelā					# pushcart
+bojhā:bojhā					# load
+koṛā:koṛā					# whip
+basant:basant					# spring
+dokān:dokān					# store
+loHā:loHā					# iron
+loHār:loHār					# blacksmith
+sonā:sonā					# gold
+sonār:sonār					# goldsmith
+ḍākā:ḍākā					# robbery
+nokari:nokari					# job
+moṭari:moṭari					# bundle
+jhulā:jhulā					# swing
+dālbhāt:dālbhāt					# everyday meal
+gāw:gāw						# village
+etnā:etnā					# meantime
+tapaseā:tapaseā					# austerities NOT SURE!!!
+jaṅgal:jaṅgal					# forest
+jaṃgal:jaṃgal					# forest
+neāw:neāw					# justice
+pāṃo:pāṃo					# feet
+phar:phar					# fruit
+pānī:pānī					# water
+Hawā:Hawā					# air
+Hāth:Hāth					# hand
+cham:cham					# mercy
+iād:iād						# memory
+dayā:dayā					# compassion
+thakainī:thakainī				# weariness
+kaleān:kaleān					# welfare
+bāt:bāt						# thing
+nām:nām						# name
+dam:dam						# moment
+sikha:sikha					# advice
+paHilā:paHilā					# first
+paHila:paHila					# first
+dūsar:dūsar					# second
+dosar:dosar					# Dir/LR second
+tīsar:tīsar					# third
+bhulāte:bhulāte					# way
+pāoṃ:pāoṃ					# foot
+ber:ber						# time
+yug:yug						# unknown
+ḍakait:ḍakait					# robber
+maHārāj:maHārāj					# great-king
+narāyan:narāyan					# God
+bhagawān:bhagawān				# God
+sāmī:sāmī					# lord
+chelā:chelā					# disciple
+sādhū:sādhū					# saint
+patukī:patukī					# followers
+sipāHī:sipāHī					# sepoys
+bāp:bāp						# father
+laṛiki:laṛiki					# girl
+laṛakī:laṛakī					# girl
+laṛikā:laṛikā					# boy
+laṛakā:laṛakā					# boy
+bhāi:bhāi					# brother
+bhāy:bhāy					# Dir/LR brother
+bhāī:bhāī					# Dir/LR brother
+baHin:baHin					# sister
+pariwār:pariwār					# family
+rājā:rājā					# king
+akādmī:akādmī					# academy
+saṃpādka:saṃpādka				# editor
+jaisan:jaisan					# JSON
+maugi:maugi					# woman
+beṭī:beṭī					# daughter
+buṛhā:buṛhā					# old man
+buṛhiyā:buṛhiyā					# old woman
+cor:cor						# thief
+mālī:mālī					# gardener
+goālā:goālā					# milkman
+maugā:maugā					# effeminate person
+jam:jam						# death god
+majūrā:majūrā					# laborer
+pāp:pāp						# sin
+bhūkh:bhūkh					# hunger
+naukarcākar:naukarcākar				# servant
+kaigo:kaigo					# several
+peṭ:peṭ						# belly
+bhūsā:bhūsā					# husk
+sūar:sūar					# swine 
+bādh:bādh					# field
+rahwaiyā:rahwaiyā				# inhabitant
+diksik:diksik					# trouble
+akāl:akāl					# famine
+kucāli:kucāli					# misconduct
+puṃjī:puṃjī					# fortune
+des:des						# country
+dūno:dūno					# both
+bakhrā:bakhrā					# share
+din:din						# day 
+cīj:cīj						# property
+bābu:bābu					# father
+ohhoṭkā:ohhoṭkā					# younger
+beṭā:beṭā					# son
+ādmī:ādmī					# man
+admī:admī					# Dir/LR man
+gaṃ:gaṃ						# village
+parnām:parnām					# bow 
+khātir:khātir					# favor
+baikunṭh:baikunṭh				# heaven
+ghamaṇḍ:ghamaṇḍ					# pride
+cauṭhā:cauṭhā					# fourth
+chamā:chamā					# mercy
+gayā:gayā					# Gaya
+cūk:cūk						# mistake
+narāy:narāy					# god
+nasadh:nasadh					# name?
+ghar:ghar					# house?
+patrikā:patrikā					# magazine?
+racnā:racnā					# creation
+mudā:mudā					# name?
+baṛkā:baṛkā					# ?
+netā:netā					# leader
+adhyakaṣ:adhyakaṣ				# name
+san:san						# ?
+kaHe:kaHe					# ?
+kāHe:kāHe					# Dir/LR ?
+magadha:magadha					# Magadha
+jilā:jilā					# district
+paṭnā:paṭnā					# Patna
+kāj:kāj						# ?
+patrakār:patrakār				# ?
+mukhya:mukhya					# Mukhya
+dew:dew						# god?
 
 LEXICON Case
 <nom>:>
 <loc>:>e
 <inst>:>eṃ
 <obl>:>{e}
-<obl>:> # Dir/LR
+<obl>:>						# Dir/LR
 
 LEXICON Number
 <pl>:>{a}n
+<coll>:>aya
 
 #VerbRoot [ <v>: ] Tense Subject? ObjectHonorific?
 #VerbRoot [ <v>: ] Aspect
 # ā ū ṃ ī ṛ
 
 LEXICON VerbRoot
-badaHa:badaHa
-karabāw:karabāw
-kai:kai
-sar:sar
-bho:bho
-du:du
-go:go
-ca:ca
-samame:samame       # to meet (maybe)
-kawi:kawi           # write poetry
-kām:kām             # work
-maHād:maHād         # unknown
-dekh:dekh			# see
-jap:jap				# mutter
-sun:sun				# hear
-dho:dho				# wash
-bo:bo				# sow
-likh:likh			# write
-cinH:cinH			# recognize
-pis:pis				# grind
-khā:khā				# eat
-khojate:khojate			# search
-ghur:ghur			# return
-kaH:kaH				# say
-banālā:banālā			# make
-rakh:rakh			# keep
-de:de				# give
-puch:puch			# ask
-bhulāte:bhulāte			# lose
-lāg:lāg				# touch
-jān:jān				# know
-pī:pī				# drink
-jor:jor				# clasp
-bhe:bhe				# become
-baiṭh:baiṭh			# sit
-jā:jā				# go
-sut:sut				# sleep
-dauṛ:dauṛ			# run
-raHa:raHa			# live
-bol:bol				# speak
-rāj:rāj				# govern
-kar:kar				# do
-kār:kār             # Dir/LR do
-uṭh:uṭh				# arise
-bujhāe:bujhāe			# understand
-lilhs:lilhs			# covet
-maras:maras			# die
-bhare:bhare			# fill
-peṭhau:peṭhau			# send
-charāwe:charāwe			# feed
-lag:lag				# begin
-gawaṃcuk:gawaṃcuk		# lose
-paṛa:paṛa			# fell
-jiān:jiān			# waste
-baṭorsaṭor:baṭorsaṭor		# collect
-pau:pau				# allow
-bīte:bīte			# pass
-bāṃṭ:bāṃṭ			# divide
-laga:laga			# begin
-deda:deda			# give
-parnā:parnā			# bow
-ge:ge				# come
-rājkar:rājkar			# govern
-par:par				# fall
-banāwe:banāwe			# make
-bigāṛe:bigāṛe			# unmake
-rahe:rahe			# remain
-sādh:sādh			# bring
-nikal:nikal			# leave
-pi:pi				# drink
-baiṭhge:baiṭhge			# sit
-jāpahūṃc:jāpahūṃc		# rise
-bhar:bhar           # fill
-rahe:rahe           # stay
+lai:lai						# ?
+samarapi:samarapi				# dedicate
+ḍar:ḍar						# fear
+the:the						# ?
+widh:widh					# legislate
+yād:yād						# remember
+eka:eka						# unify
+āHw:āHw						# ?
+kamī:kamī					# decrease
+caṛh:caṛh					# climb
+gām:gām						# step
+ba:ba						# force
+seṃgar:seṃgar					# ?
+saṃpād:saṃpād					# edit
+Hāsi:Hāsi					# achieve
+khu:khu						# ?
+khatm:khatm					# seal
+ḍeg:ḍeg						# ?
+pūch:pūch					# ask
+saṃbodh:saṃbodh					# address
+ani:ani						# ?
+chapap:chapap					# ?
+pakaṛ:pakaṛ					# catch/hold
+bag:bag						# stink?
+sak:sak						# disgust
+ār:ār						# come?
+ānado:ānado					# move
+tatawāwadh:tatawāwadh				# incant
+uṭhāwe:uṭhāwe					# lift
+sowāgat:sowāgat					# welcome
+khe:khe						# ?
+lekh:lekh					# write
+juṭ:juṭ						# ?
+wiśwās:wiśwās					# trust
+śāmi:śāmi					# include
+jam:jam						# own
+rasa:rasa					# ?
+āyoji:āyoji					# hold
+gāch:gāch					# gasp
+sakū:sakū					# ?
+nirā:nirā					# ?
+kais:kais					# ?
+ṭo:ṭo						# ?
+sawā:sawā					# ask
+lor:lor						# ?
+koki:koki					# ?
+māṃg:māṃg					# demand
+śaro:śaro					# shoot
+mam:mam						# ?
+paw:paw						# blow?
+dhanayawād:dhanayawād				# thank
+mat:mat						# do
+sagar:sagar					# ?
+pār:pār						# cross
+bheje:bheje					# send
+baṛh:baṛh					# increase
+mān:mān						# ?
+niy:niy						# ?
+paṛh:paṛh					# read
+parakāśi:parakāśi				# publish
+jo:jo						# go?
+bā:bā						# ?
+patarakāri:patarakāri				# correspond
+me:me						# ?
+pāṭh:pāṭh					# study
+paṭh:paṭh					# study
+sap:sap						# dream
+khaṛ:khaṛ					# stand
+ā:ā						# ?
+kā:kā						# time
+maṃd:maṃd					# dim
+jarūrī:jarūrī					# must
+di:di						# ?
+adhayakaṣ:adhayakaṣ				# retire
+mār:mār						# kill
+samamāni:samamāni				# honor
+kay:kay						# ?
+choṛ:choṛ					# skip
+āloc:āloc					# criticize
+cāH:cāH						# want
+biH:biH						# ?
+saṃcā:saṃcā					# operate
+parem:parem					# love
+śurū:śurū					# start
+batāyā:batāyā					# tell
+le:le						# ?
+aṃganā:aṃganā					# partake
+mā:mā						# own
+jarūra:jarūra					# need
+mil:mil						# ?
+jāHe:jāHe					# ?
+juṛ:juṛ						# ?
+badaHa:badaHa					# ?
+karabāw:karabāw					# ?
+kai:kai						# ?
+sar:sar						# ?
+bho:bho						# ?
+dū:dū						# ?
+go:go						# ?
+ca:ca						# ?
+cal:cal						# ?
+aidoṃ:aidoṃ					# ?
+ban:ban						# make
+banāw:banāw					# make
+samame:samame					# to meet (maybe)
+kawi:kawi					# write poetry
+kām:kām						# work
+maHād:maHād					# unknown
+dekh:dekh					# see
+jap:jap						# mutter
+sun:sun						# hear
+dho:dho						# wash
+bo:bo						# sow
+likh:likh					# write
+cinH:cinH					# recognize
+pis:pis						# grind
+khā:khā						# eat
+khojate:khojate					# search
+ghur:ghur					# return
+kaH:kaH						# say
+banālā:banālā					# make
+rakh:rakh					# keep
+de:de						# give
+puch:puch					# ask
+bhulāte:bhulāte					# lose
+lāg:lāg						# touch
+jān:jān						# know
+jan:jan						# know
+jañ:jañ						# know
+pī:pī						# drink
+jor:jor						# clasp
+bhe:bhe						# become
+baiṭh:baiṭh					# sit
+jā:jā						# go
+ja:ja						# go
+jha:jha						# go
+jhā:jhā						# go
+sut:sut						# sleep
+dauṛ:dauṛ					# run
+raHa:raHa					# live
+rāHa:rāHa					# live
+bol:bol						# speak
+rāj:rāj						# govern
+kar:kar						# do
+kār:kār						# do
+karke:karke					# do
+uṭh:uṭh						# arise
+bujhāe:bujhāe					# understand
+lilhs:lilhs					# covet
+mar:mar						# die
+maras:maras					# die
+bhare:bhare					# fill
+peṭhau:peṭhau					# send
+charāwe:charāwe					# feed
+lag:lag						# begin
+gawaṃcuk:gawaṃcuk				# lose
+paṛa:paṛa					# fell
+jiān:jiān					# waste
+baṭorsaṭor:baṭorsaṭor				# collect
+pau:pau						# allow
+bīte:bīte					# pass
+bāṃṭ:bāṃṭ					# divide
+laga:laga					# begin
+deda:deda					# give
+parnā:parnā					# bow
+ge:ge						# come
+rājkar:rājkar					# govern
+par:par						# fall
+banāwe:banāwe					# make
+bigāṛe:bigāṛe					# unmake
+raHe:raHe					# remain
+sādh:sādh					# bring
+ni:ni						# leave
+pi:pi						# drink
+baiṭhge:baiṭhge					# sit
+paHuṃc:paHuṃc					# rise
+paHūṃc:paHūṃc					# rise
+paHac:paHac					# rise
+bhar:bhar					# fill
+jan:jan						# know
+toṃ:toṃ						# ?
 
 LEXICON Aspect
 <hab>:ā
@@ -381,20 +848,28 @@ LEXICON Aspect
 <impf>:>ait
 <impf><obl>:>aite
 <perf>:>al
+<perf>:>li					# Dir/LR
 <perf><obl>:>lā
 
 LEXICON Tense
 <pres>:>
 <past>:>l
 <pis>:>t
+<pis>:>nā					# Dir/LR
 <fut>:>b
+<fut>:>g					# Dir/LR
 <fut><imp>:>iHa
 <imp>:>y
 
 LEXICON AuxTense
 <pres>:>
+<pres>:>eṃ					# Dir/LR
+<pres>:>a					# Dir/LR
+<pres>:>ay					# Dir/LR
+<pres>:>ā					# Dir/LR
 <past>:>al
-<past>:>ol # Dir/LR
+<past>:>āl					# Dir/LR
+<past>:>ol					# Dir/LR
 <pis>:>ot
 <prs>:>o
 <fts>:>ob
@@ -402,74 +877,97 @@ LEXICON AuxTense
 LEXICON Subject
 <inf>:>
 <s_p1>:>i
-<s_p1>:>ī # Dir/LR
+<s_p1>:>ī					# Dir/LR
+<s_p1>:>y					# Dir/LR
+<s_p1>:>iṃ					# Dir/LR
 <s_p2>:>a
-<s_p2>:>ā # Dir/LR
+<s_p2>:>ā					# Dir/LR
 <s_p3>:>o
-<s_p3>:>an # Dir/LR
-<s_p3>:>th # Dir/LR
+<s_p3>:>an					# Dir/LR
+<s_p3>:>ān					# Dir/LR
+<s_p3>:>th					# Dir/LR
 
 LEXICON ObjectHonorific
 <o_p2><hi>:>o
-<o_p2><hi>:>ṃ # Dir/LR
+<o_p2><hi>:>yo					# Dir/LR
+<o_p2><hi>:>m					# Dir/LR
+<o_p2><hi>:>ṃ					# Dir/LR
 <o_p2><low>:>au
+<o_p2><low>:>un					# Dir/LR
 <o_p3><hi>:>ain
-<o_p3><hi>:>thin # Dir/LR
-<o_p3><hi>:>thīn # Dir/LR
+<o_p3><hi>:>in					# Dir/LR
+<o_p3><hi>:>īn					# Dir/LR
+<o_p3><hi>:>thin				# Dir/LR
+<o_p3><hi>:>thīn				# Dir/LR
+<o_p3><hi>:>t					# Dir/LR
 <o_p3><low>:>ai
 
 LEXICON PersonalPronoun
 prpers<prn><p1><sg><nom>:Ham
 prpers<prn><p1><sg><gen>:Hamār
-prpers<prn><p1><sg><gen>:Hamar # Dir/LR
-prpers<prn><p1><sg><gen>:Hammar # Dir/LR
+prpers<prn><p1><sg><gen>:Hamar			# Dir/LR
+prpers<prn><p1><sg><gen>:Hamare			# Dir/LR
+prpers<prn><p1><sg><gen>:Hammar			# Dir/LR
 prpers<prn><p1><sg><obl>:Hamarā
+prpers<prn><p1><sg><obl>:Hamaro			# Dir/LR
 prpers<prn><p1><pl>:Hamāni
 prpers<prn><p2><sg><nom>:tu
-prpers<prn><p2><sg><nom>:tūṃ # Dir/LR
+prpers<prn><p2><sg><nom>:tū			# Dir/LR
+prpers<prn><p2><sg><nom>:tūṃ			# Dir/LR
 prpers<prn><p2><sg><gen>:tor
 prpers<prn><p2><sg><obl>:torā
 prpers<prn><p2><pl>:toHāni
 prpers<prn><p2><sg><gen><hi>:toHār
-prpers<prn><p2><sg><gen><hi>:toHar # Dir/LR
+prpers<prn><p2><sg><gen><hi>:toHar		# Dir/LR
 prpers<prn><p2><sg><obl><hi>:toHārā
+prpers<prn><p2><sg><obl><hi>:toHarā		# Dir/LR
+prpers<prn><p2><sg><obl><hi>:toHare		# Dir/LR
 prpers<prn><prx><p3><sg><nom>:i
-prpers<prn><prx><p3><sg><nom>:ī # Dir/LR
+prpers<prn><prx><p3><sg><nom>:ī			# Dir/LR
+prpers<prn><prx><p3><sg><nom>:is		# Dir/LR
 prpers<prn><prx><p3><sg><gen>:ekar
 prpers<prn><prx><p3><sg><obl>:ekārā
+prpers<prn><prx><p3><sg><obl>:ise		# Dir/LR
 prpers<prn><prx><p3><pl>:i\ sab
-prpers<prn><prx><p3><sg>:ī\ sab # Dir/LR
+prpers<prn><prx><p3><sg>:ī\ sab			# Dir/LR
 prpers<prn><prx><p3><sg><gen><hi>:inkar
-prpers<prn><prx><p3><sg><gen><hi>:inkhar # Dir/LR
+prpers<prn><prx><p3><sg><gen><hi>:inkhar	# Dir/LR
 prpers<prn><prx><p3><sg><obl><hi>:inkārā
-prpers<prn><prx><p3><sg><obl><hi>:inkhārā # Dir/LR
+prpers<prn><prx><p3><sg><obl><hi>:inkhārā	# Dir/LR
 prpers<prn><p3><sg><nom>:u
-prpers<prn><p3><sg><nom>:ū # Dir/LR
+prpers<prn><p3><sg><nom>:ū			# Dir/LR
 prpers<prn><p3><sg><gen>:okar
 prpers<prn><p3><sg><obl>:okārā
 prpers<prn><p3><pl><nom>:u\ sab
-prpers<prn><p3><pl><nom>:ū\ sab # Dir/LR
+prpers<prn><p3><pl><nom>:ū\ sab			# Dir/LR
 prpers<prn><p3><sg><gen><hi>:unkar
-prpers<prn><p3><sg><gen><hi>:unkhar # Dir/LR
-prpers<prn><p3><sg><gen><hi>:unkha # Dir/LR
+prpers<prn><p3><sg><gen><hi>:unkā		# Dir/LR
+prpers<prn><p3><sg><gen><hi>:unkhar		# Dir/LR
+prpers<prn><p3><sg><gen><hi>:unkhā		# Dir/LR
+prpers<prn><p3><sg><gen><hi>:oṃkār		# Dir/LR
+prpers<prn><p3><sg><gen><hi>:oṃkar		# Dir/LR
 prpers<prn><p3><sg><obl><hi>:unkārā
-prpers<prn><p3><sg><obl><hi>:unkhārā # Dir/LR
+prpers<prn><p3><sg><obl><hi>:unkhārā		# Dir/LR
 
 LEXICON Pronoun
-ankar:ankar			# other
+ankar:ankar					# other
 <refl>:apan
-<refl>:appan # Dir/LR
+<refl>:apanā					# Dir/LR
+<refl>:appan					# Dir/LR
 
 LEXICON OtherParadigms
 <dem>:
 <itg>:k
 <rel>:j
+<rel>:y						# Dir/LR
 <cor>:{T}
 <refl>:apan
-<refl>:appan # Dir/LR
+<refl>:appan					# Dir/LR
+<all>:sabak
 
 LEXICON OtherParadigmsDeclension
 :>e
+:>aH						# Dir/LR
 <prx>:>u
 <gen>:>ekar
 <gen><prx>:>okar
@@ -482,118 +980,199 @@ LEXICON OtherParadigmsDeclension
 <man>:>aise
 <man><prx>:>oise
 <pla>:>aHāṃ
+<pla>:>atrā					# Dir/LR
 <time>:>ab
 
 # Postpositions don't inflect
-#ā ū ṃ ī ṛ
+# ā ū ṃ ī ṛ
 
 LEXICON Postposition
-
+lie:lie						# for
+pīche:pīche					# back
+bhītar:bhītar					# within
+deke:deke					# to
+le:le						# ?
+binā:binā					# without
+wālā:wālā					# with
+bāHar:bāHar					# out
+paHal:paHal					# something to do with first
 ne:ne
 kā:kā
-bād:bād             # after
-ke:ke				# very general, but used for dative, accusative, and genitive
-se:se				# also general, but used for instrumental and ablative
-meṃ:meṃ				# in
-par:par				# on
-lā:lā				# for
-jī:jī				# the, might be old fashioned
-sab:sab				# plural
-log:log				# other plural
-ta:ta               # idk
-li:li               # idk
-sāth:sāth           # with
-kī:kī               # idk
-ki:ki               # Dir/LR idk
-ko:ko               # Dir/LR idk
-le:le               # idk
-re:re               # idk
+bād:bād						# after
+ke:ke						# very general, but used for dative, accusative, and genitive
+se:se						# also general, but used for instrumental and ablative
+meṃ:meṃ						# in
+par:par						# on
+lā:lā						# for
+la:la						# for
+jī:jī						# the, might be old fashioned
+sab:sab						# plural
+log:log						# other plural
+ta:ta						# idk
+li:li						# idk
+sāth:sāth					# with
+kī:kī						# idk
+ki:ki						# Dir/LR idk
+ko:ko						# Dir/LR idk
+le:le						# idk
+re:re						# idk
 
 # Adjectives also don't inflect
-#ā ū ṃ ī ṛ
+# ā ū ṃ ī ṛ
 LEXICON Adjectives
-
-koy:koy
-baṛī:baṛī           # big
-śarmā:śarmā
-bhārtī:bhārtī       # Indian
-nañ:nañ
-parsād:parsād
-tak:tak             # up to
-bes:bes				# better
-parna:parna			# low
-ṭhanḍhā:ṭhanḍhā			# cool
-ego:ego				# one
-bhīrī:bhīrī			# near
-piāsal:piāsal			# thirsty
-khus:khus			# glad
-cāro:cāro			# four
-thoṛe:thoṛe			# some
-koī:koī				# certain
-bas:bas				# enough
-nīar:nīar			# like
-jukur:jukur			# fit
-kahāwe:kahāwe			# called
-baṛā:baṛā			# great
-haṃṭhuāman:haṃṭhuāman		# abundant
-bhārī:bhārī			# heavy
-dūr:dūr				# far
-sab:sab				# all
-sabhe:sabhe			# Dir/LR all
-dugo:dugo			# two
-cāHī:cāHī			# proper
-pakkā:pakkā			# firm
-ek:ek				# one
-aisan:aisan			# like
-yaṃ:yaṃ
+tanī:tanī					# stretched
+garīb:garīb					# poor
+jawān:jawān					# young
+būṛhā:būṛhā					# old
+barasāt:barasāt					# rainy
+magaHiyan:magaHiyan				# Magahian
+sādhuwād:sādhuwād				# saintly
+garam:garam					# hot
+pāwan:pāwan					# holy
+kawiwar:kawiwar					# ?
+khūme:khūme					# ?
+der:der						# late
+samān:samān					# same
+alag:alag					# separate
+ora:ora						# ?
+su:su						# good/easy
+sac:sac						# true
+bhale:bhale					# good
+bhalā:bhalā					# good
+taiyār:taiyār					# ready
+parcār:parcār					# ?
+wayakatitawa:wayakatitawa			# personal
+ekake:ekake					# ?
+cup:cup						# silent
+choṭ:choṭ					# small
+bābūjī:bābūjī					# honorific
+okre:okre					# ?
+oHī:oHī						# ?
+niyar:niyar					# near
+āke:āke						# ?
+sāph:sāph					# clean
+rāyaṇa:rāyaṇa					# ?
+acchā:acchā					# good
+khūb:khūb					# brilliant
+upasathit:upasathit				# present
+ṭhīk:ṭhīk					# good
+magar:magar					# honored
+nayā:nayā					# new
+nayī:nayī					# new
+kiyā:kiyā					# done
+kiyārī:kiyārī					# prepared
+āw:āw						# ?
+kam:kam						# less
+pūrā:pūrā					# complete
+dhīre:dhīre					# slow
+dīnabandhu:dīnabandhu				# kind, compassionate
+dīnabaṃdhu:dīnabaṃdhu				# kind, compassionate
+lāl:lāl						# red
+sāthe:sāthe					# together
+paHile:paHile					# first
+āwa:āwa						# average
+koy:koy						# ?
+śarmā:śarmā					# name
+nañ:nañ						# ?
+parsād:parsād					# ?
+tak:tak						# up to
+bes:bes						# better
+parna:parna					# low
+ṭhanḍhā:ṭhanḍhā					# cool
+ego:ego						# one
+bhīrī:bhīrī					# near
+piāsal:piāsal					# thirsty
+khus:khus					# glad
+cāro:cāro					# four
+thoṛe:thoṛe					# some
+koī:koī						# certain
+bas:bas						# enough
+nīar:nīar					# like
+jukur:jukur					# fit
+kahāwe:kahāwe					# called
+baṛā:baṛā					# great
+haṃṭhuāman:haṃṭhuāman				# abundant
+bhārī:bhārī					# heavy
+dūr:dūr						# far
+sab:sab						# all
+sabhe:sabhe					# Dir/LR all
+dugo:dugo					# two
+cāHī:cāHī					# proper
+pakkā:pakkā					# firm
+ek:ek						# one
+aisan:aisan					# like
+yaṃ:yaṃ						# ?
 
 # Nor do adverbs
-#ā ū ṃ ī ṛ
+# ā ū ṃ ī ṛ
 
 LEXICON Adverbs
-to:to				# so
-tab:tab				# then
-Huaṃ:Huaṃ			# there
-bhī:bhī				# even
-Hāṃ:Hāṃ				# yes
-nayaṃ:nayaṃ			# no
-sāyad:sāyad			# maybe
-baHut:baHut			# very
-hīṃ:hīṃ				# near
-hīṃāṃ:hīṃāṃ			# near
-cal:cal				# away
-baṛi:baṛi			# very
-huāṃ:huāṃ			# there
-gir:gir				# down
-sewāy:sewāy			# besides
-sadā:sadā			# always
-keu:keu				# ever
-na:na               # not
-nā:nā				# Dir/LR not
-kabhī:kabhī			# ever
-thoṛā:thoṛā			# little
+nīce:nīce					# down
+nay:nay						# ?
+pīche:pīche					# back
+ūpar:ūpar					# up
+īHāṃ:īHāṃ					# here
+iHāṃ:iHāṃ					# here
+to:to						# so
+ākhir:ākhir					# finally
+roj:roj						# daily
+āj:āj						# today
+abhī:abhī					# now
+tab:tab						# then
+phir:phir					# then
+Huaṃ:Huaṃ					# there
+bhī:bhī						# even
+Hāṃ:Hāṃ						# yes
+nayaṃ:nayaṃ					# no
+sāyad:sāyad					# maybe
+baHut:baHut					# very
+hīṃ:hīṃ						# near
+hīṃāṃ:hīṃāṃ					# near
+cal:cal						# away
+baṛi:baṛi					# very
+huāṃ:huāṃ					# there
+gir:gir						# down
+sewāy:sewāy					# besides
+sadā:sadā					# always
+keu:keu						# ever
+na:na						# not
+nā:nā						# Dir/LR not
+kabhī:kabhī					# ever
+thoṛā:thoṛā					# little
+tau:tau						# ?
 
 # Or conjunctions
 LEXICON Conjunctions
-āu:āu				# and
-ā:ā				    # probably and or or
-au:au				# Dir/LR and
-aur:aur				# Dir/LR and
-ab:ab				# now
-bākī:bākī			# but
-yā:yā				# or
-ya:ya				# Dir/LR or (probably)
-lekin:lekin         # but
+wa:wa						# and
+agar:agar					# if
+tāki:tāki					# so that
+āu:āu						# and
+āū:āū						# and
+au:au						# and
+āur:āur						# and
+aur:aur						# and
+ab:ab						# now
+bākī:bākī					# but
+yā:yā						# or
+ya:ya						# Dir/LR or (probably)
+lekin:lekin					# but
 
 # Or determiners
 LEXICON Determiners
-kuch:kuch			# some
-Har:Har				# every
-ḍher:ḍher			# many
-ājh:ājh             # determiner for ethnicities? (ājh tar-tar, ājh magahi?)
+go:go						# numeral classifier
+ṭho:ṭho						# numeral classifier
+kuch:kuch					# some
+sabase:sabase					# most
+Har:Har						# every
+ḍher:ḍher					# many
+ājh:ājh						# determiner for ethnicities? (ājh tar-tar, ājh magahi?)
+leke:leke					# ?
+jau:jau						# ?
 
 LEXICON Interjection
-He:He               # we don't know
+He:He						# something like hey
+īHe:īHe						# something like hey
+are:are						# something like hey
 
 LEXICON Numbers
 0:0
@@ -606,6 +1185,25 @@ LEXICON Numbers
 7:7
 8:8
 9:9
+0:०
+1:१
+2:२
+3:३
+4:४
+5:५
+6:६
+7:७
+8:८
+9:९
+
+LEXICON Url
+com:com
+org:org
+gov:gov
+info:info
+in:in
+io:io
+net:net
 
 LEXICON Punctuation
 

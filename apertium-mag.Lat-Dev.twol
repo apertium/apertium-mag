@@ -1,6 +1,6 @@
 Alphabet
  क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म ह र श ष स व
- य अ इ उ ए ओ ऐ औ आ ई ऊ ि ु े ो ै ौ ा ी ू
+ य अ इ उ ए ऍ ओ ऐ ऑ औ आ ई ऊ ि ु े ॅ ो ॉ ै ौ ा ी ू
 
  %{A%}:अ %{A%}:0
  %{AA%}:आ %{AA%}:ा
@@ -9,9 +9,12 @@ Alphabet
  %{U%}:उ %{U%}:ु
  %{UU%}:ऊ %{UU%}:ू
  %{E%}:ए %{E%}:े
+ %{EE%}:ऍ %{EE%}:ॅ
  %{AI%}:ऐ %{AI%}:ै
  %{O%}:ओ %{O%}:ो
+ %{OO%}:ऑ %{OO%}:ॉ
  %{AU%}:औ %{AU%}:ौ
+ %{R%}:ऋ %{R%}:ृ
 
 ;
 
@@ -45,15 +48,24 @@ Rules
  "e is this at the beginning of a word or after a vowel"
  %{E%}:ए <=> Vowel: _ ;
               .#. _ ;
+ "ee is this at the beginning of a word or after a vowel"
+ %{EE%}:ऍ <=> Vowel: _ ;
+              .#. _ ;
  "ai is this at the beginning of a word or after a vowel"
  %{AI%}:ऐ <=> .#. _ ;
                Vowel: _ ;
  "o is this at the beginning of a word or after a vowel"
  %{O%}:ओ <=> Vowel: _ ;
               .#. _ ;
+ "oo is this at the beginning of a word or after a vowel"
+ %{OO%}:ऑ <=> Vowel: _ ;
+              .#. _ ;
  "au is this at the beginning of a word or after a vowel"
  %{AU%}:औ <=> .#. _ ;
                Vowel: _ ;
+ "R is this at the beginning of a word or after a vowel"
+ %{R%}:ऋ <=> Vowel: _ ;
+              .#. _ ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

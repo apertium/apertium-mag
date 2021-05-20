@@ -21,7 +21,8 @@ TARGETS_COMMON =			\
 	$(LANG1SCRIPT2).autogen.att.gz		\
 	$(LANG1).autopgen.bin		\
 	$(LANG1).prob                   \
-	$(LANG1).rlx.bin
+	$(LANG1).rlx.bin		\
+	.deps/$(SCRIPT2)-$(SCRIPT1).hfst
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
@@ -80,6 +81,9 @@ $(LANG1SCRIPT2).autogen.hfst: .deps/$(LANG1).RL.hfst .deps/$(SCRIPT1)-$(SCRIPT2)
 
 .deps/$(SCRIPT1)-$(SCRIPT2).hfst: .deps/$(SCRIPT1)-$(SCRIPT2).lexd.hfst .deps/$(SCRIPT1)-$(SCRIPT2).twol.hfst .deps/.d
 	hfst-compose-intersect -1 .deps/$(SCRIPT1)-$(SCRIPT2).lexd.hfst -2 .deps/$(SCRIPT1)-$(SCRIPT2).twol.hfst -o $@
+
+.deps/$(SCRIPT2)-$(SCRIPT1).hfst: .deps/$(SCRIPT1)-$(SCRIPT2).hfst
+	hfst-invert $< -o $@
 
 .deps/$(LANG1SCRIPT2).LR.hfst: .deps/$(LANG1).LR.hfst .deps/$(SCRIPT1)-$(SCRIPT2).hfst .deps/.d
 	hfst-compose -1 $< -2 .deps/$(SCRIPT1)-$(SCRIPT2).hfst -o $@

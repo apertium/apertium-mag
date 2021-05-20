@@ -17,7 +17,8 @@ LEXICON Letters
 ड:ḍ
 ड़:ṛ
 ढ:ḍh
-ढ:ṛh
+ढ़:ṛh
+ण:ṇ
 त:t
 थ:th
 द:d
@@ -49,10 +50,15 @@ LEXICON Letters
 {UU}:ū
 {E}:e
 {E}:ē
+{EE}:e
+{EE}:e
 {O}:o
 {O}:ō
+{OO}:o
+{OO}:ō
 {AI}:ai
 {AU}:au
+{R}:R
 
 # if it's written as one glyph (NOT codepoint!) on either side,
 # list it here
