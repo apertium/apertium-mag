@@ -61,11 +61,11 @@ If you are in the source directory after running make, the following
 commands should work:
 
 ```console
-$ echo "TODO: test sentence" | apertium -d . mag-morph
-TODO: test analysis result
+$ echo "साधू जङगल में राजा देखलो" | apertium -d . mag-morph
+^साधू/sādhū<n><nom>/sādhū<n><obl>/sādhū<n><obl>$ ^जङगल/jaṅgal<n><nom>/jaṅgal<n><obl>$ ^में/me<v><pres><inf><o_p2><hi>/meṃ<post>$ ^राजा/rāj<v><hab>/rāj<v><pres><s_p2>/rājā<n><nom>/rājā<n><obl>/rājā<v><pres><inf>/rājā<n><obl>$ ^देखलो/dekh<v><past><s_p3>/dekh<v><past><inf><o_p2><hi>$^./.<sent>$
 
-$ echo "TODO: test sentence" | apertium -d . mag-tagger
-TODO: test tagger result
+$ echo "साधू जङगल में राजा देखलो" | apertium -d . mag-tagger
+^sādhū<n><nom>$ ^jaṅgal<n><obl>$ ^me<v><pres><inf><o_p2><hi>$ ^rāj<v><hab>$ ^dekh<v><past><s_p3>$^.<sent>$
 ```
 
 Files and data
@@ -80,6 +80,8 @@ Files and data
 * [`apertium-mag.mag.spellrelax`](apertium-mag.mag.spellrelax) - Typographical variance rules
 * [`apertium-mag.mag.udx`](apertium-mag.mag.udx) - Mappings from Apertium tags to Universal Dependencies features
 * [`modes.xml`](modes.xml) - Translation modes
+* [`apertium-mag.Lat-Dev.lexd`](apertium-mag.Lat-Dev.lexd) - Transliteration transducer
+* [`apertium-mag.Lat-Dev.twol`](apertium-mag.Lat-Dev.twol) - More rules for the transliteration transducer
 
 For more information
 -------------------------------------------------------------------------------
@@ -97,3 +99,7 @@ If you need help using this language pair or data, you can contact:
 * IRC: `#apertium` on irc.freenode.net (irc://irc.freenode.net/#apertium)
 
 See also the file [`AUTHORS`](AUTHORS), included in this distribution.
+
+# Disclaimer
+-------------------------------------------------------------------------------
+We are not experts in Magahi. We didn't have access to Magahi speakers or very good reasources for this project. There is a very good chance this material is wrong. If you are a Magahi speaker and want to improve this, please feel free to contact the authors at magahi@altmails.com or submit a pull request or issue. If you are a Magahi speaker and want it taken down for any reason, we would be happy to oblige.
