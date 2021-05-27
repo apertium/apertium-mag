@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Magahi], [0.1.0], [pwheele1@swarthmore.edu], [apertium-mag], [http://wiki.apertium.org/wiki/Apertium-mag])
+AC_INIT([Apertium Magahi], [0.1.0], [pwheele1@swarthmore.edu], [apertium-mag], [https://wiki.apertium.org/wiki/Apertium-mag])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
